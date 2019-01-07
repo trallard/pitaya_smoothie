@@ -7,4 +7,9 @@ module = "pitaya_smoothie"
 author = "Tania Allard"
 author-email = "trallard@bitsandchips.me"
 home-page = "https://github.com/trallard/Pitaya-milkshake"
-
+description-file="README.md"
+classifiers=[
+    "Development status::Alpha",
+    "License :: OSI Approved :: BSD License",
+    "",
+]
