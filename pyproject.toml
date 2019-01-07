@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "pitaya_smoothie"
+author = "Tania Allard"
+author-email = "trallard@bitsandchips.me"
+home-page = "https://github.com/trallard/Pitaya-milkshake"
+
