@@ -1,0 +1,21 @@
+{
+    "name": "pitaya-smoothie",
+    "displayName": "Pitaya smoothie",
+    "description": "An editor theme with handpicked colours and heavily inspired by the ultraviolet colour (colour of the year 2018). ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pitaya smoothie",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Pitaya smoothie-color-theme.json"
+            }
+        ]
+    }
+}

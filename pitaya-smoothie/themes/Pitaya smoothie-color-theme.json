@@ -1,0 +1,12 @@
+{
+	"tokenColors": "./pitaya_smoothie.tmTheme",
+	"colors": {
+		"editor.background": "#3A1A5E",
+		"editorCursor.foreground": "#F7F7F7",
+		"editor.foreground": "#F7F7F7",
+		"editorWhitespace.foreground": "#3B3A32",
+		"editor.lineHighlightBackground": "#62489E",
+		"editor.selectionBackground": "#A69DD4"
+	},
+	"name": "Pitaya smoothie"
+}
