@@ -14,7 +14,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#3A1A5E</string>
+				<string>#372B59</string>
 				<key>caret</key>
 				<string>#F7F7F7</string>
 				<key>foreground</key>
@@ -146,7 +146,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8bd1ffff</string>
+				<string>#76a8e5</string>
 				<key>fontStyle</key>
 				<string> italic</string>
 			</dict>
@@ -239,7 +239,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#8bd1ffff</string>
+				<string>#76a8e5</string>
 			</dict>
 		</dict>
 		<dict>
