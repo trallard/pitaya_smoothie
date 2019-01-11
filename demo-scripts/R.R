@@ -1,87 +1,122 @@
-# Taken from Xaringan https://github.com/yihui/xaringan/blob/master/R/render.R
-moon_reader = function(
-  css = c('default', 'default-fonts'), self_contained = FALSE, seal = TRUE, yolo = FALSE,
-  chakra = 'https://remarkjs.com/downloads/remark-latest.min.js', nature = list(),
-  ...
-) {
-  theme = grep('[.]css$', css, value = TRUE, invert = TRUE)
-  deps = if (length(theme)) {
-    css = setdiff(css, theme)
-    check_builtin_css(theme)
-    list(css_deps(theme))
-  }
-  tmp_js = tempfile('xaringan', fileext = '.js')  # write JS config to this file
-  tmp_md = tempfile('xaringan', fileext = '.md')  # store md content here (bypass Pandoc)
+geom_dotplot <- function (mapping = NULL, data = NULL, stat = "bindot", position = "identity",
+na.rm = FALSE, binwidth = NULL, binaxis = "x", method="dotdensity", binpositions = "bygroup", stackdir = "up",
+stackratio = 1, dotsize = 1, stackgroups = FALSE, ...) {
+  GeomDotplot$new(mapping = mapping, data = data, stat = stat, position = position,
+  na.rm = na.rm, binwidth = binwidth, binaxis = binaxis, method = method, binpositions = binpositions,
+  stackdir = stackdir, stackratio = stackratio, dotsize = dotsize, stackgroups = stackgroups, ...)
+}
 
-  play_js = if (is.numeric(autoplay <- nature[['autoplay']]) && autoplay > 0)
-    sprintf('setInterval(function() {slideshow.gotoNextSlide();}, %d);', autoplay)
+GeomDotplot <- proto(Geom, {
+  objname <- "dotplot"
 
-  if (isTRUE(countdown <- nature[['countdown']])) countdown = autoplay
-  countdown_js = if (is.numeric(countdown) && countdown > 0) sprintf(
-    '(%s)(%d);', pkg_file('js/countdown.js'), countdown
-  )
-
-  if (is.null(title_cls <- nature[['titleSlideClass']]))
-    title_cls = c('center', 'middle', 'inverse')
-  title_cls = paste(c(title_cls, 'title-slide'), collapse = ', ')
-
-  before = nature[['beforeInit']]
-  for (i in c('countdown', 'autoplay', 'beforeInit', 'titleSlideClass')) nature[[i]] = NULL
-
-  write_utf8(as.character(tagList(
-    tags$script(src = chakra),
-    if (is.character(before)) if (self_contained) {
-      tags$script(HTML(file_content(before)))
-    } else {
-      lapply(before, function(s) tags$script(src = s))
-    },
-    tags$script(HTML(paste(c(sprintf(
-      'var slideshow = remark.create(%s);', if (length(nature)) xfun::tojson(nature) else ''
-    ), pkg_file('js/show-widgets.js'), pkg_file('js/print-css.js'),
-    play_js, countdown_js), collapse = '\n')))
-  )), tmp_js)
-
-  html_document2 = function(
-    ..., includes = list(), mathjax = 'default', pandoc_args = NULL
-  ) {
-    if (length(includes) == 0) includes = list()
-    includes$before_body = c(includes$before_body, tmp_md)
-    includes$after_body = c(tmp_js, includes$after_body)
-    if (identical(mathjax, 'local'))
-      stop("mathjax = 'local' does not work for moon_reader()")
-    if (!is.null(mathjax)) {
-      if (identical(mathjax, 'default')) {
-        mathjax = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML'
+  new <- function(., mapping = NULL, data = NULL, stat = NULL, position = NULL, ...){
+    # This code is adapted from Layer$new. It's needed to pull out the stat_params
+    # and geom_params, then manually add binaxis to both sets of params. Otherwise
+    
+    stat <- Stat$find(stat)
+    match.params <- function(possible, params) {
+      if ("..." %in% names(possible)) {
+        params
+      } else {
+        params[match(names(possible), names(params), nomatch = 0)]
       }
-      pandoc_args = c(pandoc_args, '-V', paste0('mathjax-url=', mathjax))
-      mathjax = NULL
     }
-    pandoc_args = c(pandoc_args, '-V', paste0('title-slide-class=', title_cls))
-    rmarkdown::html_document(
-      ..., includes = includes, mathjax = mathjax, pandoc_args = pandoc_args
-    )
+
+    params <- list(...)
+    # American names must be changed here so that they'll go to geom_params;
+    # otherwise they'll end up in stat_params
+    params <- rename_aes(params)
+
+    geom_params <- match.params(.$parameters(), params)
+    stat_params <- match.params(stat$parameters(), params)
+    stat_params <- stat_params[setdiff(names(stat_params), names(geom_params))]
+    # Add back binaxis
+    stat_params <- c(stat_params, binaxis=params$binaxis)
+
+    # If identical(position, "stack") or position is position_stack() (the test
+    #  is kind of complex), tell them to use stackgroups=TRUE instead. Need to
+    #  use identical() instead of ==, because == will fail if object is
+    #  position_stack() or position_dodge()
+    if (!is.null(position) && (identical(position, "stack") || (is.proto(position) && position$objname == "stack")))
+      message("position=\"stack\" doesn't work properly with geom_dotplot. Use stackgroups=TRUE instead.")
+
+    if (params$stackgroups && params$method == "dotdensity" && params$binpositions == "bygroup")
+      message('geom_dotplot called with stackgroups=TRUE and method="dotdensity". You probably want to set binpositions="all"')
+
+    do.call("layer", list(mapping = mapping, data = data, stat = stat, geom = ., position = position,
+                          geom_params = geom_params, stat_params = stat_params, ...))
   }
 
-  optk = list()
 
-  highlight_hooks = NULL
-  if (isTRUE(nature$highlightLines)) {
-    # an ugly way to access hooks of markdown output in knitr
-    hooks = local({
-      ohooks = knitr::knit_hooks$get(); on.exit(knitr::knit_hooks$restore(ohooks))
-      knitr::render_markdown()
-      knitr::knit_hooks$get(c('source', 'output'))
-    })
-    highlight_hooks = list(
-      source = function(x, options) {
-        hook = hooks[['source']]
-        res = hook(x, options)
-        highlight_code(res)
-      },
-      output = function(x, options) {
-        hook = hooks[['output']]
-        res = highlight_output(x, options)
-        hook(res, options)
-      }
-    )
+  reparameterise <- function(., df, params) {
+    df$width <- df$width %||%
+      params$width %||% (resolution(df$x, FALSE) * 0.9)
+
+    # Set up the stacking function and range
+    if(is.null(params$stackdir) || params$stackdir == "up") {
+      stackdots <- function(a)  a - .5
+      stackaxismin <- 0
+      stackaxismax <- 1
+    } else if (params$stackdir == "down") {
+      stackdots <- function(a) -a + .5
+      stackaxismin <- -1
+      stackaxismax <- 0
+    } else if (params$stackdir == "center") {
+      stackdots <- function(a)  a - 1 - max(a - 1) / 2
+      stackaxismin <- -.5
+      stackaxismax <- .5
+    } else if (params$stackdir == "centerwhole") {
+      stackdots <- function(a)  a - 1 - floor(max(a - 1) / 2)
+      stackaxismin <- -.5
+      stackaxismax <- .5
+    }
+
+
+    # Fill the bins: at a given x (or y), if count=3, make 3 entries at that x
+    df <- df[rep(1:nrow(df), df$count), ]
+
+    # Next part will set the position of each dot within each stack
+    # If stackgroups=TRUE, split only on x (or y) and panel; if not stacking, also split by group
+    plyvars <- params$binaxis %||% "x"
+    plyvars <- c(plyvars, "PANEL")
+    if (is.null(params$stackgroups) || !params$stackgroups)
+      plyvars <- c(plyvars, "group")
+
+    # Within each x, or x+group, set countidx=1,2,3, and set stackpos according to stack function
+    df <- ddply(df, plyvars, function(xx) {
+            xx$countidx <- 1:nrow(xx)
+            xx$stackpos <- stackdots(xx$countidx)
+            xx
+          })
+
+
+    # Set the bounding boxes for the dots
+    if (is.null(params$binaxis) || params$binaxis == "x") {
+      # ymin, ymax, xmin, and xmax define the bounding rectangle for each stack
+      # Can't do bounding box per dot, because y position isn't real.
+      # After position code is rewritten, each dot should have its own bounding box.
+      df$xmin <- df$x - df$binwidth / 2
+      df$xmax <- df$x + df$binwidth / 2
+      df$ymin <- stackaxismin
+      df$ymax <- stackaxismax
+      df$y    <- 0
+
+    } else if (params$binaxis == "y") {
+      # ymin, ymax, xmin, and xmax define the bounding rectangle for each stack
+      # Can't do bounding box per dot, because x position isn't real.
+      # xmin and xmax aren't really the x bounds, because of the odd way the grob
+      # works. They're just set to the standard x +- width/2 so that dot clusters
+      # can be dodged like other geoms.
+      # After position code is rewritten, each dot should have its own bounding box.
+      df <- ddply(df, .(group), transform,
+            ymin = min(y) - binwidth[1] / 2,
+            ymax = max(y) + binwidth[1] / 2)
+
+      df$xmin <- df$x + df$width * stackaxismin
+      df$xmax <- df$x + df$width * stackaxismax
+      # Unlike with y above, don't change x because it will cause problems with dodging
+    }
+    df
   }
+ 
+ 
