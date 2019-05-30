@@ -1,12 +1,68 @@
+// Theme Color reference
 {
 	"tokenColors": "./pitaya_smoothie.tmTheme",
 	"colors": {
-		"editor.background": "#3A1A5E",
-		"editorCursor.foreground": "#F7F7F7",
+		// "editor.background": "#3A1A5E",
+		"editor.background": "#241e41",
 		"editor.foreground": "#F7F7F7",
 		"editorWhitespace.foreground": "#3B3A32",
-		"editor.lineHighlightBackground": "#62489E",
-		"editor.selectionBackground": "#A69DD4"
+		"editorLineNumber.foreground": "#A599E9", // Color of editor line numbers.
+		"editorCursor.foreground": "#FAD000", //  Color of the editor cursor.
+		// Activity Bar.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
+		"activityBar.background": "#2b244c",
+		"activityBar.border": "#2b2549",
+		"activityBar.dropBackground": "#222145",
+		"activityBar.foreground": "#FFFFFF",
+		"activityBar.inactiveForeground": "#A599E9",
+		"activityBarBadge.background": "#31E6E6",
+		"activityBarBadge.foreground": "#1E1E3F",
+		// Sidebar.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
+		"sideBar.background": "#2b244c",
+		"sideBar.border": "#2b2549",
+		"sideBar.foreground": "#A599E9",
+		"sideBarSectionHeader.background": "#201a38",
+		"sideBarSectionHeader.foreground": "#A599E9",
+		"sideBarTitle.foreground": "#A599E9",
+		"sideBarSectionHeader.border": "#201a38",
+		// Badge.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
+		"badge.background": "#31E6E6",
+		"badge.foreground": "#201a38",
+		// Button.
+		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
+		"button.background": "#31E6E6",
+		"button.foreground": "#201a38",
+		"button.hoverBackground": "#B362FF",
+		// Dropdown.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
+		"dropdown.background": "#252549",
+		"dropdown.border": "#1E1E3F",
+		"dropdown.foreground": "#FFFFFF",
+		//  The selection color battle starts here.
+		"editor.selectionBackground": "#654EA3", // Color of the editor selection.
+		"editor.inactiveSelectionBackground": "#7580B8C0", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+		"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
+		"editor.wordHighlightBackground": "#FFFFFF0D", // Same words other places.
+		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
+		"editor.findMatchBackground": "#ff628c75", // Color of the current search match.
+		"editor.findMatchHighlightBackground": "#ff628c49", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
+		"editor.findRangeHighlightBackground": "#ff628c49", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+		"editor.hoverHighlightBackground": "#ff628c81", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
+		"editor.lineHighlightBackground": "#1d1836", // Current line of code. Background color for the highlight of line at the cursor position.
+		// "editor.lineHighlightBackground": "#4b3779",
+		"editor.lineHighlightBorder": "#1F1F41",
+		"editor.rangeHighlightBackground": "#1F1F41",
+		"editorLink.activeForeground": "#A599E9",
+		"editorIndentGuide.background": "#A599E90F",
+		"editorIndentGuide.activeBackground": "#A599E942",
+		"editorRuler.foreground": "#e999aa1c", // Editor Ruler.
+		"editorOverviewRuler.border": "#A599E91C",
+		"editorCodeLens.foreground": "#A599E9",
+		"editorBracketMatch.background": "#AD70FC46",
+		"editorBracketMatch.border": "#AD70FC46",
 	},
-	"name": "Pitaya smoothie"
+	"name": "Pitaya smoothie",
+	"type": "dark",
 }
