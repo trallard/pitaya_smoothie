@@ -3,36 +3,38 @@
 	"tokenColors": "./pitaya_smoothie.tmTheme",
 	"colors": {
 		// "editor.background": "#3A1A5E",
-		"editor.background": "#130C29",
+		"editor.background": "#181036",
 		"editor.foreground": "#fefeff",
-		"editorWhitespace.foreground": "#3B3A32",
-		"editorLineNumber.foreground": "#A599E9", // Color of editor line numbers.
+		"editorWhitespace.foreground": "#2A1B5C",
+		"editorLineNumber.foreground": "#484f7d", // Color of editor line numbers.
+		"editorLineNumber.activeForeground": "#18c0c4",
 		"editorCursor.foreground": "#FFEF4A", //  Color of the editor cursor.
 		// Activity Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
-		"activityBar.background": "#2b244c",
-		"activityBar.border": "#2b2549",
+		// "activityBar.background": "#2b244c",
+		"activityBar.background": "#181036",
+		// "activityBar.border": "#2b2549",
 		"activityBar.dropBackground": "#222145",
-		"activityBar.foreground": "#fefeff",
-		"activityBar.inactiveForeground": "#A599E9",
-		"activityBarBadge.background": "#31E6E6",
-		"activityBarBadge.foreground": "#1E1E3F",
+		"activityBar.foreground": "#7A76C2",
+		"activityBar.inactiveForeground": "#393679",
+		"activityBarBadge.background": "#18c0c4",
+		"activityBarBadge.foreground": "#181036",
 		// Sidebar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
-		"sideBar.background": "#090819",
-		"sideBar.border": "#2b2549",
-		"sideBar.foreground": "#A599E9",
-		"sideBarSectionHeader.background": "#0c0a20",
-		"sideBarSectionHeader.foreground": "#A599E9",
+		"sideBar.background": "#130C29",
+		// "sideBar.border": "#2b2549",
+		"sideBar.foreground": "#484f7d",
+		"sideBarSectionHeader.background": "#181036",
+		"sideBarSectionHeader.foreground": "#7d79d1",
 		"sideBarTitle.foreground": "#A599E9",
-		"sideBarSectionHeader.border": "#2b2549",
+		"sideBarSectionHeader.border": "#181036",
 		// Badge.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
 		"badge.background": "#31E6E6",
 		"badge.foreground": "#201a38",
 		// Button.
 		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
-		"button.background": "#31E6E6",
+		"button.background": "#2D2B55",
 		"button.foreground": "#201a38",
 		"button.hoverBackground": "#B362FF",
 		// Dropdown.
@@ -40,6 +42,25 @@
 		"dropdown.background": "#252549",
 		"dropdown.border": "#1E1E3F",
 		"dropdown.foreground": "#FFFFFF",
+		// List
+		// https://code.visualstudio.com/api/references/theme-color#lists-and-trees
+		"list.activeSelectionBackground": "#1C1A3B",
+		"list.activeSelectionForeground": "#8AD0E1",
+		"list.focusBackground": "#27264D",
+		"list.hoverBackground": "#27264D",
+		"list.highlightForeground": "#595A8A",
+		"list.inactiveSelectionBackground": "#1E1C3F",
+		"list.inactiveSelectionForeground": "#7EA7F3",
+		// Tabs
+		"tab.activeBackground": "#222248",
+		"tab.inactiveBackground": "#222248",
+		"tab.activeForeground": "#c5bdd9",
+		"tab.inactiveForeground": "#5E5B9A",
+		// Title bar
+		"titleBar.activeBackground": "#1E1E3F",
+		"titleBar.activeForeground": "#789EF8",
+		"titleBar.inactiveBackground": "#1E1E3F",
+		"titleBar.inactiveForeground": "#789EF8AF",
 		//  The selection color battle starts here.
 		"editor.selectionBackground": "#654EA3", // Color of the editor selection.
 		"editor.inactiveSelectionBackground": "#7580B8C0", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
