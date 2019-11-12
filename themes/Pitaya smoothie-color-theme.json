@@ -3,29 +3,29 @@
 	"tokenColors": "./pitaya_smoothie.tmTheme",
 	"colors": {
 		// "editor.background": "#3A1A5E",
-		"editor.background": "#241e41",
-		"editor.foreground": "#F7F7F7",
+		"editor.background": "#130C29",
+		"editor.foreground": "#fefeff",
 		"editorWhitespace.foreground": "#3B3A32",
 		"editorLineNumber.foreground": "#A599E9", // Color of editor line numbers.
-		"editorCursor.foreground": "#FAD000", //  Color of the editor cursor.
+		"editorCursor.foreground": "#FFEF4A", //  Color of the editor cursor.
 		// Activity Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 		"activityBar.background": "#2b244c",
 		"activityBar.border": "#2b2549",
 		"activityBar.dropBackground": "#222145",
-		"activityBar.foreground": "#FFFFFF",
+		"activityBar.foreground": "#fefeff",
 		"activityBar.inactiveForeground": "#A599E9",
 		"activityBarBadge.background": "#31E6E6",
 		"activityBarBadge.foreground": "#1E1E3F",
 		// Sidebar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
-		"sideBar.background": "#2b244c",
+		"sideBar.background": "#090819",
 		"sideBar.border": "#2b2549",
 		"sideBar.foreground": "#A599E9",
-		"sideBarSectionHeader.background": "#201a38",
+		"sideBarSectionHeader.background": "#0c0a20",
 		"sideBarSectionHeader.foreground": "#A599E9",
 		"sideBarTitle.foreground": "#A599E9",
-		"sideBarSectionHeader.border": "#201a38",
+		"sideBarSectionHeader.border": "#2b2549",
 		// Badge.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
 		"badge.background": "#31E6E6",

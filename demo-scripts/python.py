@@ -1074,3 +1074,7 @@ class Project(object):
             if as_path:
                 result = str(result.path)
         return result
+
+class Sublime(sublime.task):
+    def run(self, edit):
+        sel
