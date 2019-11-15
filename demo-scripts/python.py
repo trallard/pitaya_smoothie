@@ -22,8 +22,8 @@ import pipfile.api
 
 from cached_property import cached_property
 
-from .cmdparse import Script
-from .environment import Environment
+from .cmdparse import Script, HOLA
+
 from .environments import (
     PIPENV_DEFAULT_PYTHON_VERSION, PIPENV_IGNORE_VIRTUALENVS, PIPENV_MAX_DEPTH,
     PIPENV_PIPFILE, PIPENV_PYTHON, PIPENV_TEST_INDEX, PIPENV_VENV_IN_PROJECT,
