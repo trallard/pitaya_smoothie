@@ -7,22 +7,22 @@
 		"editorWhitespace.foreground": "#2A1B5C",
 		"editorLineNumber.foreground": "#484f7d", // Color of editor line numbers.
 		"editorLineNumber.activeForeground": "#18c0c4",
-		"editorCursor.foreground": "#FFEF4A", //  Color of the editor cursor.
+		"editorCursor.foreground": "#f85e9f", //  Color of the editor cursor.
 		// Activity Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 		"activityBar.background": "#181036",
-		"activityBar.dropBackground": "#222145b4",
+		"activityBar.dropBackground": "#1f1445",
 		"activityBar.foreground": "#7A76C2",
-		"activityBar.inactiveForeground": "#393679",
+		"activityBar.inactiveForeground": "#403c86",
 		"activityBarBadge.background": "#18c0c4",
 		"activityBarBadge.foreground": "#181036",
 		// Sidebar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
 		"sideBar.background": "#130C29",
-		"sideBar.foreground": "#9183ba",
+		"sideBar.foreground": "#9491ce",
 		"sideBarSectionHeader.background": "#181036",
 		"sideBarSectionHeader.foreground": "#7d79d1",
-		"sideBarTitle.foreground": "#A599E9",
+		"sideBarTitle.foreground": "#7d79d1",
 		"sideBarSectionHeader.border": "#181036",
 		// Badge.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
@@ -30,9 +30,9 @@
 		"badge.foreground": "#201a38",
 		// Button.
 		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
-		"button.background": "#2D2B55",
-		"button.foreground": "#201a38",
-		"button.hoverBackground": "#B362FF",
+		"button.background": "#7D66BA",
+		"button.foreground": "#F7F7F7",
+		"button.hoverBackground": "#9e62ff",
 		// Dropdown.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
 		"dropdown.background": "#252549",
@@ -41,25 +41,25 @@
 		// List
 		// https://code.visualstudio.com/api/references/theme-color#lists-and-trees
 		"list.activeSelectionBackground": "#1C1A3B",
-		"list.activeSelectionForeground": "#8AD0E1",
+		"list.activeSelectionForeground": "#7ee2f3",
 		"list.focusBackground": "#27264D",
 		"list.hoverBackground": "#27264D",
 		"list.highlightForeground": "#595A8A",
 		"list.inactiveSelectionBackground": "#1E1C3F",
 		"list.inactiveSelectionForeground": "#7EA7F3",
 		// Tabs
-		"tab.activeBackground": "#222248",
-		"tab.inactiveBackground": "#222248",
-		"tab.activeForeground": "#c5bdd9",
-		"tab.inactiveForeground": "#5E5B9A",
+		"tab.activeBackground": "#251954",
+		"tab.inactiveBackground": "#1f1445",
+		"tab.activeForeground": "#9491ce",
+		"tab.inactiveForeground": "#545274",
 		// Title bar
 		"titleBar.activeBackground": "#1E1E3F",
 		"titleBar.activeForeground": "#789EF8",
 		"titleBar.inactiveBackground": "#1E1E3F",
 		"titleBar.inactiveForeground": "#789EF8AF",
 		// Highlight and selection 
-		"editor.selectionBackground": "#654EA3", // Color of the editor selection.
-		"editor.inactiveSelectionBackground": "#7580B8C0", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+		"editor.selectionBackground": "#654ea3ea", // Color of the editor selection.
+		"editor.inactiveSelectionBackground": "#294592e8", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
 		"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
 		"editor.wordHighlightBackground": "#FFFFFF0D", // Same words other places.
 		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
@@ -78,7 +78,8 @@
 		"editorCodeLens.foreground": "#A599E9",
 		"editorBracketMatch.background": "#AD70FC46",
 		"editorBracketMatch.border": "#AD70FC46",
-		// Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an overview of the decorations in the editor.
+		// Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an 
+		// overview of the decorations in the editor.
 		"editorOverviewRuler.commonContentForeground": "#18c1c498",
 		"editorOverviewRuler.currentContentForeground": "#a599e9d5",
 		"editorOverviewRuler.incomingContentForeground": "#18c1c4d8",
@@ -89,10 +90,62 @@
 		"editorWarning.foreground": "#fad000c9",
 		// Breadcrumbs.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
-		"breadcrumb.foreground": "#9183ba",
-		"breadcrumb.focusForeground": "#fad000", // Color of focused breadcrumb items.
+		"breadcrumb.foreground": "#9491ce",
+		"breadcrumb.focusForeground": "#7ee2f3", // Color of focused breadcrumb items.
 		"breadcrumb.activeSelectionForeground": "#F7F7F7", // Color of selected breadcrumb items.
-		"breadcrumbPicker.background": "#1E1E3F", // Background color of breadcrumb item picker.
+		"breadcrumbPicker.background": "#181036", // Background color of breadcrumb item picker.
+		// Notification Colors.
+		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
+		"notificationCenterHeader.foreground": "#FFFFFF", // Notification Center header foreground color.
+		"notificationCenterHeader.background": "#6943FF", // Notification Center header background color.
+		"notificationToast.border": "#130C29", // Notification toast border color.
+		"notifications.foreground": "#CEC5FF", // Notification foreground color.
+		"notifications.background": "#130C29", // Notification background color.
+		"notifications.border": "#2D2B55", // Notification border color separating from other notifications in the Notification Center.
+		"notificationLink.foreground": "#FFFFFF", // Notification links foreground color.
+		// Panel.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
+		"panel.background": "#130C29",
+		"panel.border": "#A56CF5",
+		"panelTitle.activeBorder": "#A56CF5",
+		"panelTitle.activeForeground": "#A56CF5",
+		"panelTitle.inactiveForeground": "#A599E9",
+		// Status Bar Colors.
+		// The Status Bar is shown in the bottom of the workbench.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors
+		"statusBar.border": "#130C29",
+		"statusBar.background": "#130C29",
+		"statusBar.foreground": "#9491ce",
+		"statusBar.debuggingBackground": "#FFE46B",
+		"statusBar.debuggingForeground": "#130C29",
+		"statusBar.noFolderBackground": "#130C29",
+		"statusBar.noFolderForeground": "#9491ce",
+		"statusBarItem.activeBackground": "#FFE46B",
+		"statusBarItem.hoverBackground": "#FFE46B",
+		"statusBarItem.prominentBackground": "#211547",
+		"statusBarItem.prominentHoverBackground": "#FFE46B",
+		// Integrated Terminal Colors.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiRed": "#FD1D53",
+		"terminal.ansiGreen": "#45F5CF",
+		"terminal.ansiYellow": "#FFE46B",
+		"terminal.ansiBlue": "#7998F2",
+		"terminal.ansiMagenta": "#a56CF5",
+		"terminal.ansiCyan": "#80FCFF",
+		"terminal.ansiWhite": "#FFFFFF",
+		"terminal.ansiBrightBlack": "#5C5C61",
+		"terminal.ansiBrightRed": "#f74b73",
+		"terminal.ansiBrightGreen": "#6df7d9",
+		"terminal.ansiBrightYellow": "#fce687",
+		"terminal.ansiBrightBlue": "#95acf1",
+		"terminal.ansiBrightMagenta": "#b991f1",
+		"terminal.ansiBrightCyan": "#a1f7f8",
+		"terminal.ansiBrightWhite": "#2D2B55",
+		"terminal.background": "#181036",
+		"terminal.foreground": "#FEFEFF",
+		"terminalCursor.background": "#f85e9f",
+		"terminalCursor.foreground": "#f85e9f",
 	},
 	"name": "Pitaya smoothie",
 	"type": "dark",

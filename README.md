@@ -24,20 +24,47 @@
 ## Syntax Colours
 
 
-| USAGE      | HEX CODES                                                            |
-| ---------- | -------------------------------------------------------------------- |
-| Background | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Foreground | ![#fefeff](https://placehold.it/15/fefeff/000000?text=%20) `#FEFEFF` |
-| Cursor     | ![#FFEF4A](https://placehold.it/15/FFEF4A/000000?text=%20) `#FFEF4A` |
-| Cursor     | ![#FFEF4A](https://placehold.it/15/FFEF4A/000000?text=%20) `#FFEF4A` |
+| USAGE                              | HEX CODES                                                              |
+| ---------------------------------- | ---------------------------------------------------------------------- |
+| Background                         | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036`   |
+| Foreground                         | ![#fefeff](https://placehold.it/15/fefeff/000000?text=%20) `#FEFEFF`   |
+| Cursor                             | ![#f85e9f](https://placehold.it/15/f85e9f/000000?text=%20) `#f85e9f`   |
+| Comment  italic                    | ![#B4ADCA](https://placehold.it/15/B4ADCA/000000?text=%20) `#B4ADCA`   |
+| String                             | ![#66E9EC](https://placehold.it/15/66E9EC/000000?text=%20) `#66E9EC`   |
+| Number                             | ![#F28D52](https://placehold.it/15/F28D52/000000?text=%20) `#F28D52`   |
+| Built-in const                     | ![#CAF884](https://placehold.it/15/CAF884/000000?text=%20) `#CAF884`   |
+| Constant                           | ![#A267F5](https://placehold.it/15/A267F5/000000?text=%20) `#A267F5`   |
+| Variable italic                    | ![#F7F7F7](https://placehold.it/15/F7F7F7/000000?text=%20) `#F7F7F7`   |
+| Keyword                            | ![#F26196](https://placehold.it/15/F26196/000000?text=%20) `#F26196`   |
+| Storage                            | ![#F26196](https://placehold.it/15/F26196/000000?text=%20) `#F26196`   |
+| Storage type                       | ![#A56CF5](https://placehold.it/15/A56CF5/000000?text=%20) `#A56CF5`   |
+| Class italic                       | ![#7998F2](https://placehold.it/15/7998F2/000000?text=%20) `#7998F2`   |
+| In herited Class italic underlined | ![#FFE46B](https://placehold.it/15/FFE46B/000000?text=%20) `#FFE46B`   |
+| Function                           | ![#66E9EC](https://placehold.it/15/66E9EC/000000?text=%20) `#66E9EC`   |
+| Function argument italic           | ![#ffffff](https://placehold.it/15/ffffffff/000000?text=%20) `#ffffff` |
+| Tag name                           | ![#EF4A86](https://placehold.it/15/EF4A86/000000?text=%20) `#EF4A86`   |
+| Tag attribute                      | ![#66E9EC](https://placehold.it/15/66E9EC/000000?text=%20) `#66E9EC`   |
+| Lib function                       | ![#EF4A86](https://placehold.it/15/EF4A86/000000?text=%20) `#EF4A86`   |
+| Lib constant                       | ![#7998F2](https://placehold.it/15/7998F2/000000?text=%20) `#7998F2`   |
+| Lib class  italic                  | ![#FFE46B](https://placehold.it/15/FFE46B/000000?text=%20) `#FFE46B`   |
+| Invalid                            | ![#FD1D53](https://placehold.it/15/FD1D53/000000?text=%20) `#FD1D53`   |
+| Json string                        | ![#B4ADCA](https://placehold.it/15/B4ADCA/000000?text=%20) `#FF6E9C`   |
+| Diff deleted                       | ![#FD1D53](https://placehold.it/15/FF6E9C/000000?text=%20) `#FF6E9C`   |
+| Diff inserted                      | ![#45F5CF](https://placehold.it/15/45F5CF/000000?text=%20) `#45F5CF`   |
+| Diff changed                       | ![#FFE46B](https://placehold.it/15/FFE46B/000000?text=%20) `#FFE46B`   |
+| Punctuation                        | ![#C4A2F5](https://placehold.it/15/C4A2F5/000000?text=%20) `#C4A2F5`   |
+
+
 
 ## UI elements colours 
 
-| UI ELEMENT                    | HEX CODES                                                            |
-| ----------------------------- | -------------------------------------------------------------------- |
-| Activity bar background       | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Activity bar foreground       | ![#7A76C2](https://placehold.it/15/7A76C2/000000?text=%20) `#7A76C2` |
-| Activity bar badge background | ![#18c0c4](https://placehold.it/15/18c0c4/000000?text=%20) `#18c0c4` |
-| Activity bar foreground       | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Activity bar foreground       | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Sidebar background            | ![#130C29](https://placehold.it/15/130C29/000000?text=%20) `#130C29` |
+| UI ELEMENT                         | HEX CODES                                                            |
+| ---------------------------------- | -------------------------------------------------------------------- |
+| Activity bar background            | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
+| Activity bar foreground            | ![#7A76C2](https://placehold.it/15/7A76C2/000000?text=%20) `#7A76C2` |
+| Activity bar badge background      | ![#18c0c4](https://placehold.it/15/18c0c4/000000?text=%20) `#18c0c4` |
+| Activity bar foreground            | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
+| Activity bar foreground            | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
+| Sidebar background                 | ![#130C29](https://placehold.it/15/130C29/000000?text=%20) `#130C29` |
+| Sidebar  section header background | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
+| Sidebar  section header foreground | ![#7d79d1](https://placehold.it/15/7d79d1/000000?text=%20) `#7d79d1` |
