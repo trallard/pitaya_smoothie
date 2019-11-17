@@ -1,6 +1,6 @@
 // Theme Color reference
 {
-	"tokenColors": "./pitaya_milkshake.tmTheme",
+	// "tokenColors": "./pitaya_milkshake.tmTheme",
 	"colors": {
 		"editor.background": "#181036",
 		"editor.foreground": "#fefeff",
@@ -168,7 +168,7 @@
 		"terminal.ansiBlack": "#000000",
 		"terminal.ansiRed": "#FD1D53",
 		"terminal.ansiGreen": "#45F5CF",
-		"terminal.ansiYellow": "#FFE46B",
+		"terminal.ansiYellow": "#f5d131",
 		"terminal.ansiBlue": "#7998F2",
 		"terminal.ansiMagenta": "#a56CF5",
 		"terminal.ansiCyan": "#80FCFF",
@@ -186,6 +186,40 @@
 		"terminalCursor.background": "#f85e9f",
 		"terminalCursor.foreground": "#f85e9f",
 	},
+	"tokenColors": [
+		{
+			"name": "Changed",
+			"scope": [
+				"markup.changed",
+				"meta.diff.header.git",
+				"meta.diff.header.from-file",
+				"meta.diff.header.to-file"
+			],
+			"settings": {
+				"foreground": "#FFE46B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": [
+				"markup.deleted.diff"
+			],
+			"settings": {
+				"foreground": "#FF6E9C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "name",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		},
+	],
 	"name": "Pitaya smoothie",
 	"type": "dark",
 }
