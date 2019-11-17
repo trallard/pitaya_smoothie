@@ -36,8 +36,28 @@
 		// Dropdown.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
 		"dropdown.background": "#252549",
-		"dropdown.border": "#1E1E3F",
-		"dropdown.foreground": "#FFFFFF",
+		"dropdown.border": "#252549",
+		"dropdown.foreground": "#FEFEFF",
+		"editorGroup.border": "#222244",
+		"editorGroup.dropBackground": "#222244D0",
+		// The editorGroupHeader.
+		"editorGroupHeader.noTabsBackground": "#1f1445",
+		"editorGroupHeader.tabsBackground": "#1f1445",
+		// "editorGroupHeader.tabsBorder": "#595A8A",
+		// Input Control.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
+		"input.background": "#181036",
+		"input.border": "#181036",
+		"input.foreground": "#fefeff",
+		"input.placeholderForeground": "#A599E9",
+		"inputOption.activeBorder": "#1E1E3F",
+		"inputValidation.errorBackground": "#FD1D53",
+		"inputValidation.errorBorder": "#FD1D53",
+		"inputValidation.infoBackground": "#7998F2",
+		"inputValidation.infoBorder": "#7998F2",
+		"inputValidation.warningBackground": "#FAD000",
+		"inputValidation.warningBorder": "#FAD000",
+		"inputOption.activeBackground": "#5D37F0",
 		// List
 		// https://code.visualstudio.com/api/references/theme-color#lists-and-trees
 		"list.activeSelectionBackground": "#1C1A3B",
@@ -51,7 +71,7 @@
 		"tab.activeBackground": "#251954",
 		"tab.inactiveBackground": "#1f1445",
 		"tab.activeForeground": "#9491ce",
-		"tab.inactiveForeground": "#545274",
+		"tab.inactiveForeground": "#484f7d",
 		// Title bar
 		"titleBar.activeBackground": "#1E1E3F",
 		"titleBar.activeForeground": "#789EF8",
@@ -67,9 +87,9 @@
 		"editor.findMatchHighlightBackground": "#8390d1c0", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
 		"editor.findRangeHighlightBackground": "#8390d1c0", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
 		"editor.hoverHighlightBackground": "#ff628c81", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
-		"editor.lineHighlightBackground": "#1d1836", // Current line of code. Background color for the highlight of line at the cursor position.
-		"editor.lineHighlightBorder": "#1F1F41",
-		"editor.rangeHighlightBackground": "#1F1F41",
+		"editor.lineHighlightBackground": "#1E1C3F", // Current line of code. Background color for the highlight of line at the cursor position.
+		"editor.lineHighlightBorder": "#1E1C3F",
+		"editor.rangeHighlightBackground": "#1E1C3F",
 		"editorLink.activeForeground": "#A599E9",
 		"editorIndentGuide.background": "#A599E90F",
 		"editorIndentGuide.activeBackground": "#A599E942",
@@ -84,10 +104,20 @@
 		"editorOverviewRuler.currentContentForeground": "#a599e9d5",
 		"editorOverviewRuler.incomingContentForeground": "#18c1c4d8",
 		// Errors and warnings:
-		// "editorError.border": "#EC3A37F5",
+		"editorError.border": "#ff6e9ccc",
 		"editorError.foreground": "#ff6e9ccc",
-		"editorWarning.border": "#ff6e9c34",
+		"editorWarning.border": "#fad000c9",
 		"editorWarning.foreground": "#fad000c9",
+		// Gutter: The gutter contains the glyph margins and the line numbers:
+		"editorGutter.addedBackground": "#18c1c4a6",
+		"editorGutter.deletedBackground": "#ff6e9c98",
+		"editorGutter.modifiedBackground": "#AD70FC46",
+		// Diff Editor.
+		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
+		"diffEditor.insertedTextBackground": "#107f81a6",
+		"diffEditor.insertedTextBorder": "#107f81a6",
+		"diffEditor.removedTextBackground": "#ff6e9c98",
+		"diffEditor.removedTextBorder": "#ff6e9c98",
 		// Breadcrumbs.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
 		"breadcrumb.foreground": "#9491ce",
@@ -110,6 +140,15 @@
 		"panelTitle.activeBorder": "#A56CF5",
 		"panelTitle.activeForeground": "#A56CF5",
 		"panelTitle.inactiveForeground": "#A599E9",
+		// Progress Bar.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
+		"progressBar.background": "#F26196",
+		// Scroll Bar Control.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
+		"scrollbar.shadow": "#010b14",
+		"scrollbarSlider.background": "#7d79d193",
+		"scrollbarSlider.hoverBackground": "#A56CF5",
+		"scrollbarSlider.activeBackground": "#F26196",
 		// Status Bar Colors.
 		// The Status Bar is shown in the bottom of the workbench.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors
@@ -121,7 +160,7 @@
 		"statusBar.noFolderBackground": "#130C29",
 		"statusBar.noFolderForeground": "#9491ce",
 		"statusBarItem.activeBackground": "#FFE46B",
-		"statusBarItem.hoverBackground": "#FFE46B",
+		"statusBarItem.hoverBackground": "#2A1B5C",
 		"statusBarItem.prominentBackground": "#211547",
 		"statusBarItem.prominentHoverBackground": "#FFE46B",
 		// Integrated Terminal Colors.
