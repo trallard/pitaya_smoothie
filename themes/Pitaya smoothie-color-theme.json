@@ -108,14 +108,16 @@
 		"editorError.foreground": "#ff6e9ccc",
 		"editorWarning.border": "#fad000c9",
 		"editorWarning.foreground": "#fad000c9",
+		"editorInfo.border": "#7998F2",
+		"editorInfo.foreground": "#7998F2",
 		// Gutter: The gutter contains the glyph margins and the line numbers:
 		"editorGutter.addedBackground": "#18c1c4a6",
 		"editorGutter.deletedBackground": "#ff6e9c98",
 		"editorGutter.modifiedBackground": "#AD70FC46",
 		// Diff Editor.
 		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
-		"diffEditor.insertedTextBackground": "#107f81a6",
-		"diffEditor.insertedTextBorder": "#107f81a6",
+		"diffEditor.insertedTextBackground": "#18c1c4a6",
+		"diffEditor.insertedTextBorder": "#18c1c4a6",
 		"diffEditor.removedTextBackground": "#ff6e9c98",
 		"diffEditor.removedTextBorder": "#ff6e9c98",
 		// Breadcrumbs.
@@ -124,10 +126,18 @@
 		"breadcrumb.focusForeground": "#7ee2f3", // Color of focused breadcrumb items.
 		"breadcrumb.activeSelectionForeground": "#F7F7F7", // Color of selected breadcrumb items.
 		"breadcrumbPicker.background": "#181036", // Background color of breadcrumb item picker.
+		// Merge Conflicts.
+		"merge.border": "#FFFFFF00",
+		"merge.commonContentBackground": "#A599E981",
+		"merge.commonHeaderBackground": "#A599E981",
+		"merge.currentContentBackground": "#18c1c4a6",
+		"merge.currentHeaderBackground": "#18c1c4a6",
+		"merge.incomingContentBackground": "#ff6e9c98",
+		"merge.incomingHeaderBackground": "#ff6e9c98",
 		// Notification Colors.
 		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
 		"notificationCenterHeader.foreground": "#FFFFFF", // Notification Center header foreground color.
-		"notificationCenterHeader.background": "#6943FF", // Notification Center header background color.
+		"notificationCenterHeader.background": "#130C29", // Notification Center header background color.
 		"notificationToast.border": "#130C29", // Notification toast border color.
 		"notifications.foreground": "#CEC5FF", // Notification foreground color.
 		"notifications.background": "#130C29", // Notification background color.
@@ -146,7 +156,7 @@
 		// Scroll Bar Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
 		"scrollbar.shadow": "#010b14",
-		"scrollbarSlider.background": "#7d79d193",
+		"scrollbarSlider.background": "#57549293",
 		"scrollbarSlider.hoverBackground": "#A56CF5",
 		"scrollbarSlider.activeBackground": "#F26196",
 		// Status Bar Colors.
@@ -185,6 +195,13 @@
 		"terminal.foreground": "#FEFEFF",
 		"terminalCursor.background": "#f85e9f",
 		"terminalCursor.foreground": "#f85e9f",
+		// Git VS Code theme Colors used for file labels and the SCM viewlet.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_git-colors
+		"gitDecoration.modifiedResourceForeground": "#ffe46bd0", // Color for modified git resources.
+		"gitDecoration.deletedResourceForeground": "#ff6e9c98", // Color for deleted git resources.
+		"gitDecoration.untrackedResourceForeground": "#18c1c4a6", // Color for untracked git resources.
+		"gitDecoration.ignoredResourceForeground": "#A599E981", // Color for ignored git resources.
+		"gitDecoration.conflictingResourceForeground": "#f28d52d7", // Color for conflicting git resources.
 	},
 	"tokenColors": [
 		{
@@ -196,7 +213,7 @@
 				"meta.diff.header.to-file"
 			],
 			"settings": {
-				"foreground": "#FFE46B",
+				"foreground": "#ffe46bd0",
 				"fontStyle": "italic"
 			}
 		},
@@ -206,17 +223,264 @@
 				"markup.deleted.diff"
 			],
 			"settings": {
-				"foreground": "#FF6E9C",
+				"foreground": "#ff6e9c98",
 				"fontStyle": "italic"
 			}
 		},
 		{
-			"name": "name",
+			"name": "Inserted",
+			"scope": "markup.inserted.diff",
+			"settings": {
+				"foreground": "#18c1c4a6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Global settings",
+			"settings": {
+				"background": "#181036",
+				"foreground": "#FEFEFF"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#B4ADCA",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				// "foreground": "#66E9EC" // turquoise
+				"foreground": "#7998F2" // blue
+			}
+		},
+		{
+			"name": "String Quoted",
 			"scope": [
-				"keyword.operator"
+				"string.quoted",
+				"variable.other.readwrite.js"
 			],
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#66E9EC"
+				// "foreground": "#ecc48d"
+			}
+		},
+		{
+			"name": "Support Constant Math",
+			"scope": "support.constant.math",
+			"settings": {
+				"foreground": "#F28D52"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": [
+				"constant.numeric",
+				"constant.character.numeric"
+			],
+			"settings": {
+				// "foreground": "#F78C6C", // dark orange
+				"foreground": "#F28D52", // orange
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": [
+				"constant.language",
+				"punctuation.definition.constant",
+				"variable.other.constant"
+			],
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				// "foreground": "#82AAFF"
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Constant Character Escape",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "RegExp String",
+			"scope": [
+				"string.regexp",
+				"string.regexp keyword.other"
+			],
+			"settings": {
+				"foreground": "#5ca7e4"
+			}
+		},
+		{
+			"name": "Comma in functions",
+			"scope": "meta.function punctuation.separator.comma",
+			"settings": {
+				"foreground": "#5f7e97"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#F28D52",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"punctuation.accessor",
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#F28D52",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": [
+				"storage",
+				"meta.var.expr",
+				"meta.class meta.method.declaration meta.var.expr storage.type.js",
+				"storage.type.property.js",
+				"storage.type.property.ts",
+				"storage.type.property.tsx"
+			],
+			"settings": {
+				"foreground": "#F26196",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#A56CF5" // lilac 
+				// "foreground": "#F26196" // salmon
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type.function.arrow.js",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": [
+				"entity.name.class",
+				"meta.class entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#7998F2" // blue
+				// "foreground": "#ffcb8b" // yellow
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"foreground": "#FFE46B",
+				"fontStyle": "italic underline"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				// "foreground": "#66E9EC", // turquoise
+				"foreground": "#7fdbca", // mint
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Meta Tag",
+			"scope": [
+				"punctuation.definition.tag",
+				"meta.tag"
+			],
+			"settings": {
+				"foreground": "#EF4A86"
+			}
+		},
+		{
+			"name": "HTML Tag names",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.other.html",
+				"meta.tag.other.js",
+				"meta.tag.other.tsx",
+				"entity.name.tag.tsx",
+				"entity.name.tag.js",
+				"entity.name.tag",
+				"meta.tag.js",
+				"meta.tag.tsx",
+				"meta.tag.html"
+			],
+			"settings": {
+				"foreground": "#7fdbca",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "Entity Name Tag Custom",
+			"scope": "entity.name.tag.custom",
+			"settings": {
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "Library (function & constant)",
+			"scope": [
+				"support.function",
+				"support.constant"
+			],
+			"settings": {
+				// "foreground": "#82AAFF" // blue
+				"foreground": "#EF4A86" // hot-pink
+			}
+		},
+		{
+			"name": "Support Constant Property Value meta",
+			"scope": "support.constant.meta.property-value",
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
 			}
 		},
 	],
