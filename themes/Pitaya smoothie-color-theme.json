@@ -338,7 +338,7 @@
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"foreground": "#F28D52",
+				"foreground": "#f3907e",
 				"fontStyle": "italic"
 			}
 		},
@@ -349,7 +349,7 @@
 				"keyword"
 			],
 			"settings": {
-				"foreground": "#F28D52",
+				"foreground": "#F26196",
 				"fontStyle": "italic"
 			}
 		},
@@ -372,8 +372,7 @@
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#A56CF5" // lilac 
-				// "foreground": "#F26196" // salmon
+				"foreground": "#b07afc" // lilac 
 			}
 		},
 		{
@@ -391,7 +390,6 @@
 			],
 			"settings": {
 				"foreground": "#7998F2" // blue
-				// "foreground": "#ffcb8b" // yellow
 			}
 		},
 		{
@@ -418,7 +416,7 @@
 				"meta.tag"
 			],
 			"settings": {
-				"foreground": "#EF4A86"
+				"foreground": "#C4A2F5"
 			}
 		},
 		{
@@ -436,7 +434,7 @@
 				"meta.tag.html"
 			],
 			"settings": {
-				"foreground": "#7fdbca",
+				"foreground": "#EF4A86",
 				"fontStyle": ""
 			}
 		},
@@ -494,7 +492,7 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#FD1D53",
+				"background": "#fd3777",
 				"foreground": "#fff"
 			}
 		},
@@ -503,14 +501,14 @@
 			"scope": "invalid.deprecated",
 			"settings": {
 				"foreground": "#ffffff",
-				"background": "#ff2c83"
+				"background": "#FF6E9C"
 			}
 		},
 		{
 			"name": "Keyword Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#7fdbca",
+				"foreground": "#FFE46B",
 				"fontStyle": ""
 			}
 		},
@@ -518,7 +516,7 @@
 			"name": "Keyword Operator Relational",
 			"scope": "keyword.operator.relational",
 			"settings": {
-				"foreground": "#c792ea",
+				"foreground": "#b07afc",
 				"fontStyle": "italic"
 			}
 		},
@@ -526,42 +524,42 @@
 			"name": "Keyword Operator Assignment",
 			"scope": "keyword.operator.assignment",
 			"settings": {
-				"foreground": "#c792ea"
+				"foreground": "#b07afc"
 			}
 		},
 		{
 			"name": "Keyword Operator Arithmetic",
 			"scope": "keyword.operator.arithmetic",
 			"settings": {
-				"foreground": "#c792ea"
+				"foreground": "#b07afc"
 			}
 		},
 		{
 			"name": "Keyword Operator Bitwise",
 			"scope": "keyword.operator.bitwise",
 			"settings": {
-				"foreground": "#c792ea"
+				"foreground": "#b07afc"
 			}
 		},
 		{
 			"name": "Keyword Operator Increment",
 			"scope": "keyword.operator.increment",
 			"settings": {
-				"foreground": "#c792ea"
+				"foreground": "#b07afc"
 			}
 		},
 		{
 			"name": "Keyword Operator Ternary",
 			"scope": "keyword.operator.ternary",
 			"settings": {
-				"foreground": "#c792ea"
+				"foreground": "#b07afc"
 			}
 		},
 		{
 			"name": "Double-Slashed Comment",
 			"scope": "comment.line.double-slash",
 			"settings": {
-				"foreground": "#957dac"
+				"foreground": "#5C588A"
 			}
 		},
 		{
@@ -589,7 +587,7 @@
 			"name": "Meta Delimiter Period",
 			"scope": "meta.delimiter.period",
 			"settings": {
-				"foreground": "#c792ea",
+				"foreground": "#C4A2F5",
 				"fontStyle": "italic"
 			}
 		},
@@ -597,7 +595,7 @@
 			"name": "Punctuation Definition String",
 			"scope": "punctuation.definition.string",
 			"settings": {
-				"foreground": "#45F5CF"
+				"foreground": "#d6deeb"
 			}
 		},
 		{
