@@ -405,7 +405,7 @@
 			"scope": "entity.name.function",
 			"settings": {
 				// "foreground": "#66E9EC", // turquoise
-				"foreground": "#7fdbca", // mint
+				"foreground": "#7998F2", // mint
 				"fontStyle": "italic"
 			}
 		},
@@ -460,8 +460,8 @@
 				"support.constant"
 			],
 			"settings": {
-				// "foreground": "#82AAFF" // blue
-				"foreground": "#EF4A86" // hot-pink
+				"foreground": "#82AAFF" // blue
+				// "foreground": "#EF4A86" // hot-pink
 			}
 		},
 		{
@@ -602,7 +602,78 @@
 			"name": "Punctuation Definition String Markdown",
 			"scope": "punctuation.definition.string.begin.markdown",
 			"settings": {
-				"foreground": "#ff5874"
+				"foreground": "#FF6e9c"
+			}
+		},
+		{
+			"name": "Boolean",
+			"scope": "constant.language.boolean",
+			"settings": {
+				"foreground": "#FF6e9c"
+			}
+		},
+		{
+			"name": "Object Comma",
+			"scope": "object.comma",
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "Variable Parameter Function",
+			"scope": "variable.parameter.function",
+			"settings": {
+				"foreground": "#c6d8fa",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Support Type Property Name & entity name tags",
+			"scope": [
+				"support.type.vendor.property-name",
+				"support.constant.vendor.property-value",
+				"support.type.property-name",
+				"meta.property-list entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#7998F2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Entity Name tag reference in stylesheets",
+			"scope": "meta.property-list entity.name.tag.reference",
+			"settings": {
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "Constant Other Color RGB Value Punctuation Definition Constant",
+			"scope": "constant.other.color.rgb-value punctuation.definition.constant",
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "Constant Other Color",
+			"scope": "constant.other.color",
+			"settings": {
+				"foreground": "#FFEB95"
+			}
+		},
+		{
+			"name": "Keyword Other Unit",
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#FFEB95"
+			}
+		},
+		{
+			"name": "Meta Selector",
+			"scope": "meta.selector",
+			"settings": {
+				"foreground": "#C4A2F5",
+				"fontStyle": "italic"
 			}
 		},
 	],
