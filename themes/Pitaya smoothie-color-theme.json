@@ -80,7 +80,7 @@
 		// List
 		// https://code.visualstudio.com/api/references/theme-color#lists-and-trees
 		"list.activeSelectionBackground": "#1C1A3B",
-		"list.activeSelectionForeground": "#7ee2f3",
+		"list.activeSelectionForeground": "#31E6E6",
 		"list.focusBackground": "#27264D",
 		"list.hoverBackground": "#27264D",
 		"list.highlightForeground": "#595A8A",
@@ -804,14 +804,6 @@
 				"fontStyle": "italic"
 			}
 		},
-		// Markdown 
-		{
-			"name": " MARKDOWN - Punctuation Definition String",
-			"scope": "punctuation.definition.string.begin.markdown",
-			"settings": {
-				"foreground": "#FF6e9c"
-			}
-		},
 		// CSS
 		{
 			"name": "Entity Name tag reference in stylesheets",
@@ -1152,6 +1144,241 @@
 			"scope": "meta.tag.js meta.jsx.children.tsx",
 			"settings": {
 				"foreground": "#FF96B7"
+			}
+		},
+		// Markdown 
+		{
+			"name": " MARKDOWN - Punctuation Definition String",
+			"scope": [
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#FF6e9c"
+			}
+		},
+		{
+			"name": "MARKDOWN - Headings",
+			"scope": [
+				"entity.name.section.markdown",
+				"markup.heading.setext.1.markdown",
+				"markup.heading.setext.2.markdown",
+				"markup.heading.markdown",
+			],
+			"settings": {
+				"foreground": "#82b1ff",
+			}
+		},
+		{
+			"name": "MARKDOWN - Diff Code Inserted Block",
+			"scope": [
+				"markup.inserted.diff",
+				"punctuation.definition.inserted.diff"
+			],
+			"settings": {
+				"foreground": "#18c1c4",
+			}
+		},
+		{
+			"name": "MARKDOWN - Diff Deleted Code Block",
+			"scope": [
+				"markup.deleted.diff",
+				"punctuation.definition.deleted.diff"
+			],
+			"settings": {
+				"foreground": "#ff6e9c",
+			}
+		},
+		{
+			"name": "MARKDOWN - Diff Meta text",
+			"scope": [
+				"meta.embedded.block.diff"
+			],
+			"settings": {
+				"foreground": "#efefef",
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Paragraph",
+			"scope": "meta.paragraph.markdown",
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "MARKDOWN - Comment Punctuation",
+			"scope": [
+				"punctuation.definition.from-file.diff",
+				"meta.diff.header.from-file"
+			],
+			"settings": {
+				"foreground": "#5C588A"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Text inside inline code block `code`",
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"foreground": "#A599E9"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Quote Punctuation",
+			"scope": [
+				"punctuation.definition.quote.begin.markdown",
+				"markup.quote.markdown"
+			],
+			"settings": {
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Quote Paragraph",
+			"scope": [
+				"markup.quote.markdown meta.paragraph.markdown",
+			],
+			"settings": {
+				"foreground": "#efefef",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Separator",
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Emphasis Bold",
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Emphasis Italic",
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Lists",
+			"scope": [
+				"beginning.punctuation.definition.list.markdown",
+				"punctuation.definition.list.begin.markdown",
+				"markup.list.unnumbered.markdown",
+			],
+			"settings": {
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "MARKDOWN - Link/Image title string",
+			"scope": [
+				"string.other.link.description.title.markdown punctuation.definition.string.markdown",
+				"meta.link.inline.markdown string.other.link.description.title.markdown",
+				"string.other.link.description.title.markdown punctuation.definition.string.begin.markdown",
+				"string.other.link.description.title.markdown punctuation.definition.string.end.markdown",
+				"meta.image.inline.markdown string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "#66E9EC",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Link Title",
+			"scope": [
+				"meta.link.inline.markdown string.other.link.title.markdown",
+				"meta.link.reference.markdown string.other.link.title.markdown",
+				"meta.link.reference.def.markdown markup.underline.link.markdown",
+				"string.other.link.description.markdown"
+			],
+			"settings": {
+				"foreground": "#efefef",
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Link/Image Title",
+			"scope": [
+				"markup.underline.link.markdown",
+				"string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "#A599E9"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Inline Code",
+			"scope": [
+				"fenced_code.block.language",
+				"markup.inline.raw.markdown"
+			],
+			"settings": {
+				"foreground": "#a599e9ff"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**",
+			"scope": [
+				"punctuation.definition.markdown",
+				"punctuation.definition.raw.markdown",
+				"punctuation.definition.heading.markdown",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.italic.markdown"
+			],
+			"settings": {
+				"foreground": "#494685"
+			}
+		},
+		{
+			"name": "Markdown Punctuation",
+			"scope": [
+				"punctuation.definition.string.markdown",
+				"meta.link.inline.markdown punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#82b1ff"
+			}
+		},
+		{
+			"name": "MARKDOWN - LINK Brackets",
+			"scope": [
+				"meta.link.inline.markdown punctuation.definition.string.begin.markdown",
+				"meta.link.inline.markdown punctuation.definition.string.end.markdown",
+				"meta.link.reference.markdown punctuation.definition.string.begin.markdown",
+				"meta.link.reference.markdown punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#FF6e9c"
+			}
+		},
+		{
+			"name": "MARKDOWN - LINK ALT URI",
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown",
+				"constant.other.reference.link.markdown",
+				"punctuation.definition.constant.markdown",
+				"punctuation.definition.constant.begin.markdown",
+				"punctuation.definition.constant.end.markdown",
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "MARKDOWN - Link brackets",
+			"scope": [
+				"punctuation.definition.metadata.markdown",
+				"string.other.link.description.title.markdown punctuation.definition.string.markdown"
+			],
+			"settings": {
+				"foreground": "#c6d8fa"
 			}
 		},
 	],
