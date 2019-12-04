@@ -1,38 +1,27 @@
 /**
- * JavaScript: Shades of purple can be genius
- *
+ * JavaScript: I lover pitaya
  * @param String hello Hello.
  * @since 1.0.0
  */
 
 // String.
-const sop = '🦄 Shades of Purple is an awesome syntax highlighting theme.';
-console.log('sop', sop);
+const sop = '🦄 This is pitaya smoothie.';
+console.log('pst', pst);
 
 // Class.
-class vsc extends React.Component {}
+class vsc extends React.Component { }
 console.log(vsc);
 
 // Const.
-const ahmad = function nameAhmad() {
-	return 'Ahmad';
+const tania = function nameAhmad() {
+	return 'Tania';
 };
-ahmad();
+tania();
 
 // Let.
-let awais = () => 'Awais';
-console.log(awais);
+let allard = () => 'Allard';
+console.log(allard);
 
-/**
- * Maedah's Function.
- *
- * @param String name
- */
-function maedah(name) {
-	return name;
-}
-
-maedah('Maedah Batool');
 
 // Regex.
 const coursePlatformURL = new RegExp('/' + window.location.host + '/');
@@ -41,7 +30,7 @@ console.log('coursePlatformURL', coursePlatformURL);
 import { btnBarSvgSpeed } from './constants';
 
 /**
- *  Angle increment.
+ *  Angle increment.§
  *
  * — 360/(total speed values).
  * — 360/6 = 60.
@@ -71,10 +60,10 @@ export const speedCSS = (one, two, three) => {
 };
 
 // Conditionals.
-if (ahmad) {
-	console.log('Ahmad loves open source');
-} else if (awais) {
-	console.log('Awais is making 🦄 Shades of Purple');
+if (tania) {
+	console.log('Tania loves open source');
+} else if (allard) {
+	console.log('Allard is making pitaya smoothie');
 } else {
-	console.log('Call it SOP for brevity');
+	console.log('Call it pst for brevity');
 }
