@@ -429,33 +429,6 @@
 			}
 		},
 		{
-			"name": "HTML Tag names",
-			"scope": [
-				"entity.name.tag",
-				"meta.tag.other.html",
-				"meta.tag.other.js",
-				"meta.tag.other.tsx",
-				"entity.name.tag.tsx",
-				"entity.name.tag.js",
-				"entity.name.tag",
-				"meta.tag.js",
-				"meta.tag.tsx",
-				"meta.tag.html"
-			],
-			"settings": {
-				"foreground": "#EF4A86",
-				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Tag attribute",
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#66E9EC"
-			}
-		},
-		{
 			"name": "Entity Name Tag Custom",
 			"scope": "entity.name.tag.custom",
 			"settings": {
@@ -470,7 +443,7 @@
 			],
 			"settings": {
 				"foreground": "#82AAFF" // blue
-				// "foreground": "#EF4A86" // hot-pink
+				// "foreground": "#FF96B7" // pastel pink
 			}
 		},
 		{
@@ -633,13 +606,6 @@
 			"settings": {
 				"foreground": "#7998F2",
 				"fontStyle": ""
-			}
-		},
-		{
-			"name": "Entity Name tag reference in stylesheets",
-			"scope": "meta.property-list entity.name.tag.reference",
-			"settings": {
-				"foreground": "#66E9EC"
 			}
 		},
 		{
@@ -811,13 +777,6 @@
 			}
 		},
 		{
-			"name": "Constant Other Color RGB Value Punctuation Definition Constant",
-			"scope": "constant.other.color.rgb-value punctuation.definition.constant",
-			"settings": {
-				"foreground": "#CAF884"
-			}
-		},
-		{
 			"name": "Meta Tag",
 			"scope": [
 				"punctuation.definition.tag",
@@ -845,12 +804,105 @@
 				"fontStyle": "italic"
 			}
 		},
-		// Markdown specifics
+		// Markdown 
 		{
 			"name": " Markdown - Punctuation Definition String",
 			"scope": "punctuation.definition.string.begin.markdown",
 			"settings": {
 				"foreground": "#FF6e9c"
+			}
+		},
+		// CSS
+		{
+			"name": "Entity Name tag reference in stylesheets",
+			"scope": "meta.property-list entity.name.tag.reference",
+			"settings": {
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "CSS - Color for ID Selector",
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.pseudo-class.css"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "[CSS] - Color for Element Selector",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#9EFFFF"
+			}
+		},
+		{
+			"name": "CSS - Color for Support",
+			"scope": [
+				"source.css support",
+				"entity.name.tag.css",
+				"source.stylus support"
+			],
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "CSS - Color for Constant",
+			"scope": [
+				"source.css constant",
+				"source.css support.constant",
+				"source.stylus constant",
+				"source.stylus support.constant",
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "Constant Other Color RGB Value Punctuation Definition Constant",
+			"scope": "constant.other.color.rgb-value punctuation.definition.constant",
+			"settings": {
+				"foreground": "#f3907e"
+			}
+		},
+		// HTML
+		{
+			"name": "Meta Tag",
+			"scope": [
+				"punctuation.definition.tag",
+				"meta.tag"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "HTML Tag names",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.other.html",
+				"meta.tag.other.js",
+				"meta.tag.other.tsx",
+				"entity.name.tag.tsx",
+				"entity.name.tag.js",
+				"entity.name.tag",
+				"meta.tag.js",
+				"meta.tag.tsx",
+				"meta.tag.html"
+			],
+			"settings": {
+				"foreground": "#EF4A86",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FFE46B"
 			}
 		},
 	],
