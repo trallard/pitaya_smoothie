@@ -1,13 +1,13 @@
 {
     "name": "pitaya-smoothie",
     "displayName": "Pitaya smoothie",
-    "description": "An editor theme with handpicked colours and heavily inspired by the ultraviolet colour (colour of the year 2018). ",
+    "description": "An editor theme with handpicked colours and heavily inspired by the ultraviolet colour (colour of the year 2018) and Outrun aesthetics. ",
     "version": "0.0.1",
     "publisher": "trallard",
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/trallard/pitaya-smoothie"
+        "url": "https://github.com/trallard/pitaya_smoothie"
     },
     "keywords": [
         "Theme",
