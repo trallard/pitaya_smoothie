@@ -80,10 +80,10 @@ for things like poems
 
 ## Markdown plus tables ##
 
-| Header | Header | Right  |
-| ------ | ------ | -----: |
-|  Cell  |  Cell  |   $10  |
-|  Cell  |  Cell  |   $20  |
+| Header | Header | Right |
+| ------ | ------ | ----: |
+| Cell   | Cell   |   $10 |
+| Cell   | Cell   |   $20 |
 
 * Outer pipes on tables are optional
 * Colon used for alignment (right versus left)
@@ -102,3 +102,4 @@ Pop
 * Definitions can include multiple paragraphs too
 
 *[ABBR]: Markdown plus abbreviations (produces an <abbr> tag)
+ 

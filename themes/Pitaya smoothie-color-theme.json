@@ -713,97 +713,6 @@
 				"fontStyle": "italic"
 			}
 		},
-		// Ini 
-		{
-			"name": "INI - Color for Entity",
-			"scope": [
-				"source.ini entity",
-				"meta.embedded.block.ini",
-				"source.ini"
-			],
-			"settings": {
-				"foreground": "#efefef"
-			}
-		},
-		{
-			"name": "INI - Color for Keyword",
-			"scope": [
-				"source.ini keyword",
-				"keyword.other.definition.ini"
-			],
-			"settings": {
-				"foreground": "#F26196"
-			}
-		},
-		{
-			"name": "INI - Color for Punctuation Definition",
-			"scope": [
-				"source.ini punctuation.definition"
-			],
-			"settings": {
-				"foreground": "#C4A2F5"
-			}
-		},
-		{
-			"name": "INI - Color for Punctuation Separator",
-			"scope": [
-				"source.ini punctuation.separator",
-				"punctuation.separator.key-value.ini"
-			],
-			"settings": {
-				"foreground": "#5ca7e4"
-			}
-		},
-		// Punctuation
-		{
-			"name": "Punctuation Definition String",
-			"scope": "punctuation.definition.string",
-			"settings": {
-				"foreground": "#d6deeb"
-			}
-		},
-		{
-			"name": "Punctuation Definition Parameters",
-			"scope": "punctuation.definition.parameters",
-			"settings": {
-				"foreground": "#C2F4E2"
-			}
-		},
-		{
-			"name": "[Punctuation] — Color for Punctuation Template Expression",
-			"scope": "punctuation.definition.template-expression",
-			"settings": {
-				"foreground": "#C2F4E2"
-			}
-		},
-		{
-			"name": "Meta Tag",
-			"scope": [
-				"punctuation.definition.tag",
-				"meta.tag"
-			],
-			"settings": {
-				"foreground": "#C4A2F5"
-			}
-		},
-		{
-			"name": "Comma in functions",
-			"scope": "meta.function punctuation.separator.comma",
-			"settings": {
-				"foreground": "#B4ADCA"
-			}
-		},
-		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"foreground": "#5C588A",
-				"fontStyle": "italic"
-			}
-		},
 		// CSS
 		{
 			"name": "Entity Name tag reference in stylesheets",
@@ -859,15 +768,98 @@
 				"foreground": "#f3907e"
 			}
 		},
+		// DOCKER
+		{
+			"name": "DOCKER - special methods / keywords",
+			"scope": [
+				"keyword.other.special-method.dockerfile"
+			],
+			"settings": {
+				"foreground": "#C4A2F5",
+			}
+		},
+		// ENV
+		{
+			"name": "ENV — Source",
+			"scope": [
+				"source.env"
+			],
+			"settings": {
+				"foreground": "#EFEFEF",
+			}
+		},
+		{
+			"name": "ENV — Variables",
+			"scope": [
+				"variable.other.env"
+			],
+			"settings": {
+				"foreground": "#b07afc",
+			}
+		},
+		{
+			"name": "ENV — Punctuation",
+			"scope": [
+				"keyword.other.template.begin.env",
+				"keyword.other.template.end.env",
+				"keyword.operator.assignment.env",
+			],
+			"settings": {
+				"foreground": "#d6deeb",
+			}
+		},
+		// INI 
+		{
+			"name": "INI - Color for Entity",
+			"scope": [
+				"source.ini entity",
+				"meta.embedded.block.ini",
+				"source.ini"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "INI - Color for Keyword",
+			"scope": [
+				"source.ini keyword",
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "INI - Color for Punctuation Definition",
+			"scope": [
+				"source.ini punctuation.definition"
+			],
+			"settings": {
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "INI - Color for Punctuation Separator",
+			"scope": [
+				"source.ini punctuation.separator",
+				"punctuation.separator.key-value.ini"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
 		// HTML
 		{
 			"name": "Meta Tag",
 			"scope": [
 				"punctuation.definition.tag",
-				"meta.tag"
+				"meta.tag",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
-				"foreground": "#C4A2F5"
+				"foreground": "#FF96B7"
 			}
 		},
 		{
@@ -885,7 +877,7 @@
 				"meta.tag.html"
 			],
 			"settings": {
-				"foreground": "#EF4A86",
+				"foreground": "#C4A2F5",
 				"fontStyle": ""
 			}
 		},
@@ -897,253 +889,12 @@
 				"foreground": "#FFE46B"
 			}
 		},
-		// Python
+		// JSON
 		{
-			"name": "PYTHON - Color for Self Argument",
-			"scope": "variable.parameter.function.language.special.self.python",
-			"settings": {
-				"foreground": "#18c0c4"
-			}
-		},
-		{
-			"name": "PYTHON - Functions",
-			"scope": [
-				"meta.function-call.python",
-				"meta.function-call.generic.python",
-			],
-			"settings": {
-				"foreground": "#c6d8fa"
-			}
-		},
-		{
-			"name": "PYTHON - Functions",
-			"scope": [
-				"support.function.builtin.python"
-			],
-			"settings": {
-				"foreground": "#FFE46B"
-			}
-		},
-		{
-			"name": "PYTHON - Function Parameter and Arguments",
-			"scope": [
-				"variable.parameter.function.python",
-				"meta.function-call.arguments.python"
-			],
-			"settings": {
-				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "PYTHON - Function parameters and arguments",
-			"scope": [
-				"source.python",
-				"variable.parameter.function-call.python"
-			],
-			"settings": {
-				"foreground": "#efefef"
-			}
-		},
-		{
-			"name": "PYTHON - Function named arguments",
-			"scope": [
-				"meta.member.access.python",
-			],
-			"settings": {
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Punctuations in Python",
-			"scope": "punctuation.python",
-			"settings": {
-				"foreground": "#18c0c4"
-			}
-		},
-		{
-			"name": "Decorator Functions in Python",
-			"scope": "entity.name.function.decorator.python",
-			"settings": {
-				"foreground": "#FFE46B"
-			}
-		},
-		{
-			"name": "Python Language Variable",
-			"scope": "source.python variable.language.special",
-			"settings": {
-				"foreground": "#8EACE3"
-			}
-		},
-		// SASS
-		{
-			"name": "SCSS Variable",
-			"scope": [
-				"variable.scss",
-				"variable.sass",
-				"variable.parameter.url.scss",
-				"variable.parameter.url.sass"
-			],
-			"settings": {
-				"foreground": "#CAF884"
-			}
-		},
-		{
-			"name": "Variables in SASS At-Rules",
-			"scope": [
-				"source.css.scss meta.at-rule variable",
-				"source.css.sass meta.at-rule variable"
-			],
-			"settings": {
-				"foreground": "#82AAFF"
-			}
-		},
-		{
-			"name": "Variables in SASS At-Rules",
-			"scope": [
-				"source.css.scss meta.at-rule variable",
-				"source.css.sass meta.at-rule variable"
-			],
-			"settings": {
-				"foreground": "#c6d8fa"
-			}
-		},
-		{
-			"name": "Attribute Name for SASS",
-			"scope": [
-				"meta.attribute-selector.scss entity.other.attribute-name.attribute",
-				"meta.attribute-selector.sass entity.other.attribute-name.attribute"
-			],
-			"settings": {
-				"foreground": "#f3907e"
-			}
-		},
-		{
-			"name": "Tag names in SASS",
-			"scope": [
-				"entity.name.tag.scss",
-				"entity.name.tag.sass"
-			],
-			"settings": {
-				"foreground": "#7ef3ca"
-			}
-		},
-		{
-			"name": "SASS Keyword Other Unit",
-			"scope": [
-				"keyword.other.unit.scss",
-				"keyword.other.unit.sass"
-			],
-			"settings": {
-				"foreground": "#FFE46B"
-			}
-		},
-		// Typescript
-		{
-			"name": "TYPESCRIPT - Color for Keyword",
-			"scope": "source.ts keyword",
+			"name": "JSON - Json string",
+			"scope": "string.quoted.double.json",
 			"settings": {
 				"foreground": "#C4A2F5"
-			}
-		},
-		{
-			"name": "TYPESCRIPT - Color for Punctuation Parameters",
-			"scope": "source.ts punctuation.definition.parameters",
-			"settings": {
-				"foreground": "#d6deeb"
-			}
-		},
-		{
-			"name": "TYPESCRIPT - Color for Punctuation Arrow Parameters",
-			"scope": "meta.arrow.ts punctuation.definition.parameters",
-			"settings": {
-				"foreground": "#ffed9e"
-			}
-		},
-		{
-			"name": "TYPESCRIPT - Color for Storage",
-			"scope": "source.ts storage",
-			"settings": {
-				"foreground": "#FF96B7"
-			}
-		},
-		{
-			"name": "TypeScript[React] Variables and Object Properties",
-			"scope": [
-				"variable.other.readwrite.alias.ts",
-				"variable.other.readwrite.alias.tsx",
-				"variable.other.readwrite.ts",
-				"variable.other.readwrite.tsx",
-				"variable.other.object.ts",
-				"variable.other.object.tsx",
-				"variable.object.property.ts",
-				"variable.object.property.tsx",
-				"variable.other.ts",
-				"variable.other.tsx",
-				"variable.tsx",
-				"variable.ts"
-			],
-			"settings": {
-				"foreground": "#efefef"
-			}
-		},
-		{
-			"name": "TYPESCRIPT - Decorators",
-			"scope": [
-				"meta.decorator punctuation.decorator.ts",
-				"meta.decorator punctuation.decorator.tsx",
-				"meta.decorator.ts"
-			],
-			"settings": {
-				"foreground": "#FF96B7"
-			}
-		},
-		{
-			"name": "TYPESCRIPT[React] Entity Name Types",
-			"scope": [
-				"entity.name.type.ts",
-				"entity.name.type.tsx"
-			],
-			"settings": {
-				"foreground": "#FFE46B"
-			}
-		},
-		{
-			"name": "TYPESCRIPT[React] Node Classes",
-			"scope": [
-				"support.class.node.ts",
-				"support.class.node.tsx"
-			],
-			"settings": {
-				"foreground": "#7998F2"
-			}
-		},
-		{
-			"name": "TYPESCRIPT[React] Entity Name Types as Parameters",
-			"scope": [
-				"meta.type.parameters.ts entity.name.type",
-				"meta.type.parameters.tsx entity.name.type"
-			],
-			"settings": {
-				"foreground": "#B4ADCA"
-			}
-		},
-		{
-			"name": "TYPESCRIPT[React] Import/Export Punctuations",
-			"scope": [
-				"meta.import.ts punctuation.definition.block",
-				"meta.import.tsx punctuation.definition.block",
-				"meta.export.ts punctuation.definition.block",
-				"meta.export.tsx punctuation.definition.block"
-			],
-			"settings": {
-				"foreground": "#d6deeb"
-			}
-		},
-		{
-			"name": "TYPESCRIPT[React] Punctuation Decorators",
-			"scope": "meta.tag.js meta.jsx.children.tsx",
-			"settings": {
-				"foreground": "#FF96B7"
 			}
 		},
 		// Markdown 
@@ -1381,6 +1132,159 @@
 				"foreground": "#c6d8fa"
 			}
 		},
+		// Punctuation
+		{
+			"name": "Punctuation Definition String",
+			"scope": "punctuation.definition.string",
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "Punctuation Definition Parameters",
+			"scope": "punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#C2F4E2"
+			}
+		},
+		{
+			"name": "[Punctuation] — Color for Punctuation Template Expression",
+			"scope": "punctuation.definition.template-expression",
+			"settings": {
+				"foreground": "#C2F4E2"
+			}
+		},
+		{
+			"name": "Meta Tag",
+			"scope": [
+				"punctuation.definition.tag",
+				"meta.tag"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "Comma in functions",
+			"scope": "meta.function punctuation.separator.comma",
+			"settings": {
+				"foreground": "#B4ADCA"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#5C588A",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Punctuation Tweaks",
+			"scope": [
+				"punctuation.terminator.expression",
+				"punctuation.definition.arguments",
+				"punctuation.definition.array",
+				"punctuation.section.array",
+				"meta.array"
+			],
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "More Punctuation Tweaks",
+			"scope": [
+				"punctuation.definition.list.begin",
+				"punctuation.definition.list.end",
+				"punctuation.separator.arguments",
+				"punctuation.definition.list"
+			],
+			"settings": {
+				"foreground": "#d9f5dd"
+			}
+		},
+		// Python
+		{
+			"name": "PYTHON - Color for Self Argument",
+			"scope": "variable.parameter.function.language.special.self.python",
+			"settings": {
+				"foreground": "#18c0c4"
+			}
+		},
+		{
+			"name": "PYTHON - Functions",
+			"scope": [
+				"meta.function-call.python",
+				"meta.function-call.generic.python",
+			],
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		{
+			"name": "PYTHON - Functions",
+			"scope": [
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "PYTHON - Function Parameter and Arguments",
+			"scope": [
+				"variable.parameter.function.python",
+				"meta.function-call.arguments.python"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "PYTHON - Function parameters and arguments",
+			"scope": [
+				"source.python",
+				"variable.parameter.function-call.python"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "PYTHON - Function named arguments",
+			"scope": [
+				"meta.member.access.python",
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Punctuations in Python",
+			"scope": "punctuation.python",
+			"settings": {
+				"foreground": "#18c0c4"
+			}
+		},
+		{
+			"name": "Decorator Functions in Python",
+			"scope": "entity.name.function.decorator.python",
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "Python Language Variable",
+			"scope": "source.python variable.language.special",
+			"settings": {
+				"foreground": "#8EACE3"
+			}
+		},
+		// R
 		{
 			"name": "R - variables",
 			"scope": [
@@ -1419,6 +1323,207 @@
 			],
 			"settings": {
 				"foreground": "#f3ca7e"
+			}
+		},
+		// SASS
+		{
+			"name": "SCSS Variable",
+			"scope": [
+				"variable.scss",
+				"variable.sass",
+				"variable.parameter.url.scss",
+				"variable.parameter.url.sass"
+			],
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "Variables in SASS At-Rules",
+			"scope": [
+				"source.css.scss meta.at-rule variable",
+				"source.css.sass meta.at-rule variable"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Variables in SASS At-Rules",
+			"scope": [
+				"source.css.scss meta.at-rule variable",
+				"source.css.sass meta.at-rule variable"
+			],
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		{
+			"name": "Attribute Name for SASS",
+			"scope": [
+				"meta.attribute-selector.scss entity.other.attribute-name.attribute",
+				"meta.attribute-selector.sass entity.other.attribute-name.attribute"
+			],
+			"settings": {
+				"foreground": "#f3907e"
+			}
+		},
+		{
+			"name": "Tag names in SASS",
+			"scope": [
+				"entity.name.tag.scss",
+				"entity.name.tag.sass"
+			],
+			"settings": {
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "SASS Keyword Other Unit",
+			"scope": [
+				"keyword.other.unit.scss",
+				"keyword.other.unit.sass"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		// TOML
+		{
+			"name": "TOML - keyword",
+			"scope": [
+				"keyword.key.toml"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "TOML - syntax",
+			"scope": [
+				"entity.other.attribute-name.table.toml"
+			],
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		// Typescript
+		{
+			"name": "TYPESCRIPT - Color for Keyword",
+			"scope": "source.ts keyword",
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Color for Punctuation Parameters",
+			"scope": "source.ts punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Color for Punctuation Arrow Parameters",
+			"scope": "meta.arrow.ts punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#ffed9e"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Color for Storage",
+			"scope": "source.ts storage",
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "TypeScript[React] Variables and Object Properties",
+			"scope": [
+				"variable.other.readwrite.alias.ts",
+				"variable.other.readwrite.alias.tsx",
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.tsx",
+				"variable.other.object.ts",
+				"variable.other.object.tsx",
+				"variable.object.property.ts",
+				"variable.object.property.tsx",
+				"variable.other.ts",
+				"variable.other.tsx",
+				"variable.tsx",
+				"variable.ts"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Decorators",
+			"scope": [
+				"meta.decorator punctuation.decorator.ts",
+				"meta.decorator punctuation.decorator.tsx",
+				"meta.decorator.ts"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Entity Name Types",
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.tsx"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Node Classes",
+			"scope": [
+				"support.class.node.ts",
+				"support.class.node.tsx"
+			],
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Entity Name Types as Parameters",
+			"scope": [
+				"meta.type.parameters.ts entity.name.type",
+				"meta.type.parameters.tsx entity.name.type"
+			],
+			"settings": {
+				"foreground": "#B4ADCA"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Import/Export Punctuations",
+			"scope": [
+				"meta.import.ts punctuation.definition.block",
+				"meta.import.tsx punctuation.definition.block",
+				"meta.export.ts punctuation.definition.block",
+				"meta.export.tsx punctuation.definition.block"
+			],
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Punctuation Decorators",
+			"scope": "meta.tag.js meta.jsx.children.tsx",
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		// YAML
+		{
+			"name": "YAML - keywords",
+			"scope": [
+				"entity.name.tag.yaml"
+			],
+			"settings": {
+				"foreground": "#b07afc"
 			}
 		},
 	],
