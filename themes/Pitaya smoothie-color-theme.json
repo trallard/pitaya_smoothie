@@ -33,6 +33,10 @@
 		"button.background": "#7D66BA",
 		"button.foreground": "#F7F7F7",
 		"button.hoverBackground": "#9e62ff",
+		// Contrast.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_contrast-colors
+		"contrastActiveBorder": "#FFFFFF00",
+		"contrastBorder": "#FFFFFF00",
 		// Dropdown.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
 		"dropdown.background": "#252549",
@@ -44,6 +48,21 @@
 		"editorGroupHeader.noTabsBackground": "#1f1445",
 		"editorGroupHeader.tabsBackground": "#1f1445",
 		// "editorGroupHeader.tabsBorder": "#595A8A",
+		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
+		"editorWidget.background": "#222244",
+		"editorWidget.border": "#1F1F41",
+		"editorHoverWidget.background": "#161633",
+		"editorHoverWidget.border": "#161633",
+		"editorSuggestWidget.background": "#1F1F41",
+		"editorSuggestWidget.border": "#1F1F41",
+		"editorSuggestWidget.foreground": "#A599E9",
+		"editorSuggestWidget.highlightForeground": "#FF6E9C",
+		"editorSuggestWidget.selectedBackground": "#2D2B55",
+		// The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
+		"editorMarkerNavigation.background": "#252549af",
+		"editorMarkerNavigationError.background": "#FD1D53",
+		"editorMarkerNavigationWarning.background": "#FAD000",
 		// Input Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
 		"input.background": "#181036",
@@ -173,6 +192,20 @@
 		"statusBarItem.hoverBackground": "#2A1B5C",
 		"statusBarItem.prominentBackground": "#211547",
 		"statusBarItem.prominentHoverBackground": "#FFE46B",
+		// Text Colors — Colors inside a text document, such as the welcome page.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
+		"textBlockQuote.background": "#1E1E3F",
+		"textBlockQuote.border": "#18c0c4",
+		"textCodeBlock.background": "#1E1E3F",
+		"textLink.activeForeground": "#B362FF",
+		"textLink.foreground": "#B362FF",
+		"textPreformat.foreground": "#F26196",
+		"textSeparator.foreground": "#1E1E3F",
+		// Tab stops.
+		"editor.snippetTabstopHighlightBackground": "#6943ff62",
+		"editor.snippetTabstopHighlightBorder": "#6943ff62",
+		"editor.snippetFinalTabstopHighlightBackground": "#6943ff62",
+		"editor.snippetFinalTabstopHighlightBorder": "#6943ff62",
 		// Integrated Terminal Colors.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors
 		"terminal.ansiBlack": "#000000",
@@ -245,7 +278,10 @@
 		},
 		{
 			"name": "Comment",
-			"scope": "comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
 			"settings": {
 				"foreground": "#5C588A",
 				"fontStyle": "italic"
@@ -267,7 +303,7 @@
 			],
 			"settings": {
 				"foreground": "#66E9EC"
-				// "foreground": "#ecc48d"
+				// "foreground": "#fff3e3"
 			}
 		},
 		{
@@ -599,13 +635,6 @@
 			}
 		},
 		{
-			"name": "Punctuation Definition String Markdown",
-			"scope": "punctuation.definition.string.begin.markdown",
-			"settings": {
-				"foreground": "#FF6e9c"
-			}
-		},
-		{
 			"name": "Boolean",
 			"scope": "constant.language.boolean",
 			"settings": {
@@ -658,14 +687,14 @@
 			"name": "Constant Other Color",
 			"scope": "constant.other.color",
 			"settings": {
-				"foreground": "#FFEB95"
+				"foreground": "#FFE46B"
 			}
 		},
 		{
 			"name": "Keyword Other Unit",
 			"scope": "keyword.other.unit",
 			"settings": {
-				"foreground": "#FFEB95"
+				"foreground": "#FFE46B"
 			}
 		},
 		{
@@ -674,6 +703,103 @@
 			"settings": {
 				"foreground": "#C4A2F5",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Entity Other Attribute Name Id",
+			"scope": "entity.other.attribute-name.id",
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "Meta Property Name",
+			"scope": "meta.property-name",
+			"settings": {
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "Doctypes",
+			"scope": [
+				"entity.name.tag.doctype",
+				"meta.tag.sgml.doctype"
+			],
+			"settings": {
+				"foreground": "#C4A2F5",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Punctuation Definition Parameters",
+			"scope": "punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#C2F4E2"
+			}
+		},
+		{
+			"name": "Keyword Control Operator",
+			"scope": "keyword.control.operator",
+			"settings": {
+				"foreground": "#9CF1F5"
+			}
+		},
+		{
+			"name": "Keyword Operator Logical",
+			"scope": "keyword.operator.logical",
+			"settings": {
+				"foreground": "#C4A2F5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variable Instances",
+			"scope": [
+				"variable.instance",
+				"variable.other.instance",
+				"variable.readwrite.instance",
+				"variable.other.readwrite.instance",
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#7fdbca"
+			}
+		},
+		{
+			"name": "Variable Property Other object property",
+			"scope": [
+				"variable.other.object.property"
+			],
+			"settings": {
+				"foreground": "#FFE46B",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Variable Property Other object",
+			"scope": [
+				"variable.other.object.js"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Entity Name Function",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#7998F2",
+				"fontStyle": "italic"
+			}
+		},
+		// Markdown specifics
+		{
+			"name": "Punctuation Definition String Markdown",
+			"scope": "punctuation.definition.string.begin.markdown",
+			"settings": {
+				"foreground": "#FF6e9c"
 			}
 		},
 	],
