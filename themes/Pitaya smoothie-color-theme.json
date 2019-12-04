@@ -715,7 +715,7 @@
 		},
 		// Ini 
 		{
-			"name": "Ini - Color for Entity",
+			"name": "INI - Color for Entity",
 			"scope": [
 				"source.ini entity",
 				"meta.embedded.block.ini",
@@ -726,7 +726,7 @@
 			}
 		},
 		{
-			"name": "Ini - Color for Keyword",
+			"name": "INI - Color for Keyword",
 			"scope": [
 				"source.ini keyword",
 				"keyword.other.definition.ini"
@@ -736,7 +736,7 @@
 			}
 		},
 		{
-			"name": "Ini - Color for Punctuation Definition",
+			"name": "INI - Color for Punctuation Definition",
 			"scope": [
 				"source.ini punctuation.definition"
 			],
@@ -745,7 +745,7 @@
 			}
 		},
 		{
-			"name": "Ini - Color for Punctuation Separator",
+			"name": "INI - Color for Punctuation Separator",
 			"scope": [
 				"source.ini punctuation.separator",
 				"punctuation.separator.key-value.ini"
@@ -806,7 +806,7 @@
 		},
 		// Markdown 
 		{
-			"name": " Markdown - Punctuation Definition String",
+			"name": " MARKDOWN - Punctuation Definition String",
 			"scope": "punctuation.definition.string.begin.markdown",
 			"settings": {
 				"foreground": "#FF6e9c"
@@ -903,6 +903,83 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#FFE46B"
+			}
+		},
+		// Python
+		{
+			"name": "PYTHON - Color for Self Argument",
+			"scope": "variable.parameter.function.language.special.self.python",
+			"settings": {
+				"foreground": "#18c0c4"
+			}
+		},
+		{
+			"name": "PYTHON - Functions",
+			"scope": [
+				"meta.function-call.python",
+				"meta.function-call.generic.python",
+			],
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		{
+			"name": "PYTHON - Functions",
+			"scope": [
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "PYTHON - Function Parameter and Arguments",
+			"scope": [
+				"variable.parameter.function.python",
+				"meta.function-call.arguments.python"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "PYTHON - Function parameters and arguments",
+			"scope": [
+				"source.python",
+				"variable.parameter.function-call.python"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "PYTHON - Function named arguments",
+			"scope": [
+				"meta.member.access.python",
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Punctuations in Python",
+			"scope": "punctuation.python",
+			"settings": {
+				"foreground": "#18c0c4"
+			}
+		},
+		{
+			"name": "Decorator Functions in Python",
+			"scope": "entity.name.function.decorator.python",
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "Python Language Variable",
+			"scope": "source.python variable.language.special",
+			"settings": {
+				"foreground": "#8EACE3"
 			}
 		},
 	],
