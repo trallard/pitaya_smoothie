@@ -277,17 +277,6 @@
 			}
 		},
 		{
-			"name": "Comment",
-			"scope": [
-				"comment",
-				"punctuation.definition.comment"
-			],
-			"settings": {
-				"foreground": "#5C588A",
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
@@ -364,13 +353,6 @@
 			}
 		},
 		{
-			"name": "Comma in functions",
-			"scope": "meta.function punctuation.separator.comma",
-			"settings": {
-				"foreground": "#B4ADCA"
-			}
-		},
-		{
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
@@ -397,7 +379,8 @@
 				"meta.class meta.method.declaration meta.var.expr storage.type.js",
 				"storage.type.property.js",
 				"storage.type.property.ts",
-				"storage.type.property.tsx"
+				"storage.type.property.tsx",
+				"storage.type.function.arrow"
 			],
 			"settings": {
 				"foreground": "#F26196",
@@ -443,16 +426,6 @@
 				// "foreground": "#66E9EC", // turquoise
 				"foreground": "#7998F2", // mint
 				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "Meta Tag",
-			"scope": [
-				"punctuation.definition.tag",
-				"meta.tag"
-			],
-			"settings": {
-				"foreground": "#C4A2F5"
 			}
 		},
 		{
@@ -628,13 +601,6 @@
 			}
 		},
 		{
-			"name": "Punctuation Definition String",
-			"scope": "punctuation.definition.string",
-			"settings": {
-				"foreground": "#d6deeb"
-			}
-		},
-		{
 			"name": "Boolean",
 			"scope": "constant.language.boolean",
 			"settings": {
@@ -674,13 +640,6 @@
 			"scope": "meta.property-list entity.name.tag.reference",
 			"settings": {
 				"foreground": "#66E9EC"
-			}
-		},
-		{
-			"name": "Constant Other Color RGB Value Punctuation Definition Constant",
-			"scope": "constant.other.color.rgb-value punctuation.definition.constant",
-			"settings": {
-				"foreground": "#CAF884"
 			}
 		},
 		{
@@ -731,13 +690,6 @@
 			}
 		},
 		{
-			"name": "Punctuation Definition Parameters",
-			"scope": "punctuation.definition.parameters",
-			"settings": {
-				"foreground": "#C2F4E2"
-			}
-		},
-		{
 			"name": "Keyword Control Operator",
 			"scope": "keyword.control.operator",
 			"settings": {
@@ -784,6 +736,7 @@
 				"fontStyle": ""
 			}
 		},
+		// ***
 		{
 			"name": "Entity Name Function",
 			"scope": [
@@ -794,9 +747,107 @@
 				"fontStyle": "italic"
 			}
 		},
+		// Ini 
+		{
+			"name": "Ini - Color for Entity",
+			"scope": [
+				"source.ini entity",
+				"meta.embedded.block.ini",
+				"source.ini"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "Ini - Color for Keyword",
+			"scope": [
+				"source.ini keyword",
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"foreground": "#F26196"
+			}
+		},
+		{
+			"name": "Ini - Color for Punctuation Definition",
+			"scope": [
+				"source.ini punctuation.definition"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "Ini - Color for Punctuation Separator",
+			"scope": [
+				"source.ini punctuation.separator",
+				"punctuation.separator.key-value.ini"
+			],
+			"settings": {
+				"foreground": "#5ca7e4"
+			}
+		},
+		// Punctuation
+		{
+			"name": "Punctuation Definition String",
+			"scope": "punctuation.definition.string",
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "Punctuation Definition Parameters",
+			"scope": "punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#C2F4E2"
+			}
+		},
+		{
+			"name": "[Punctuation] — Color for Punctuation Template Expression",
+			"scope": "punctuation.definition.template-expression",
+			"settings": {
+				"foreground": "#C2F4E2"
+			}
+		},
+		{
+			"name": "Constant Other Color RGB Value Punctuation Definition Constant",
+			"scope": "constant.other.color.rgb-value punctuation.definition.constant",
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "Meta Tag",
+			"scope": [
+				"punctuation.definition.tag",
+				"meta.tag"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "Comma in functions",
+			"scope": "meta.function punctuation.separator.comma",
+			"settings": {
+				"foreground": "#B4ADCA"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#5C588A",
+				"fontStyle": "italic"
+			}
+		},
 		// Markdown specifics
 		{
-			"name": "Punctuation Definition String Markdown",
+			"name": " Markdown - Punctuation Definition String",
 			"scope": "punctuation.definition.string.begin.markdown",
 			"settings": {
 				"foreground": "#FF6e9c"
