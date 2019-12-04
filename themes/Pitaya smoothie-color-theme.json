@@ -1254,7 +1254,7 @@
 			"scope": "markup.bold.markdown",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#CAF884"
+				"foreground": "#f3ca7e"
 			}
 		},
 		{
@@ -1328,8 +1328,8 @@
 				"punctuation.definition.markdown",
 				"punctuation.definition.raw.markdown",
 				"punctuation.definition.heading.markdown",
-				"punctuation.definition.bold.markdown",
-				"punctuation.definition.italic.markdown"
+				// "punctuation.definition.bold.markdown",
+				// "punctuation.definition.italic.markdown"
 			],
 			"settings": {
 				"foreground": "#494685"
@@ -1379,6 +1379,46 @@
 			],
 			"settings": {
 				"foreground": "#c6d8fa"
+			}
+		},
+		{
+			"name": "R - variables",
+			"scope": [
+				"variable.parameter.r",
+				"variable.other.r"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "R - functions",
+			"scope": [
+				"meta.function-call.r",
+				"meta.function.parameters.r",
+				"meta.function-call.arguments.r",
+				"meta.function.r"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "R - Function Parameter and Arguments",
+			"scope": [
+				"variable.parameter.function.r",
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "R - Variable functions",
+			"scope": [
+				"variable.function.r"
+			],
+			"settings": {
+				"foreground": "#f3ca7e"
 			}
 		},
 	],
