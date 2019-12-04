@@ -1045,6 +1045,115 @@
 				"foreground": "#FFE46B"
 			}
 		},
+		// Typescript
+		{
+			"name": "TYPESCRIPT - Color for Keyword",
+			"scope": "source.ts keyword",
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Color for Punctuation Parameters",
+			"scope": "source.ts punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Color for Punctuation Arrow Parameters",
+			"scope": "meta.arrow.ts punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#ffed9e"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Color for Storage",
+			"scope": "source.ts storage",
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "TypeScript[React] Variables and Object Properties",
+			"scope": [
+				"variable.other.readwrite.alias.ts",
+				"variable.other.readwrite.alias.tsx",
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.tsx",
+				"variable.other.object.ts",
+				"variable.other.object.tsx",
+				"variable.object.property.ts",
+				"variable.object.property.tsx",
+				"variable.other.ts",
+				"variable.other.tsx",
+				"variable.tsx",
+				"variable.ts"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Decorators",
+			"scope": [
+				"meta.decorator punctuation.decorator.ts",
+				"meta.decorator punctuation.decorator.tsx",
+				"meta.decorator.ts"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Entity Name Types",
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.tsx"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Node Classes",
+			"scope": [
+				"support.class.node.ts",
+				"support.class.node.tsx"
+			],
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Entity Name Types as Parameters",
+			"scope": [
+				"meta.type.parameters.ts entity.name.type",
+				"meta.type.parameters.tsx entity.name.type"
+			],
+			"settings": {
+				"foreground": "#B4ADCA"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Import/Export Punctuations",
+			"scope": [
+				"meta.import.ts punctuation.definition.block",
+				"meta.import.tsx punctuation.definition.block",
+				"meta.export.ts punctuation.definition.block",
+				"meta.export.tsx punctuation.definition.block"
+			],
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Punctuation Decorators",
+			"scope": "meta.tag.js meta.jsx.children.tsx",
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
 	],
 	"name": "Pitaya smoothie",
 	"type": "dark",
