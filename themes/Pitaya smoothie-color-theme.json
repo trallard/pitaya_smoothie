@@ -702,7 +702,6 @@
 				"foreground": "#7ef3ca"
 			}
 		},
-		// ***
 		{
 			"name": "Entity Name Function",
 			"scope": [
@@ -711,6 +710,41 @@
 			"settings": {
 				"foreground": "#7998F2",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Invalid Broken",
+			"scope": "invalid.broken",
+			"settings": {
+				"foreground": "#FF6E9C",
+			}
+		},
+		{
+			"name": "Invalid Unimplemented",
+			"scope": "invalid.unimplemented",
+			"settings": {
+				"foreground": "#FF6E9C"
+			}
+		},
+		{
+			"name": "Invalid Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#FF6E9C"
+			}
+		},
+		{
+			"name": "Variable Interpolation",
+			"scope": "variable.interpolation",
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "Meta Function Call",
+			"scope": "meta.function-call",
+			"settings": {
+				"foreground": "#c6d8fa"
 			}
 		},
 		// CSS
@@ -885,10 +919,25 @@
 			"name": " JAVASCRIPT - Keywords",
 			"scope": [
 				"keyword.control.export.js",
-				"keyword.operator.new.js"
+				"keyword.operator.new.js",
+				"keyword.other.debugger",
+				"keyword.control"
 			],
 			"settings": {
 				"foreground": "#b07afc",
+			}
+		},
+		{
+			"name": "Keyword Control Conditional",
+			"scope": [
+				"keyword.control.conditional.js",
+				"keyword.control.conditional.ts",
+				"keyword.control.switch.js",
+				"keyword.control.switch.ts"
+			],
+			"settings": {
+				"foreground": "#FF6E9C",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1236,7 +1285,14 @@
 			}
 		},
 		{
-			"name": "Punctuation Tweaks",
+			"name": "Punctuation Section Embedded",
+			"scope": "punctuation.section.embedded",
+			"settings": {
+				"foreground": "#d3423e"
+			}
+		},
+		{
+			"name": "Punctuation d6deeb",
 			"scope": [
 				"punctuation.terminator.expression",
 				"punctuation.definition.arguments",
@@ -1439,6 +1495,44 @@
 			],
 			"settings": {
 				"foreground": "#FFE46B"
+			}
+		},
+		// Ruby
+		{
+			"name": "RUBY- Keyword Operator Comparison, imports, returns and Keyword Operator",
+			"scope": [
+				"keyword.operator.comparison",
+				"keyword.control.flow.js",
+				"keyword.control.flow.ts",
+				"keyword.control.flow.tsx",
+				"keyword.control.ruby",
+				"keyword.control.module.ruby",
+				"keyword.control.class.ruby",
+				"keyword.control.def.ruby",
+				"keyword.control.loop.js",
+				"keyword.control.loop.ts",
+				"keyword.control.import.js",
+				"keyword.control.import.ts",
+				"keyword.control.import.tsx",
+				"keyword.control.from.js",
+				"keyword.control.from.ts",
+				"keyword.control.from.tsx",
+				"keyword.operator.instanceof.js",
+				"keyword.operator.expression.instanceof.ts",
+				"keyword.operator.expression.instanceof.tsx"
+			],
+			"settings": {
+				"foreground": "#c792ea",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "RUBY - variable other",
+			"scope": [
+				"variable.other.constant.ruby"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
 			}
 		},
 		// TOML
