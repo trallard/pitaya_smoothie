@@ -288,7 +288,6 @@
 			"name": "String Quoted",
 			"scope": [
 				"string.quoted",
-				"variable.other.readwrite.js"
 			],
 			"settings": {
 				"foreground": "#66E9EC"
@@ -699,7 +698,8 @@
 				"variable.other.object.js"
 			],
 			"settings": {
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#7ef3ca"
 			}
 		},
 		// ***
@@ -812,12 +812,20 @@
 		{
 			"name": "INI - Color for Entity",
 			"scope": [
-				"source.ini entity",
 				"meta.embedded.block.ini",
 				"source.ini"
 			],
 			"settings": {
-				"foreground": "#efefef"
+				"foreground": "#EFEFEF"
+			}
+		},
+		{
+			"name": "INI - Titles",
+			"scope": [
+				"entity.name.section.group-title.ini"
+			],
+			"settings": {
+				"foreground": "#7998F2"
 			}
 		},
 		{
@@ -847,6 +855,51 @@
 			],
 			"settings": {
 				"foreground": "#FF96B7"
+			}
+		},
+		// JAVASCRIPT
+		{
+			"name": "JAVASCRIPT -  Variable Other ReadWrite",
+			"scope": [
+				"variable.other.readwrite.js",
+				"variable.parameter",
+				"variable.other.readwrite.alias.js"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": " JAVASCRIPT - Support Class Component",
+			"scope": [
+				"support.class.component.js",
+				"support.class.component.tsx",
+				"entity.other.attribute-name.js"
+			],
+			"settings": {
+				"foreground": "#f3ca7e",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": " JAVASCRIPT - Keywords",
+			"scope": [
+				"keyword.control.export.js",
+				"keyword.operator.new.js"
+			],
+			"settings": {
+				"foreground": "#b07afc",
+			}
+		},
+		{
+			"name": "Text nested in React tags",
+			"scope": [
+				"meta.jsx.children",
+				"meta.jsx.children.js",
+				"meta.jsx.children.tsx"
+			],
+			"settings": {
+				"foreground": "#c6d8fa"
 			}
 		},
 		// HTML
