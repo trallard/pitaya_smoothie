@@ -5,7 +5,7 @@
  */
 
 // String.
-const sop = '🦄 This is pitaya smoothie.';
+const pst = '🦄 This is pitaya smoothie.';
 console.log('pst', pst);
 
 // Class.
