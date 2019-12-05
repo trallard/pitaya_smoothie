@@ -1,11 +1,11 @@
 # Pitaya smoothie
-![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)
+![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 
 <table width='100%' align="center">
     <tr>
         <td align='left' width='100%' colspan='2'>
             <strong><code>🦄 Pitaya Smoothie </code></strong><br />
-            A professional theme with hand-picked & bold  colours for your VS Code editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.  
+            A professional theme with hand-picked & bold colours for your VS Code editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics. Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances. 
         </td>
     </tr>
     <tr>
@@ -21,8 +21,20 @@
     <tr><td><sup> Follow Tania's #FOSS work on GitHub <a href='https://github.com/trallard'>@trallard</a> —   Say Hi on Twitter <a href="https://twitter.com/ixek/">@ixek</a></sup></td><td  align='center'> <a  target="_blank" href='https://bitsandchips.me/'>👋 </a></td></tr>
 </table>
 
-## Syntax Colours
+## Installation
 
+1. Install [Visual Studio Code](https://code.visualstudio.com/)
+1. Open the extensions sidebar on Visual Studio Code
+2. Search for `Pitaya Smoothie`
+3. Click **Install** to install it.
+4. Click **Reload** to reload your editor.
+5. Code/File ＞ Preferences ＞ Color Theme ＞ **Pitaya Smoothie**
+
+
+## Pitaya Smoothie syntax Colours
+This theme is heavily inspired by the Outrun aesthetics. The color choices for the theme were made also taking into consideration accessibility for those users with colorblindness.
+The theme consists of a fairly dark bakcground and poppping contrast colours. 
+Decisions were also based on meaningful contrast for reading comprehension and for optimal colour popping :sparkles:.
 
 | USAGE                              | HEX CODES                                                              |
 | ---------------------------------- | ---------------------------------------------------------------------- |
@@ -68,3 +80,8 @@
 | Sidebar background                 | ![#130C29](https://placehold.it/15/130C29/000000?text=%20) `#130C29` |
 | Sidebar  section header background | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
 | Sidebar  section header foreground | ![#7d79d1](https://placehold.it/15/7d79d1/000000?text=%20) `#7d79d1` |
+
+## License and Attribution
+
+**Licensed** as MIT ⓒ [Tania Allard](https://bitsandchips.me/).
+
