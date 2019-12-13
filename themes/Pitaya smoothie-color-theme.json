@@ -1398,7 +1398,8 @@
 			"name": "R - variables",
 			"scope": [
 				"variable.parameter.r",
-				"variable.other.r"
+				"variable.other.r",
+				"entity.name.function.r"
 			],
 			"settings": {
 				"foreground": "#efefef"
@@ -1420,6 +1421,7 @@
 			"name": "R - Function Parameter and Arguments",
 			"scope": [
 				"variable.parameter.function.r",
+				"variable.function.r"
 			],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -1431,7 +1433,16 @@
 				"variable.function.r"
 			],
 			"settings": {
-				"foreground": "#f3ca7e"
+				// "foreground": "#f3ca7e"
+			}
+		},
+		{
+			"name": "R - punctuation",
+			"scope": [
+				"keyword.operator.assignment.r"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
 			}
 		},
 		// SASS

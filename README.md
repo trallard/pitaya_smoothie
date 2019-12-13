@@ -1,6 +1,5 @@
 # Pitaya smoothie
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
-
 <table width='100%' align="center">
     <tr>
         <td align='left' width='100%' colspan='2'>
@@ -20,6 +19,7 @@
     </tr>
     <tr><td><sup> Follow Tania's #FOSS work on GitHub <a href='https://github.com/trallard'>@trallard</a> —   Say Hi on Twitter <a href="https://twitter.com/ixek/">@ixek</a></sup></td><td  align='center'> <a  target="_blank" href='https://bitsandchips.me/'>👋 </a></td></tr>
 </table>
+
 
 ## Installation
 
