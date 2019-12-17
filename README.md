@@ -83,5 +83,5 @@ Decisions were also based on meaningful contrast for reading comprehension and f
 
 ## License and Attribution
 
-**Licensed** as MIT ⓒ [Tania Allard](https://bitsandchips.me/).
+**Licensed** as BSD-3 ⓒ [Tania Allard](https://bitsandchips.me/).
 
