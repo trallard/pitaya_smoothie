@@ -1,10 +1,19 @@
-# Pitaya smoothie
+
+<div align="center">
+  <img alt="Logo" src="./images/logo.svg" width="100" />
+</div>
+<h1 align="center">
+  Pitaya Smoothie
+</h1>
+
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 <table width='100%' align="center">
     <tr>
         <td align='left' width='100%' colspan='2'>
             <strong><code>🦄 Pitaya Smoothie </code></strong><br />
-            A professional theme with hand-picked & bold colours for your VS Code editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics. Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances. 
+            A professional theme with hand-picked & bold colours for your VS Code editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.
+            Colours are on the pastel side to help provide contrast and highlight what is important.
+            Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances. 
         </td>
     </tr>
     <tr>
