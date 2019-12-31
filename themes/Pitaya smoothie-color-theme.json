@@ -16,6 +16,17 @@
 		"activityBar.inactiveForeground": "#403c86",
 		"activityBarBadge.background": "#18c0c4",
 		"activityBarBadge.foreground": "#181036",
+		// Debug Icons.
+		"debugIcon.startForeground": "#7d79d1",
+		"debugIcon.continueForeground": "#7d79d1",
+		"debugIcon.disconnectForeground": "#7d79d1",
+		"debugIcon.pauseForeground": "#7d79d1",
+		"debugIcon.restartForeground": "#18c0c4",
+		"debugIcon.stepBackForeground": "#7d79d1",
+		"debugIcon.stepIntoForeground": "#7d79d1",
+		"debugIcon.stepOutForeground": "#7d79d1",
+		"debugIcon.stepOverForeground": "#7d79d1",
+		"debugIcon.stopForeground": "#f85e9f",
 		// Sidebar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
 		"sideBar.background": "#130C29",
@@ -415,7 +426,7 @@
 			"scope": "entity.other.inherited-class",
 			"settings": {
 				"foreground": "#FFE46B",
-				"fontStyle": "italic underline"
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -780,7 +791,8 @@
 				"source.stylus support"
 			],
 			"settings": {
-				"foreground": "#CAF884"
+				// "foreground": "#CAF884"
+				"foreground": "#7ef3ca"
 			}
 		},
 		{
@@ -800,6 +812,21 @@
 			"scope": "constant.other.color.rgb-value punctuation.definition.constant",
 			"settings": {
 				"foreground": "#f3907e"
+			}
+		},
+		// C#
+		{
+			"name": "C# - variable colors",
+			"scope": "variable.other.object.cs",
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		{
+			"name": "[C#] - Color for Storage modifiers",
+			"scope": "storage.modifier.cs",
+			"settings": {
+				"foreground": "#FFE46B"
 			}
 		},
 		// DOCKER
@@ -837,6 +864,18 @@
 				"keyword.other.template.begin.env",
 				"keyword.other.template.end.env",
 				"keyword.operator.assignment.env",
+			],
+			"settings": {
+				"foreground": "#d6deeb",
+			}
+		},
+		// graphql
+		{
+			"name": "GRAPHQL — variables",
+			"scope": [
+				"meta.selectionset.graphql",
+				"source.graphql",
+				"variable.graphql"
 			],
 			"settings": {
 				"foreground": "#d6deeb",
@@ -997,6 +1036,14 @@
 			"scope": "string.quoted.double.json",
 			"settings": {
 				"foreground": "#C4A2F5"
+			}
+		},
+		// Makefile
+		{
+			"name": "MAKEFILE - variables",
+			"scope": "variable.other.makefile",
+			"settings": {
+				"foreground": "#F26196"
 			}
 		},
 		// Markdown 
@@ -1546,6 +1593,26 @@
 				"foreground": "#FF96B7"
 			}
 		},
+		// TERRAFORM
+		{
+			"name": "terraform - variable other",
+			"scope": [
+				"variable.other.terraform",
+				"source.terraform"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "terraform - variable assignment",
+			"scope": [
+				"variable.other.assignment.terraform"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
 		// TOML
 		{
 			"name": "TOML - keyword",
@@ -1684,6 +1751,33 @@
 				"foreground": "#b07afc"
 			}
 		},
+		{
+			"name": "normalize font style of certain components",
+			"scope": [
+				"meta.property-list.css meta.property-value.css variable.other.less",
+				"meta.property-list.scss variable.scss",
+				"meta.property-list.sass variable.sass",
+				"meta.brace",
+				"keyword.operator.operator",
+				"keyword.operator.or.regexp",
+				"keyword.operator.expression.in",
+				"keyword.operator.relational",
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"keyword.operator.type",
+				"keyword.operator",
+				"keyword",
+				"punctuation.definintion.string",
+				"punctuation",
+				"variable.other.readwrite.js",
+				"storage.type",
+				"source.css",
+				"string.quoted"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		}
 	],
 	"name": "Pitaya smoothie",
 	"type": "dark",
