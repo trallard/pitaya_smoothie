@@ -1,13 +1,15 @@
 
 <div align="center">
-  <img alt="Logo" src="./images/logo_full.svg" width="250" />
+  <img alt="Logo" src="./images/logo/../logo_square.svg" width="250" />
 </div>
 
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 <table width='100%' align="center">
     <tr>
         <td align='left' width='100%' colspan='2'>
-            <strong><code>🦄 Pitaya Smoothie </code></strong><br />
+         <img alt="Logo" src="./images/wording_full_rough.svg" width="1000"/>
+            <br>
+            <br>
             A professional theme with hand-picked & bold colours for your VS Code editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.
             However, colours are on the pastel side to help provide contrast and highlight what is important.
             Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances.s
@@ -26,19 +28,17 @@
     <tr><td><sup> Follow Tania's #FOSS work on GitHub <a href='https://github.com/trallard'>@trallard</a> —   Say Hi on Twitter <a href="https://twitter.com/ixek/">@ixek</a></sup></td><td  align='center'> <a  target="_blank" href='https://bitsandchips.me/'>👋 </a></td></tr>
 </table>
 
-
-## Installation <img alt="highlighter" src="./images/settings.svg" width="50" />
+## Installation <img alt="cog" src="./images/settings.svg" width="50"/>
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
 1. Open the extensions sidebar on Visual Studio Code
-2. Search for `Pitaya Smoothie`
-3. Click **Install** to install it.
-4. Click **Reload** to reload your editor.
-5. Code/File ＞ Preferences ＞ Color Theme ＞ **Pitaya Smoothie**
+1. Search for `Pitaya Smoothie`
+1. Click **Install** to install it.
+1. Click **Reload** to reload your editor.
+1. Code/File ＞ Preferences ＞ Color Theme ＞ **Pitaya Smoothie**
 
+## Pitaya Smoothie syntax Colours <img alt="syntax" src="./images/highlighter.svg" width="50" />
 
-
-## Pitaya Smoothie syntax Colours <img alt="highlighter" src="./images/highlighter.svg" width="50" />
 This theme is heavily inspired by the Outrun aesthetics. The color choices for the theme were made also taking into consideration accessibility for those users with colorblindness.
 The theme consists of a fairly dark bakcground and poppping contrast colours. 
 Decisions were also based on meaningful contrast for reading comprehension and for optimal colour popping :sparkles:.
@@ -73,9 +73,7 @@ Decisions were also based on meaningful contrast for reading comprehension and f
 | Diff changed                       | ![#FFE46B](https://placehold.it/15/FFE46B/000000?text=%20) `#FFE46B`   |
 | Punctuation                        | ![#C4A2F5](https://placehold.it/15/C4A2F5/000000?text=%20) `#C4A2F5`   |
 
-
-
-## UI elements colours <img alt="highlighter" src="./images/browser.svg" width="50" />
+## UI elements colours <img alt="code" src="./images/browser.svg" width="50" />
 
 | UI ELEMENT                         | HEX CODES                                                            |
 | ---------------------------------- | -------------------------------------------------------------------- |
@@ -88,18 +86,18 @@ Decisions were also based on meaningful contrast for reading comprehension and f
 | Sidebar  section header background | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
 | Sidebar  section header foreground | ![#7d79d1](https://placehold.it/15/7d79d1/000000?text=%20) `#7d79d1` |
 
-## Contributing <img alt="highlighter" src="./images/teamwork.svg" width="50" />
+## Contributing <img alt="hands" src="./images/teamwork.svg" width="50" />
 
-🚧 This project is always a work in progress and everyone is encouraged to help improving it 🚧
+🚧 This project is always a work in progress and everyone is welcome and encouraged to collaborate in it. 🚧
 
-Everyone is asked to follow our [code of conduct](./CODE_OF_CONDUCT.md) and to checkout our [contributing guidelines](CONTRIBUTING.md) for more information on how to get started. 
+Everyone is asked to follow our [code of conduct](./CODE_OF_CONDUCT.md) and to checkout our [contributing guidelines](CONTRIBUTING.md) for more information on how to get started.
 
-## License  <img alt="highlighter" src="./images/archives.svg" width="50" />
+## License  <img alt="documents" src="./images/archives.svg" width="50" />
 
 **Licensed** as BSD-3 ⓒ [Tania Allard](https://bitsandchips.me/).
 
-## Attributions
+## Attributions <img alt="star" src="./images/favorite.svg" width="50" />
 
 - Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
 
-- Font Attractype Reborn from [Garisman Studio](https://befonts.com/designer/garisman-studio).
+- Font Attractype Reborn from [Garisman Studio](https://befonts.com/designer/garisman-studio)
