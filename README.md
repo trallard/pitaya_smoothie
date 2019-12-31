@@ -12,7 +12,7 @@
             <br>
             A professional theme with hand-picked & bold colours for your VS Code editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.
             However, colours are on the pastel side to help provide contrast and highlight what is important.
-            Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances.s
+            Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances.
         </td>
     </tr>
     <tr>
