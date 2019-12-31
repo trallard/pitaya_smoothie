@@ -2,14 +2,17 @@
 <div align="center">
   <img alt="Logo" src="./images/logo/../logo_square.svg" width="250" />
 </div>
+<br>
+
+<div align="center">
+  <img alt="Logo" src="./images/wording_full_rough.svg" width="400" />
+</div>
+<br>
 
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 <table width='100%' align="center">
     <tr>
         <td align='left' width='100%' colspan='2'>
-         <img alt="Logo" src="./images/wording_full_rough.svg" width="1000"/>
-            <br>
-            <br>
             A professional theme with hand-picked & bold colours for your VS Code editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.
             However, colours are on the pastel side to help provide contrast and highlight what is important.
             Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances.
