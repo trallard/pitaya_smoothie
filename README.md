@@ -27,7 +27,7 @@
 </table>
 
 
-## Installation
+## Installation <img alt="highlighter" src="./images/settings.svg" width="50" />
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
 1. Open the extensions sidebar on Visual Studio Code
@@ -37,7 +37,8 @@
 5. Code/File ＞ Preferences ＞ Color Theme ＞ **Pitaya Smoothie**
 
 
-## Pitaya Smoothie syntax Colours
+
+## Pitaya Smoothie syntax Colours <img alt="highlighter" src="./images/highlighter.svg" width="50" />
 This theme is heavily inspired by the Outrun aesthetics. The color choices for the theme were made also taking into consideration accessibility for those users with colorblindness.
 The theme consists of a fairly dark bakcground and poppping contrast colours. 
 Decisions were also based on meaningful contrast for reading comprehension and for optimal colour popping :sparkles:.
@@ -74,7 +75,7 @@ Decisions were also based on meaningful contrast for reading comprehension and f
 
 
 
-## UI elements colours 
+## UI elements colours <img alt="highlighter" src="./images/browser.svg" width="50" />
 
 | UI ELEMENT                         | HEX CODES                                                            |
 | ---------------------------------- | -------------------------------------------------------------------- |
@@ -87,13 +88,18 @@ Decisions were also based on meaningful contrast for reading comprehension and f
 | Sidebar  section header background | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
 | Sidebar  section header foreground | ![#7d79d1](https://placehold.it/15/7d79d1/000000?text=%20) `#7d79d1` |
 
-## Contributing
+## Contributing <img alt="highlighter" src="./images/teamwork.svg" width="50" />
 
 🚧 This project is always a work in progress and everyone is encouraged to help improving it 🚧
 
 Everyone is asked to follow our [code of conduct](./CODE_OF_CONDUCT.md) and to checkout our [contributing guidelines](CONTRIBUTING.md) for more information on how to get started. 
 
-## License and Attribution
+## License  <img alt="highlighter" src="./images/archives.svg" width="50" />
 
 **Licensed** as BSD-3 ⓒ [Tania Allard](https://bitsandchips.me/).
 
+## Attributions
+
+- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+
+- Font Attractype Reborn from [Garisman Studio](https://befonts.com/designer/garisman-studio).
