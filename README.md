@@ -10,7 +10,7 @@
             <strong><code>🦄 Pitaya Smoothie </code></strong><br />
             A professional theme with hand-picked & bold colours for your VS Code editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.
             However, colours are on the pastel side to help provide contrast and highlight what is important.
-            Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances.
+            Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances.s
         </td>
     </tr>
     <tr>
@@ -86,6 +86,12 @@ Decisions were also based on meaningful contrast for reading comprehension and f
 | Sidebar background                 | ![#130C29](https://placehold.it/15/130C29/000000?text=%20) `#130C29` |
 | Sidebar  section header background | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
 | Sidebar  section header foreground | ![#7d79d1](https://placehold.it/15/7d79d1/000000?text=%20) `#7d79d1` |
+
+## Contributing
+
+🚧 This project is always a work in progress and everyone is encouraged to help improving it 🚧
+
+Everyone is asked to follow our [code of conduct](./CODE_OF_CONDUCT.md) and to checkout our [contributing guidelines](CONTRIBUTING.md) for more information on how to get started. 
 
 ## License and Attribution
 
