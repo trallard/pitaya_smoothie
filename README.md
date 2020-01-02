@@ -1,11 +1,11 @@
 
 <div align="center">
- <img alt="Logo" src="./images/logo/../logo_square.svg" width="250" />
+ <img alt="Logo" src="./images/logos/logo_square.svg" width="250" />
 </div>
 <br>
 
 <div align="center">
- <img alt="Logo" src="./images/wording_full_rough.svg" width="400" />
+ <img alt="Logo" src="./images/logos/wording_full_rough.svg" width="400" />
 </div>
 <br>
 
@@ -31,6 +31,7 @@
  <tr><td><sup> Follow Tania's #FOSS work on GitHub <a href='https://github.com/trallard'>@trallard</a> — Say Hi on Twitter <a href="https://twitter.com/ixek/">@ixek</a></sup></td><td align='center'> <a target="_blank" href='https://bitsandchips.me/'>👋 </a></td></tr>
 </table>
 
+
 ## Installation <img alt="cog" src="./images/settings.svg" width="50"/>
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/)
@@ -40,57 +41,78 @@
 1. Click **Reload** to reload your editor.
 1. Code/File ＞ Preferences ＞ Color Theme ＞ **Pitaya Smoothie**
 
-## Pitaya Smoothie syntax Colours <img alt="syntax" src="./images/highlighter.svg" width="50" />
+## Pitaya Smoothie Syntax Colours <img alt="syntax" src="./images/highlighter.svg" width="50" />
 
 Outrun aesthetics profoundly inspires this theme. The colour choices for the theme were made also taking into consideration accessibility for those users with colourblindness.
 The theme consists of a reasonably dark background and popping contrast colours. 
 I also made decisions to allow for meaningful contrast for reading comprehension and optimal colour-popping :sparkles:.
 
-| USAGE                              | HEX CODES                                                              |
-| ---------------------------------- | ---------------------------------------------------------------------- |
-| Background                         | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036`   |
-| Foreground                         | ![#fefeff](https://placehold.it/15/fefeff/000000?text=%20) `#FEFEFF`   |
-| Cursor                             | ![#f85e9f](https://placehold.it/15/f85e9f/000000?text=%20) `#f85e9f`   |
-| Comment italic                     | ![#B4ADCA](https://placehold.it/15/B4ADCA/000000?text=%20) `#B4ADCA`   |
-| String                             | ![#66E9EC](https://placehold.it/15/66E9EC/000000?text=%20) `#66E9EC`   |
-| Number                             | ![#F28D52](https://placehold.it/15/F28D52/000000?text=%20) `#F28D52`   |
-| Built-in const                     | ![#CAF884](https://placehold.it/15/CAF884/000000?text=%20) `#CAF884`   |
-| Constant                           | ![#A267F5](https://placehold.it/15/A267F5/000000?text=%20) `#A267F5`   |
-| Variable italic                    | ![#F7F7F7](https://placehold.it/15/F7F7F7/000000?text=%20) `#F7F7F7`   |
-| Keyword                            | ![#F26196](https://placehold.it/15/F26196/000000?text=%20) `#F26196`   |
-| Storage                            | ![#F26196](https://placehold.it/15/F26196/000000?text=%20) `#F26196`   |
-| Storage type                       | ![#A56CF5](https://placehold.it/15/A56CF5/000000?text=%20) `#A56CF5`   |
-| Class italic                       | ![#7998F2](https://placehold.it/15/7998F2/000000?text=%20) `#7998F2`   |
-| In herited Class italic underlined | ![#FFE46B](https://placehold.it/15/FFE46B/000000?text=%20) `#FFE46B`   |
-| Function                           | ![#66E9EC](https://placehold.it/15/66E9EC/000000?text=%20) `#66E9EC`   |
-| Function argument italic           | ![#ffffff](https://placehold.it/15/ffffffff/000000?text=%20) `#ffffff` |
-| Tag name                           | ![#EF4A86](https://placehold.it/15/EF4A86/000000?text=%20) `#EF4A86`   |
-| Tag attribute                      | ![#66E9EC](https://placehold.it/15/66E9EC/000000?text=%20) `#66E9EC`   |
-| Lib function                       | ![#EF4A86](https://placehold.it/15/EF4A86/000000?text=%20) `#EF4A86`   |
-| Lib constant                       | ![#7998F2](https://placehold.it/15/7998F2/000000?text=%20) `#7998F2`   |
-| Lib class italic                   | ![#FFE46B](https://placehold.it/15/FFE46B/000000?text=%20) `#FFE46B`   |
-| Invalid                            | ![#FD1D53](https://placehold.it/15/FD1D53/000000?text=%20) `#FD1D53`   |
-| Json string                        | ![#B4ADCA](https://placehold.it/15/B4ADCA/000000?text=%20) `#FF6E9C`   |
-| Diff deleted                       | ![#FD1D53](https://placehold.it/15/FF6E9C/000000?text=%20) `#FF6E9C`   |
-| Diff inserted                      | ![#45F5CF](https://placehold.it/15/45F5CF/000000?text=%20) `#45F5CF`   |
-| Diff changed                       | ![#FFE46B](https://placehold.it/15/FFE46B/000000?text=%20) `#FFE46B`   |
-| Punctuation                        | ![#C4A2F5](https://placehold.it/15/C4A2F5/000000?text=%20) `#C4A2F5`   |
+| USAGE          | COLOUR HEX CODE                                                      |
+| -------------- | -------------------------------------------------------------------- |
+| Background     | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
+| Foreground     | ![#fefeff](https://placehold.it/15/fefeff/000000?text=%20) `#FEFEFF` |
+| Comment        | ![#5C588A](https://placehold.it/15/5C588A/000000?text=%20) `#5C588A` |
+| Keyword        | ![#f62196](https://placehold.it/15/f62196/000000?text=%20) `#f62196` |
+| String         | ![#7998F2](https://placehold.it/15/7998F2/000000?text=%20) `#7998F2` |
+| Number         | ![#f3907e](https://placehold.it/15/f3907e/000000?text=%20) `#f3907e` |
+| Built-in const | ![#CAF884](https://placehold.it/15/CAF884/000000?text=%20) `#CAF884` |
+| Constant       | ![#A267F5](https://placehold.it/15/A267F5/000000?text=%20) `#A267F5` |
+| Other          | ![#66E9EC](https://placehold.it/15/66E9EC/000000?text=%20) `#66E9EC` |
+| Diff deleted   | ![#ff6e9c](https://placehold.it/15/ff6e9c/000000?text=%20) `#FF6E9C` |
+| Diff inserted  | ![#18c1c4](https://placehold.it/15/18c1c4/000000?text=%20) `#18c1c4` |
+| Diff changed   | ![#ffe46b](https://placehold.it/15/ffe46b/000000?text=%20) `#ffe46b` |
 
 ## UI elements colours <img alt="code" src="./images/browser.svg" width="50" />
 
-| UI ELEMENT                        | HEX CODES                                                            |
-| --------------------------------- | -------------------------------------------------------------------- |
-| Activity bar background           | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Activity bar foreground           | ![#7A76C2](https://placehold.it/15/7A76C2/000000?text=%20) `#7A76C2` |
-| Activity bar badge background     | ![#18c0c4](https://placehold.it/15/18c0c4/000000?text=%20) `#18c0c4` |
-| Activity bar foreground           | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Activity bar foreground           | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Sidebar background                | ![#130C29](https://placehold.it/15/130C29/000000?text=%20) `#130C29` |
-| Sidebar section header background | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Sidebar section header foreground | ![#7d79d1](https://placehold.it/15/7d79d1/000000?text=%20) `#7d79d1` |
+| UI ELEMENT                        | HEX CODES                                                                  |
+| --------------------------------- | -------------------------------------------------------------------------- |
+| Activity bar background           | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036`       |
+| Activity bar foreground           | ![#7A76C2](https://placehold.it/15/7A76C2/000000?text=%20) `#7A76C2`       |
+| Activity bar foreground           | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036`       |
+| Sidebar background                | ![#130C29](https://placehold.it/15/130C29/000000?text=%20) `#130C29`       |
+| Sidebar section header background | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036`       |
+| Sidebar section header foreground | ![#7d79d1](https://placehold.it/15/7d79d1/000000?text=%20) `#7d79d1`       |
+| Sidebar section header foreground | ![#18c0c4](https://placehold.it/15/18c0c4/000000?text=%20) `#18c0c4`       |
+| Deletion highlights               | ![#ff6e9c98](https://placehold.it/15/ff6e9c98/000000?text=%20) `#ff6e9c98` |
+| Addition highlights               | ![#18c1c4a6](https://placehold.it/15/18c1c4a6/000000?text=%20) `#18c1c4a6` |
+| Modified highlights               | ![#AD70FC46](https://placehold.it/15/AD70FC46/000000?text=%20) `#AD70FC46` |
 
-## Accessibility 
+## Snapshots <img alt="code" src="./images/code.svg" width="50" />
 
+<div align="center">
+
+![Python Syntax](https://img.shields.io/badge/SYNTAX-Python-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="python code" src="./images/demos/python.png"/>
+
+:sparkles: Using bracket style colorizer 👆🏼:sparkles:
+
+![R Syntax](https://img.shields.io/badge/SYNTAX-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="python code" src="./images/demos/R.png"/>
+
+![React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="react code" src="./images/demos/react.png"/>
+
+![cpp Syntax](https://img.shields.io/badge/SYNTAX-c++-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="react code" src="./images/demos/cpp.png"/>
+
+![html Syntax](https://img.shields.io/badge/SYNTAX-HTML-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="react code" src="./images/demos/html.png"/>
+
+</div>
+
+## Accessibility <img alt="accessibility" src="./images/access.svg" width="50" />
+
+Accessibility was kept close in mind when designing this theme. The colours were chosen such that they would be acceessible to folks with colourblindness.
+<div align="center">
+<img alt="palette" src="./images/access/Coloring_for_Colorblindness.png" width="300" />
+
+![python prot Syntax](https://img.shields.io/badge/PROTANOMALY-Python-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="react code" src="./images/demos/python-protanomaly.png"/>
+
+![python prot Syntax](https://img.shields.io/badge/TRITANOPIA-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="react code" src="./images/demos/R-tritanopia.png"/>
+
+</div>
 
 ## Contributing <img alt="hands" src="./images/teamwork.svg" width="50" />
 
@@ -98,12 +120,36 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 
 Everyone should follow our [code of conduct](./CODE_OF_CONDUCT.md) and to check out our [contributing guidelines](CONTRIBUTING.md) for more information on how to get started.
 
+## Preferences shown in the previews <img alt="design" src="./images/design.svg" width="50" />
+
+The font in the previews is Fira Code. Editor settings to activate font ligatures:
+
+```json
+"editor.fontFamily": "Fira Code",
+"editor.fontLigatures": true,
+```
+
+The preview image is using [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), a really cool extension that highlights matching brackets. This can help reduce unwanted errors.
+
+I defined the following colours in my `settings.json`:
+
+```json
+"bracket-pair-colorizer-2.colors": [
+    "#f18fac", // soft pink
+    "#facd49", // golden
+    "#c56cf0", // bright lilac
+    "#f85e9f"  // hot pink
+  ]
+```
+
 ## License <img alt="documents" src="./images/archives.svg" width="50" />
 
 **Licensed** as BSD-3 ⓒ [Tania Allard](https://bitsandchips.me/).
 
 ## Attributions <img alt="star" src="./images/favorite.svg" width="50" />
 
-- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> and adapted to match the theme's colours.
 
-- Font Attractype Reborn from [Garisman Studio](https://befonts.com/designer/garisman-studio)
+- The logo font is Attractype Reborn from [Garisman Studio](https://befonts.com/designer/garisman-studio).
+
+- Deeply inspired and guided by Sarah Dresner's Night Owl and [this fantastic guide she wrote](https://css-tricks.com/creating-a-vs-code-theme/).
