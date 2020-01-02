@@ -81,11 +81,11 @@
 		"input.placeholderForeground": "#A599E9",
 		"inputOption.activeBorder": "#1E1E3F",
 		"inputValidation.errorBackground": "#FD1D53",
-		"inputValidation.errorBorder": "#FD1D53",
+		"inputValidation.errorBorder": "#181036",
 		"inputValidation.infoBackground": "#7998F2",
-		"inputValidation.infoBorder": "#7998F2",
+		"inputValidation.infoBorder": "#181036",
 		"inputValidation.warningBackground": "#FAD000",
-		"inputValidation.warningBorder": "#FAD000",
+		"inputValidation.warningBorder": "#181036",
 		"inputOption.activeBackground": "#5D37F0",
 		// List
 		// https://code.visualstudio.com/api/references/theme-color#lists-and-trees
@@ -115,7 +115,7 @@
 		"editor.findMatchBackground": "#7580B8C0", // Color of the current search match.
 		"editor.findMatchHighlightBackground": "#8390d1c0", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
 		"editor.findRangeHighlightBackground": "#8390d1c0", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
-		"editor.hoverHighlightBackground": "#ff628c81", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
+		"editor.hoverHighlightBackground": "#654ea3ea", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
 		"editor.lineHighlightBackground": "#1E1C3F", // Current line of code. Background color for the highlight of line at the cursor position.
 		"editor.lineHighlightBorder": "#1E1C3F",
 		"editor.rangeHighlightBackground": "#1E1C3F",
@@ -135,7 +135,7 @@
 		// Errors and warnings:
 		"editorError.border": "#ff6e9ccc",
 		"editorError.foreground": "#ff6e9ccc",
-		"editorWarning.border": "#fad000c9",
+		"editorWarning.border": "#181036",
 		"editorWarning.foreground": "#fad000c9",
 		"editorInfo.border": "#7998F2",
 		"editorInfo.foreground": "#7998F2",
@@ -290,7 +290,6 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				// "foreground": "#66E9EC" // turquoise
 				"foreground": "#7998F2" // blue
 			}
 		},
@@ -301,7 +300,6 @@
 			],
 			"settings": {
 				"foreground": "#66E9EC"
-				// "foreground": "#fff3e3"
 			}
 		},
 		{
@@ -318,7 +316,7 @@
 				"constant.character.numeric"
 			],
 			"settings": {
-				"foreground": "#f3907e", // orange
+				"foreground": "#f3907e",
 				"fontStyle": ""
 			}
 		},
@@ -400,7 +398,7 @@
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#b07afc" // lilac 
+				"foreground": "#b07afc"
 			}
 		},
 		{
@@ -417,7 +415,7 @@
 				"meta.class entity.name.type.class"
 			],
 			"settings": {
-				"foreground": "#7998F2" // blue
+				"foreground": "#7998F2"
 			}
 		},
 		{
@@ -432,8 +430,7 @@
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				// "foreground": "#66E9EC", // turquoise
-				"foreground": "#7998F2", // mint
+				"foreground": "#7998F2",
 				"fontStyle": "italic"
 			}
 		},
@@ -451,8 +448,7 @@
 				"support.constant"
 			],
 			"settings": {
-				"foreground": "#82AAFF" // blue
-				// "foreground": "#FF96B7" // pastel pink
+				"foreground": "#82AAFF"
 			}
 		},
 		{
@@ -1225,9 +1221,7 @@
 			"scope": [
 				"punctuation.definition.markdown",
 				"punctuation.definition.raw.markdown",
-				"punctuation.definition.heading.markdown",
-				// "punctuation.definition.bold.markdown",
-				// "punctuation.definition.italic.markdown"
+				"punctuation.definition.heading.markdown"
 			],
 			"settings": {
 				"foreground": "#494685"
