@@ -1,5 +1,5 @@
 /**
- * JavaScript: I lover pitaya
+ * JavaScript: I love pitaya
  * @param String hello Hello.
  * @since 1.0.0
  */
@@ -13,7 +13,7 @@ class vsc extends React.Component { }
 console.log(vsc);
 
 // Const.
-const tania = function nameAhmad() {
+const tania = function nameTania() {
 	return 'Tania';
 };
 tania();

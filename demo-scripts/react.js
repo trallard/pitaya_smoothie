@@ -1,46 +1,32 @@
-/**
- * Demo of Shades of Purple VSCode theme.
- *
- * I'm 💜'ing it.
- */
 import React from 'react';
-import { render } from 'react-dom';
-import styled from 'styled-components';
+import calculate from '../logic/calculate';
+import './App.css';
+import ButtonPanel from './ButtonPanel';
+import Display from './Display';
 
-const Wrap = styled.div`
-	display: table;
-	width: 100%;
-`;
-
-const Message = styled.p`
-	font-size: 1.8rem;
-	line-height: 1.45;
-`;
-
-/**
- * VSCode Component.
- *
- * @class VSCode
- * @extends {React.Component}
- */
-class VSCode extends React.Component {
+class App extends React.Component {
 	constructor(props) {
-		super(props);
+		super(props)
 		this.state = {
-			value: null
-		};
+			total: null,
+			next: null,
+			operation: null
+		}
 	}
 
-	// Render it baby.
+	handleClick = buttonName => {
+		this.setState(calculate(this.state, buttonName))
+	}
+
 	render() {
 		return (
-			<Wrap>
-				<button onClick={() => alert('Stop clicking me!')}>{this.props.value}</button>
-				<Message>Testing the React.js Syntax in VSCode Shades of Purple 💜 theme.</Message>
-			</Wrap>
-		);
+			<div className="component-app">
+				Tacos
+        <Display value={this.state.next || this.state.total || '0'} />
+				<ButtonPanel clickHandler={this.handleClick} />
+			</div>
+		)
 	}
 }
+export default App
 
-// Show it to all.
-render(VSCode, document.getElementById('root'));
