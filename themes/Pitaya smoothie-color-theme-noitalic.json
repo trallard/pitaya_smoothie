@@ -1,0 +1,1762 @@
+// Theme Color reference
+{
+	// "tokenColors": "./pitaya_milkshake.tmTheme",
+	"colors": {
+		"editor.background": "#181036",
+		"editor.foreground": "#fefeff",
+		"editorWhitespace.foreground": "#2A1B5C",
+		"editorLineNumber.foreground": "#484f7d", // Color of editor line numbers.
+		"editorLineNumber.activeForeground": "#18c0c4",
+		"editorCursor.foreground": "#f85e9f", //  Color of the editor cursor.
+		// Activity Bar.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
+		"activityBar.background": "#181036",
+		"activityBar.dropBackground": "#1f1445",
+		"activityBar.foreground": "#7A76C2",
+		"activityBar.inactiveForeground": "#403c86",
+		"activityBarBadge.background": "#18c0c4",
+		"activityBarBadge.foreground": "#181036",
+		// Debug Icons.
+		"debugIcon.startForeground": "#7d79d1",
+		"debugIcon.continueForeground": "#7d79d1",
+		"debugIcon.disconnectForeground": "#7d79d1",
+		"debugIcon.pauseForeground": "#7d79d1",
+		"debugIcon.restartForeground": "#18c0c4",
+		"debugIcon.stepBackForeground": "#7d79d1",
+		"debugIcon.stepIntoForeground": "#7d79d1",
+		"debugIcon.stepOutForeground": "#7d79d1",
+		"debugIcon.stepOverForeground": "#7d79d1",
+		"debugIcon.stopForeground": "#f85e9f",
+		// Sidebar.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
+		"sideBar.background": "#130C29",
+		"sideBar.foreground": "#9491ce",
+		"sideBarSectionHeader.background": "#181036",
+		"sideBarSectionHeader.foreground": "#7d79d1",
+		"sideBarTitle.foreground": "#7d79d1",
+		"sideBarSectionHeader.border": "#181036",
+		// Badge.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
+		"badge.background": "#31E6E6",
+		"badge.foreground": "#201a38",
+		// Button.
+		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
+		"button.background": "#7D66BA",
+		"button.foreground": "#F7F7F7",
+		"button.hoverBackground": "#9e62ff",
+		// Contrast.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_contrast-colors
+		"contrastActiveBorder": "#FFFFFF00",
+		"contrastBorder": "#FFFFFF00",
+		// Dropdown.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
+		"dropdown.background": "#252549",
+		"dropdown.border": "#252549",
+		"dropdown.foreground": "#FEFEFF",
+		"editorGroup.border": "#222244",
+		"editorGroup.dropBackground": "#222244D0",
+		// The editorGroupHeader.
+		"editorGroupHeader.noTabsBackground": "#1f1445",
+		"editorGroupHeader.tabsBackground": "#1f1445",
+		// "editorGroupHeader.tabsBorder": "#595A8A",
+		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
+		"editorWidget.background": "#222244",
+		"editorWidget.border": "#1F1F41",
+		"editorHoverWidget.background": "#161633",
+		"editorHoverWidget.border": "#161633",
+		"editorSuggestWidget.background": "#1F1F41",
+		"editorSuggestWidget.border": "#1F1F41",
+		"editorSuggestWidget.foreground": "#A599E9",
+		"editorSuggestWidget.highlightForeground": "#FF6E9C",
+		"editorSuggestWidget.selectedBackground": "#2D2B55",
+		// The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
+		"editorMarkerNavigation.background": "#252549af",
+		"editorMarkerNavigationError.background": "#FD1D53",
+		"editorMarkerNavigationWarning.background": "#FAD000",
+		// Input Control.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
+		"input.background": "#181036",
+		"input.border": "#181036",
+		"input.foreground": "#fefeff",
+		"input.placeholderForeground": "#A599E9",
+		"inputOption.activeBorder": "#1E1E3F",
+		"inputValidation.errorBackground": "#FD1D53",
+		"inputValidation.errorBorder": "#FD1D53",
+		"inputValidation.infoBackground": "#7998F2",
+		"inputValidation.infoBorder": "#7998F2",
+		"inputValidation.warningBackground": "#FAD000",
+		"inputValidation.warningBorder": "#FAD000",
+		"inputOption.activeBackground": "#5D37F0",
+		// List
+		// https://code.visualstudio.com/api/references/theme-color#lists-and-trees
+		"list.activeSelectionBackground": "#1C1A3B",
+		"list.activeSelectionForeground": "#31E6E6",
+		"list.focusBackground": "#27264D",
+		"list.hoverBackground": "#27264D",
+		"list.highlightForeground": "#595A8A",
+		"list.inactiveSelectionBackground": "#1E1C3F",
+		"list.inactiveSelectionForeground": "#7EA7F3",
+		// Tabs
+		"tab.activeBackground": "#251954",
+		"tab.inactiveBackground": "#1f1445",
+		"tab.activeForeground": "#9491ce",
+		"tab.inactiveForeground": "#484f7d",
+		// Title bar
+		"titleBar.activeBackground": "#1E1E3F",
+		"titleBar.activeForeground": "#789EF8",
+		"titleBar.inactiveBackground": "#1E1E3F",
+		"titleBar.inactiveForeground": "#789EF8AF",
+		// Highlight and selection 
+		"editor.selectionBackground": "#654ea3ea", // Color of the editor selection.
+		"editor.inactiveSelectionBackground": "#294592e8", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+		"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
+		"editor.wordHighlightBackground": "#FFFFFF0D", // Same words other places.
+		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
+		"editor.findMatchBackground": "#7580B8C0", // Color of the current search match.
+		"editor.findMatchHighlightBackground": "#8390d1c0", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
+		"editor.findRangeHighlightBackground": "#8390d1c0", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+		"editor.hoverHighlightBackground": "#ff628c81", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
+		"editor.lineHighlightBackground": "#1E1C3F", // Current line of code. Background color for the highlight of line at the cursor position.
+		"editor.lineHighlightBorder": "#1E1C3F",
+		"editor.rangeHighlightBackground": "#1E1C3F",
+		"editorLink.activeForeground": "#A599E9",
+		"editorIndentGuide.background": "#A599E90F",
+		"editorIndentGuide.activeBackground": "#A599E942",
+		"editorRuler.foreground": "#e999aa1c", // Editor Ruler.
+		"editorOverviewRuler.border": "#A599E91C",
+		"editorCodeLens.foreground": "#A599E9",
+		"editorBracketMatch.background": "#AD70FC46",
+		"editorBracketMatch.border": "#AD70FC46",
+		// Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an 
+		// overview of the decorations in the editor.
+		"editorOverviewRuler.commonContentForeground": "#18c1c498",
+		"editorOverviewRuler.currentContentForeground": "#a599e9d5",
+		"editorOverviewRuler.incomingContentForeground": "#18c1c4d8",
+		// Errors and warnings:
+		"editorError.border": "#ff6e9ccc",
+		"editorError.foreground": "#ff6e9ccc",
+		"editorWarning.border": "#fad000c9",
+		"editorWarning.foreground": "#fad000c9",
+		"editorInfo.border": "#7998F2",
+		"editorInfo.foreground": "#7998F2",
+		// Gutter: The gutter contains the glyph margins and the line numbers:
+		"editorGutter.addedBackground": "#18c1c4a6",
+		"editorGutter.deletedBackground": "#ff6e9c98",
+		"editorGutter.modifiedBackground": "#AD70FC46",
+		// Diff Editor.
+		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
+		"diffEditor.insertedTextBackground": "#18c1c4a6",
+		"diffEditor.insertedTextBorder": "#18c1c4a6",
+		"diffEditor.removedTextBackground": "#ff6e9c98",
+		"diffEditor.removedTextBorder": "#ff6e9c98",
+		// Breadcrumbs.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
+		"breadcrumb.foreground": "#9491ce",
+		"breadcrumb.focusForeground": "#7ee2f3", // Color of focused breadcrumb items.
+		"breadcrumb.activeSelectionForeground": "#F7F7F7", // Color of selected breadcrumb items.
+		"breadcrumbPicker.background": "#181036", // Background color of breadcrumb item picker.
+		// Merge Conflicts.
+		"merge.border": "#FFFFFF00",
+		"merge.commonContentBackground": "#A599E981",
+		"merge.commonHeaderBackground": "#A599E981",
+		"merge.currentContentBackground": "#18c1c4a6",
+		"merge.currentHeaderBackground": "#18c1c4a6",
+		"merge.incomingContentBackground": "#ff6e9c98",
+		"merge.incomingHeaderBackground": "#ff6e9c98",
+		// Notification Colors.
+		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
+		"notificationCenterHeader.foreground": "#FFFFFF", // Notification Center header foreground color.
+		"notificationCenterHeader.background": "#130C29", // Notification Center header background color.
+		"notificationToast.border": "#130C29", // Notification toast border color.
+		"notifications.foreground": "#CEC5FF", // Notification foreground color.
+		"notifications.background": "#130C29", // Notification background color.
+		"notifications.border": "#2D2B55", // Notification border color separating from other notifications in the Notification Center.
+		"notificationLink.foreground": "#FFFFFF", // Notification links foreground color.
+		// Panel.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
+		"panel.background": "#130C29",
+		"panel.border": "#A56CF5",
+		"panelTitle.activeBorder": "#A56CF5",
+		"panelTitle.activeForeground": "#A56CF5",
+		"panelTitle.inactiveForeground": "#A599E9",
+		// Progress Bar.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
+		"progressBar.background": "#F26196",
+		// Scroll Bar Control.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
+		"scrollbar.shadow": "#010b14",
+		"scrollbarSlider.background": "#57549293",
+		"scrollbarSlider.hoverBackground": "#A56CF5",
+		"scrollbarSlider.activeBackground": "#F26196",
+		// Status Bar Colors.
+		// The Status Bar is shown in the bottom of the workbench.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors
+		"statusBar.border": "#130C29",
+		"statusBar.background": "#130C29",
+		"statusBar.foreground": "#9491ce",
+		"statusBar.debuggingBackground": "#FFE46B",
+		"statusBar.debuggingForeground": "#130C29",
+		"statusBar.noFolderBackground": "#130C29",
+		"statusBar.noFolderForeground": "#9491ce",
+		"statusBarItem.activeBackground": "#FFE46B",
+		"statusBarItem.hoverBackground": "#2A1B5C",
+		"statusBarItem.prominentBackground": "#211547",
+		"statusBarItem.prominentHoverBackground": "#FFE46B",
+		// Text Colors — Colors inside a text document, such as the welcome page.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
+		"textBlockQuote.background": "#1E1E3F",
+		"textBlockQuote.border": "#18c0c4",
+		"textCodeBlock.background": "#1E1E3F",
+		"textLink.activeForeground": "#B362FF",
+		"textLink.foreground": "#B362FF",
+		"textPreformat.foreground": "#F26196",
+		"textSeparator.foreground": "#1E1E3F",
+		// Tab stops.
+		"editor.snippetTabstopHighlightBackground": "#6943ff62",
+		"editor.snippetTabstopHighlightBorder": "#6943ff62",
+		"editor.snippetFinalTabstopHighlightBackground": "#6943ff62",
+		"editor.snippetFinalTabstopHighlightBorder": "#6943ff62",
+		// Integrated Terminal Colors.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiRed": "#FD1D53",
+		"terminal.ansiGreen": "#45F5CF",
+		"terminal.ansiYellow": "#f5d131",
+		"terminal.ansiBlue": "#7998F2",
+		"terminal.ansiMagenta": "#a56CF5",
+		"terminal.ansiCyan": "#80FCFF",
+		"terminal.ansiWhite": "#FFFFFF",
+		"terminal.ansiBrightBlack": "#5C5C61",
+		"terminal.ansiBrightRed": "#f74b73",
+		"terminal.ansiBrightGreen": "#6df7d9",
+		"terminal.ansiBrightYellow": "#fce687",
+		"terminal.ansiBrightBlue": "#95acf1",
+		"terminal.ansiBrightMagenta": "#b991f1",
+		"terminal.ansiBrightCyan": "#a1f7f8",
+		"terminal.ansiBrightWhite": "#2D2B55",
+		"terminal.background": "#181036",
+		"terminal.foreground": "#FEFEFF",
+		"terminalCursor.background": "#f85e9f",
+		"terminalCursor.foreground": "#f85e9f",
+		// Git VS Code theme Colors used for file labels and the SCM viewlet.
+		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_git-colors
+		"gitDecoration.modifiedResourceForeground": "#ffe46bd0", // Color for modified git resources.
+		"gitDecoration.deletedResourceForeground": "#ff6e9c98", // Color for deleted git resources.
+		"gitDecoration.untrackedResourceForeground": "#18c1c4a6", // Color for untracked git resources.
+		"gitDecoration.ignoredResourceForeground": "#A599E981", // Color for ignored git resources.
+		"gitDecoration.conflictingResourceForeground": "#f28d52d7", // Color for conflicting git resources.
+	},
+	"tokenColors": [
+		{
+			"name": "Changed",
+			"scope": [
+				"markup.changed",
+				"meta.diff.header.git",
+				"meta.diff.header.from-file",
+				"meta.diff.header.to-file"
+			],
+			"settings": {
+				"foreground": "#ffe46bd0"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": [
+				"markup.deleted.diff"
+			],
+			"settings": {
+				"foreground": "#ff6e9c98"
+			}
+		},
+		{
+			"name": "Inserted",
+			"scope": "markup.inserted.diff",
+			"settings": {
+				"foreground": "#18c1c4a6"
+			}
+		},
+		{
+			"name": "Global settings",
+			"settings": {
+				"background": "#181036",
+				"foreground": "#FEFEFF"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "String Quoted",
+			"scope": [
+				"string.quoted"
+			],
+			"settings": {
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "Support Constant Math",
+			"scope": "support.constant.math",
+			"settings": {
+				"foreground": "#f3907e"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": [
+				"constant.numeric",
+				"constant.character.numeric"
+			],
+			"settings": {
+				"foreground": "#f3907e"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": [
+				"constant.language",
+				"punctuation.definition.constant",
+				"variable.other.constant"
+			],
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Constant Character Escape",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#f3907e"
+			}
+		},
+		{
+			"name": "RegExp String",
+			"scope": [
+				"string.regexp",
+				"string.regexp keyword.other"
+			],
+			"settings": {
+				"foreground": "#5ca7e4"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#f3907e"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"punctuation.accessor",
+				"keyword"
+			],
+			"settings": {
+				"foreground": "#F26196"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": [
+				"storage",
+				"meta.var.expr",
+				"meta.class meta.method.declaration meta.var.expr storage.type.js",
+				"storage.type.property.js",
+				"storage.type.property.ts",
+				"storage.type.property.tsx",
+				"storage.type.function.arrow"
+			],
+			"settings": {
+				"foreground": "#F26196"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type.function.arrow.js",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": [
+				"entity.name.class",
+				"meta.class entity.name.type.class"
+			],
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "Entity Name Tag Custom",
+			"scope": "entity.name.tag.custom",
+			"settings": {
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "Library (function & constant)",
+			"scope": [
+				"support.function",
+				"support.constant"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Support Constant Property Value meta",
+			"scope": "support.constant.meta.property-value",
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "Support Variable DOM",
+			"scope": "support.variable.dom",
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"background": "#fd3777",
+				"foreground": "#fd3777"
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"foreground": "#FF6E9C"
+			}
+		},
+		{
+			"name": "Keyword Operator",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#FFE46B",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Keyword Operator Relational",
+			"scope": "keyword.operator.relational",
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Keyword Operator Assignment",
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Keyword Operator Arithmetic",
+			"scope": "keyword.operator.arithmetic",
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Keyword Operator Bitwise",
+			"scope": "keyword.operator.bitwise",
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Keyword Operator Increment",
+			"scope": "keyword.operator.increment",
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Keyword Operator Ternary",
+			"scope": "keyword.operator.ternary",
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Double-Slashed Comment",
+			"scope": "comment.line.double-slash",
+			"settings": {
+				"foreground": "#5C588A"
+			}
+		},
+		{
+			"name": "Object",
+			"scope": "object",
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "Null",
+			"scope": "constant.language.null",
+			"settings": {
+				"foreground": "#FF6E9C"
+			}
+		},
+		{
+			"name": "Meta Brace",
+			"scope": "meta.brace",
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "Meta Delimiter Period",
+			"scope": "meta.delimiter.period",
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "Boolean",
+			"scope": "constant.language.boolean",
+			"settings": {
+				"foreground": "#FF6e9c"
+			}
+		},
+		{
+			"name": "Object Comma",
+			"scope": "object.comma",
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "Variable Parameter Function",
+			"scope": "variable.parameter.function",
+			"settings": {
+				"foreground": "#c6d8fa",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Support Type Property Name & entity name tags",
+			"scope": [
+				"support.type.vendor.property-name",
+				"support.constant.vendor.property-value",
+				"support.type.property-name",
+				"meta.property-list entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#7998F2",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Constant Other Color",
+			"scope": "constant.other.color",
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "Keyword Other Unit",
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "Meta Selector",
+			"scope": "meta.selector",
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "Entity Other Attribute Name Id",
+			"scope": "entity.other.attribute-name.id",
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "Meta Property Name",
+			"scope": "meta.property-name",
+			"settings": {
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "Doctypes",
+			"scope": [
+				"entity.name.tag.doctype",
+				"meta.tag.sgml.doctype"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "Keyword Control Operator",
+			"scope": "keyword.control.operator",
+			"settings": {
+				"foreground": "#9CF1F5"
+			}
+		},
+		{
+			"name": "Keyword Operator Logical",
+			"scope": "keyword.operator.logical",
+			"settings": {
+				"foreground": "#C4A2F5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Variable Instances",
+			"scope": [
+				"variable.instance",
+				"variable.other.instance",
+				"variable.readwrite.instance",
+				"variable.other.readwrite.instance",
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#7fdbca"
+			}
+		},
+		{
+			"name": "Variable Property Other object property",
+			"scope": [
+				"variable.other.object.property"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "Variable Property Other object",
+			"scope": [
+				"variable.other.object.js"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "Entity Name Function",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "Invalid Broken",
+			"scope": "invalid.broken",
+			"settings": {
+				"foreground": "#FF6E9C"
+			}
+		},
+		{
+			"name": "Invalid Unimplemented",
+			"scope": "invalid.unimplemented",
+			"settings": {
+				"foreground": "#FF6E9C"
+			}
+		},
+		{
+			"name": "Invalid Illegal",
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#FF6E9C"
+			}
+		},
+		{
+			"name": "Variable Interpolation",
+			"scope": "variable.interpolation",
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "Meta Function Call",
+			"scope": "meta.function-call",
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		// CSS
+		{
+			"name": "Entity Name tag reference in stylesheets",
+			"scope": "meta.property-list entity.name.tag.reference",
+			"settings": {
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "CSS - Color for ID Selector",
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.pseudo-class.css"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "[CSS] - Color for Element Selector",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#9EFFFF"
+			}
+		},
+		{
+			"name": "CSS - Color for Support",
+			"scope": [
+				"source.css support",
+				"entity.name.tag.css",
+				"source.stylus support"
+			],
+			"settings": {
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "CSS - Color for Constant",
+			"scope": [
+				"source.css constant",
+				"source.css support.constant",
+				"source.stylus constant",
+				"source.stylus support.constant"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "Constant Other Color RGB Value Punctuation Definition Constant",
+			"scope": "constant.other.color.rgb-value punctuation.definition.constant",
+			"settings": {
+				"foreground": "#f3907e"
+			}
+		},
+		// C#
+		{
+			"name": "C# - variable colors",
+			"scope": "variable.other.object.cs",
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		{
+			"name": "[C#] - Color for Storage modifiers",
+			"scope": "storage.modifier.cs",
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		// DOCKER
+		{
+			"name": "DOCKER - special methods / keywords",
+			"scope": [
+				"keyword.other.special-method.dockerfile"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		// ENV
+		{
+			"name": "ENV — Source",
+			"scope": [
+				"source.env"
+			],
+			"settings": {
+				"foreground": "#EFEFEF"
+			}
+		},
+		{
+			"name": "ENV — Variables",
+			"scope": [
+				"variable.other.env"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "ENV — Punctuation",
+			"scope": [
+				"keyword.other.template.begin.env",
+				"keyword.other.template.end.env",
+				"keyword.operator.assignment.env"
+			],
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		// graphql
+		{
+			"name": "GRAPHQL — variables",
+			"scope": [
+				"meta.selectionset.graphql",
+				"source.graphql",
+				"variable.graphql"
+			],
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		// INI 
+		{
+			"name": "INI - Color for Entity",
+			"scope": [
+				"meta.embedded.block.ini",
+				"source.ini"
+			],
+			"settings": {
+				"foreground": "#EFEFEF"
+			}
+		},
+		{
+			"name": "INI - Titles",
+			"scope": [
+				"entity.name.section.group-title.ini"
+			],
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "INI - Color for Keyword",
+			"scope": [
+				"source.ini keyword",
+				"keyword.other.definition.ini"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "INI - Color for Punctuation Definition",
+			"scope": [
+				"source.ini punctuation.definition"
+			],
+			"settings": {
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "INI - Color for Punctuation Separator",
+			"scope": [
+				"source.ini punctuation.separator",
+				"punctuation.separator.key-value.ini"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		// JAVASCRIPT
+		{
+			"name": "JAVASCRIPT -  Variable Other ReadWrite",
+			"scope": [
+				"variable.other.readwrite.js",
+				"variable.parameter",
+				"variable.other.readwrite.alias.js"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": " JAVASCRIPT - Support Class Component",
+			"scope": [
+				"support.class.component.js",
+				"support.class.component.tsx",
+				"entity.other.attribute-name.js"
+			],
+			"settings": {
+				"foreground": "#f3ca7e",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": " JAVASCRIPT - Keywords",
+			"scope": [
+				"keyword.control.export.js",
+				"keyword.operator.new.js",
+				"keyword.other.debugger",
+				"keyword.control"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "Keyword Control Conditional",
+			"scope": [
+				"keyword.control.conditional.js",
+				"keyword.control.conditional.ts",
+				"keyword.control.switch.js",
+				"keyword.control.switch.ts"
+			],
+			"settings": {
+				"foreground": "#FF6E9C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Text nested in React tags",
+			"scope": [
+				"meta.jsx.children",
+				"meta.jsx.children.js",
+				"meta.jsx.children.tsx"
+			],
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		// HTML
+		{
+			"name": "Meta Tag",
+			"scope": [
+				"punctuation.definition.tag",
+				"meta.tag",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "HTML Tag names",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.other.html",
+				"meta.tag.other.js",
+				"meta.tag.other.tsx",
+				"entity.name.tag.tsx",
+				"entity.name.tag.js",
+				"entity.name.tag",
+				"meta.tag.js",
+				"meta.tag.tsx",
+				"meta.tag.html"
+			],
+			"settings": {
+				"foreground": "#C4A2F5",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		// JSON
+		{
+			"name": "JSON - Json string",
+			"scope": "string.quoted.double.json",
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		// Makefile
+		{
+			"name": "MAKEFILE - variables",
+			"scope": "variable.other.makefile",
+			"settings": {
+				"foreground": "#F26196"
+			}
+		},
+		// Markdown 
+		{
+			"name": " MARKDOWN - Punctuation Definition String",
+			"scope": [
+				"punctuation.definition.string.begin.markdown",
+				"punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#FF6e9c"
+			}
+		},
+		{
+			"name": "MARKDOWN - Headings",
+			"scope": [
+				"entity.name.section.markdown",
+				"markup.heading.setext.1.markdown",
+				"markup.heading.setext.2.markdown",
+				"markup.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#82b1ff"
+			}
+		},
+		{
+			"name": "MARKDOWN - Diff Code Inserted Block",
+			"scope": [
+				"markup.inserted.diff",
+				"punctuation.definition.inserted.diff"
+			],
+			"settings": {
+				"foreground": "#18c1c4"
+			}
+		},
+		{
+			"name": "MARKDOWN - Diff Deleted Code Block",
+			"scope": [
+				"markup.deleted.diff",
+				"punctuation.definition.deleted.diff"
+			],
+			"settings": {
+				"foreground": "#ff6e9c"
+			}
+		},
+		{
+			"name": "MARKDOWN - Diff Meta text",
+			"scope": [
+				"meta.embedded.block.diff"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Paragraph",
+			"scope": "meta.paragraph.markdown",
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "MARKDOWN - Comment Punctuation",
+			"scope": [
+				"punctuation.definition.from-file.diff",
+				"meta.diff.header.from-file"
+			],
+			"settings": {
+				"foreground": "#5C588A"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Text inside inline code block `code`",
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"foreground": "#A599E9"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Quote Punctuation",
+			"scope": [
+				"punctuation.definition.quote.begin.markdown",
+				"markup.quote.markdown"
+			],
+			"settings": {
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Quote Paragraph",
+			"scope": [
+				"markup.quote.markdown meta.paragraph.markdown"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Separator",
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Emphasis Bold",
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#f3ca7e"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Emphasis Italic",
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Lists",
+			"scope": [
+				"beginning.punctuation.definition.list.markdown",
+				"punctuation.definition.list.begin.markdown",
+				"markup.list.unnumbered.markdown"
+			],
+			"settings": {
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "MARKDOWN - Link/Image title string",
+			"scope": [
+				"string.other.link.description.title.markdown punctuation.definition.string.markdown",
+				"meta.link.inline.markdown string.other.link.description.title.markdown",
+				"string.other.link.description.title.markdown punctuation.definition.string.begin.markdown",
+				"string.other.link.description.title.markdown punctuation.definition.string.end.markdown",
+				"meta.image.inline.markdown string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "#66E9EC",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Link Title",
+			"scope": [
+				"meta.link.inline.markdown string.other.link.title.markdown",
+				"meta.link.reference.markdown string.other.link.title.markdown",
+				"meta.link.reference.def.markdown markup.underline.link.markdown",
+				"string.other.link.description.markdown"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Link/Image Title",
+			"scope": [
+				"markup.underline.link.markdown",
+				"string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "#A599E9"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Inline Code",
+			"scope": [
+				"fenced_code.block.language",
+				"markup.inline.raw.markdown"
+			],
+			"settings": {
+				"foreground": "#a599e9ff"
+			}
+		},
+		{
+			"name": "MARKDOWN - Color for Punctuation — Heading, `Code` and fenced ```code blocks```, **Bold**",
+			"scope": [
+				"punctuation.definition.markdown",
+				"punctuation.definition.raw.markdown",
+				"punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#494685"
+			}
+		},
+		{
+			"name": "Markdown Punctuation",
+			"scope": [
+				"punctuation.definition.string.markdown",
+				"meta.link.inline.markdown punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#82b1ff"
+			}
+		},
+		{
+			"name": "MARKDOWN - LINK Brackets",
+			"scope": [
+				"meta.link.inline.markdown punctuation.definition.string.begin.markdown",
+				"meta.link.inline.markdown punctuation.definition.string.end.markdown",
+				"meta.link.reference.markdown punctuation.definition.string.begin.markdown",
+				"meta.link.reference.markdown punctuation.definition.string.end.markdown"
+			],
+			"settings": {
+				"foreground": "#FF6e9c"
+			}
+		},
+		{
+			"name": "MARKDOWN - LINK ALT URI",
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.underline.link.image.markdown",
+				"constant.other.reference.link.markdown",
+				"punctuation.definition.constant.markdown",
+				"punctuation.definition.constant.begin.markdown",
+				"punctuation.definition.constant.end.markdown"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "MARKDOWN - Link brackets",
+			"scope": [
+				"punctuation.definition.metadata.markdown",
+				"string.other.link.description.title.markdown punctuation.definition.string.markdown"
+			],
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		// Punctuation
+		{
+			"name": "Punctuation Definition String",
+			"scope": "punctuation.definition.string",
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "Punctuation Definition Parameters",
+			"scope": "punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#C2F4E2"
+			}
+		},
+		{
+			"name": "[Punctuation] — Color for Punctuation Template Expression",
+			"scope": "punctuation.definition.template-expression",
+			"settings": {
+				"foreground": "#C2F4E2"
+			}
+		},
+		{
+			"name": "Meta Tag",
+			"scope": [
+				"punctuation.definition.tag",
+				"meta.tag"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "Comma in functions",
+			"scope": "meta.function punctuation.separator.comma",
+			"settings": {
+				"foreground": "#B4ADCA"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#5C588A"
+			}
+		},
+		{
+			"name": "Punctuation Section Embedded",
+			"scope": "punctuation.section.embedded",
+			"settings": {
+				"foreground": "#d3423e"
+			}
+		},
+		{
+			"name": "Punctuation d6deeb",
+			"scope": [
+				"punctuation.terminator.expression",
+				"punctuation.definition.arguments",
+				"punctuation.definition.array",
+				"punctuation.section.array",
+				"meta.array"
+			],
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "More Punctuation Tweaks",
+			"scope": [
+				"punctuation.definition.list.begin",
+				"punctuation.definition.list.end",
+				"punctuation.separator.arguments",
+				"punctuation.definition.list"
+			],
+			"settings": {
+				"foreground": "#d9f5dd"
+			}
+		},
+		// Python
+		{
+			"name": "PYTHON - Color for Self Argument",
+			"scope": "variable.parameter.function.language.special.self.python",
+			"settings": {
+				"foreground": "#18c0c4"
+			}
+		},
+		{
+			"name": "PYTHON - Functions",
+			"scope": [
+				"meta.function-call.python",
+				"meta.function-call.generic.python"
+			],
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		{
+			"name": "PYTHON - Functions",
+			"scope": [
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "PYTHON - Function Parameter and Arguments",
+			"scope": [
+				"variable.parameter.function.python",
+				"meta.function-call.arguments.python"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "PYTHON - Function parameters and arguments",
+			"scope": [
+				"source.python",
+				"variable.parameter.function-call.python"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "PYTHON - Function named arguments",
+			"scope": [
+				"meta.member.access.python"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Punctuations in Python",
+			"scope": "punctuation.python",
+			"settings": {
+				"foreground": "#18c0c4"
+			}
+		},
+		{
+			"name": "Decorator Functions in Python",
+			"scope": "entity.name.function.decorator.python",
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "Python Language Variable",
+			"scope": "source.python variable.language.special",
+			"settings": {
+				"foreground": "#8EACE3"
+			}
+		},
+		{
+			"name": "Python - import keyword",
+			"scope": "keyword.control.import.python",
+			"settings": {
+				"foreground": "#F26196"
+			}
+		},
+		// R
+		{
+			"name": "R - variables",
+			"scope": [
+				"variable.parameter.r",
+				"variable.other.r",
+				"entity.name.function.r"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "R - functions",
+			"scope": [
+				"meta.function-call.r",
+				"meta.function.parameters.r",
+				"meta.function-call.arguments.r",
+				"meta.function.r"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "R - Function Parameter and Arguments",
+			"scope": [
+				"variable.parameter.function.r",
+				"variable.function.r"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "R - Variable functions",
+			"scope": [
+				"variable.function.r"
+			],
+			"settings": {
+				"foreground": "#f3ca7e"
+			}
+		},
+		{
+			"name": "R - punctuation",
+			"scope": [
+				"keyword.operator.assignment.r"
+			],
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		// SASS
+		{
+			"name": "SCSS Variable",
+			"scope": [
+				"variable.scss",
+				"variable.sass",
+				"variable.parameter.url.scss",
+				"variable.parameter.url.sass"
+			],
+			"settings": {
+				"foreground": "#CAF884"
+			}
+		},
+		{
+			"name": "Variables in SASS At-Rules",
+			"scope": [
+				"source.css.scss meta.at-rule variable",
+				"source.css.sass meta.at-rule variable"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Variables in SASS At-Rules",
+			"scope": [
+				"source.css.scss meta.at-rule variable",
+				"source.css.sass meta.at-rule variable"
+			],
+			"settings": {
+				"foreground": "#c6d8fa"
+			}
+		},
+		{
+			"name": "Attribute Name for SASS",
+			"scope": [
+				"meta.attribute-selector.scss entity.other.attribute-name.attribute",
+				"meta.attribute-selector.sass entity.other.attribute-name.attribute"
+			],
+			"settings": {
+				"foreground": "#f3907e"
+			}
+		},
+		{
+			"name": "Tag names in SASS",
+			"scope": [
+				"entity.name.tag.scss",
+				"entity.name.tag.sass"
+			],
+			"settings": {
+				"foreground": "#7ef3ca"
+			}
+		},
+		{
+			"name": "SASS Keyword Other Unit",
+			"scope": [
+				"keyword.other.unit.scss",
+				"keyword.other.unit.sass"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		// Ruby
+		{
+			"name": "RUBY- Keyword Operator Comparison, imports, returns and Keyword Operator",
+			"scope": [
+				"keyword.operator.comparison",
+				"keyword.control.flow.js",
+				"keyword.control.flow.ts",
+				"keyword.control.flow.tsx",
+				"keyword.control.ruby",
+				"keyword.control.module.ruby",
+				"keyword.control.class.ruby",
+				"keyword.control.def.ruby",
+				"keyword.control.loop.js",
+				"keyword.control.loop.ts",
+				"keyword.control.import.js",
+				"keyword.control.import.ts",
+				"keyword.control.import.tsx",
+				"keyword.control.from.js",
+				"keyword.control.from.ts",
+				"keyword.control.from.tsx",
+				"keyword.operator.instanceof.js",
+				"keyword.operator.expression.instanceof.ts",
+				"keyword.operator.expression.instanceof.tsx"
+			],
+			"settings": {
+				"foreground": "#c792ea"
+			}
+		},
+		{
+			"name": "RUBY - variable other",
+			"scope": [
+				"variable.other.constant.ruby"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		// TERRAFORM
+		{
+			"name": "terraform - variable other",
+			"scope": [
+				"variable.other.terraform",
+				"source.terraform"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "terraform - variable assignment",
+			"scope": [
+				"variable.other.assignment.terraform"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		// TOML
+		{
+			"name": "TOML - keyword",
+			"scope": [
+				"keyword.key.toml"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "TOML - syntax",
+			"scope": [
+				"entity.other.attribute-name.table.toml"
+			],
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		// Typescript
+		{
+			"name": "TYPESCRIPT - Color for Keyword",
+			"scope": "source.ts keyword",
+			"settings": {
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Color for Punctuation Parameters",
+			"scope": "source.ts punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Color for Punctuation Arrow Parameters",
+			"scope": "meta.arrow.ts punctuation.definition.parameters",
+			"settings": {
+				"foreground": "#ffed9e"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Color for Storage",
+			"scope": "source.ts storage",
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "TypeScript[React] Variables and Object Properties",
+			"scope": [
+				"variable.other.readwrite.alias.ts",
+				"variable.other.readwrite.alias.tsx",
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.tsx",
+				"variable.other.object.ts",
+				"variable.other.object.tsx",
+				"variable.object.property.ts",
+				"variable.object.property.tsx",
+				"variable.other.ts",
+				"variable.other.tsx",
+				"variable.tsx",
+				"variable.ts"
+			],
+			"settings": {
+				"foreground": "#efefef"
+			}
+		},
+		{
+			"name": "TYPESCRIPT - Decorators",
+			"scope": [
+				"meta.decorator punctuation.decorator.ts",
+				"meta.decorator punctuation.decorator.tsx",
+				"meta.decorator.ts"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Entity Name Types",
+			"scope": [
+				"entity.name.type.ts",
+				"entity.name.type.tsx"
+			],
+			"settings": {
+				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Node Classes",
+			"scope": [
+				"support.class.node.ts",
+				"support.class.node.tsx"
+			],
+			"settings": {
+				"foreground": "#7998F2"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Entity Name Types as Parameters",
+			"scope": [
+				"meta.type.parameters.ts entity.name.type",
+				"meta.type.parameters.tsx entity.name.type"
+			],
+			"settings": {
+				"foreground": "#B4ADCA"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Import/Export Punctuations",
+			"scope": [
+				"meta.import.ts punctuation.definition.block",
+				"meta.import.tsx punctuation.definition.block",
+				"meta.export.ts punctuation.definition.block",
+				"meta.export.tsx punctuation.definition.block"
+			],
+			"settings": {
+				"foreground": "#d6deeb"
+			}
+		},
+		{
+			"name": "TYPESCRIPT[React] Punctuation Decorators",
+			"scope": "meta.tag.js meta.jsx.children.tsx",
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		// YAML
+		{
+			"name": "YAML - keywords",
+			"scope": [
+				"entity.name.tag.yaml"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			}
+		},
+		{
+			"name": "normalize font style of certain components",
+			"scope": [
+				"meta.property-list.css meta.property-value.css variable.other.less",
+				"meta.property-list.scss variable.scss",
+				"meta.property-list.sass variable.sass",
+				"meta.brace",
+				"keyword.operator.operator",
+				"keyword.operator.or.regexp",
+				"keyword.operator.expression.in",
+				"keyword.operator.relational",
+				"keyword.operator.assignment",
+				"keyword.operator.comparison",
+				"keyword.operator.type",
+				"keyword.operator",
+				"keyword",
+				"punctuation.definintion.string",
+				"punctuation",
+				"variable.other.readwrite.js",
+				"storage.type",
+				"source.css",
+				"string.quoted"
+			],
+			"settings": {
+				"fontStyle": ""
+			}
+		}
+	],
+	"name": "Pitaya smoothie",
+	"type": "dark"
+}
