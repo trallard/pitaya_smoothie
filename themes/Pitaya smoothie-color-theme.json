@@ -485,15 +485,14 @@
 			"scope": "invalid",
 			"settings": {
 				"background": "#fd3777",
-				"foreground": "#fff"
+				"foreground": "#fd3777"
 			}
 		},
 		{
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#ffffff",
-				"background": "#FF6E9C"
+				"foreground": "#FF6E9C",
 			}
 		},
 		{
@@ -1438,6 +1437,13 @@
 			"scope": "source.python variable.language.special",
 			"settings": {
 				"foreground": "#8EACE3"
+			}
+		},
+		{
+			"name": "Python - import keyword",
+			"scope": "keyword.control.import.python",
+			"settings": {
+				"foreground": "#F26196"
 			}
 		},
 		// R
