@@ -1,4 +1,4 @@
-## Markdown Syntax — Kitchen Sink
+# Markdown Syntax — Kitchen Sink
 
 ## HEADINGS
 
@@ -65,21 +65,21 @@ Retained line
 
 ## Links
 
-| `TYPE`                         |                                                           `SYNTAX` |
-| ------------------------------ | -----------------------------------------------------------------: |
-| **LINK**: Regular              |                                    [Link](https://bitsandchips.me) |
-| **LINK**: Alternate            |                                                  [Alternate][link] |
-| **IMAGE**: Regular             |                            ![Alt](https://bitsandchips.me/sopicon) |
-| **IMAGE**: Regular + Title     |    ![Alt](https://bitsandchips.me/sopicon "Shades of Purple icon") |
-| **IMAGE**: With Link           | [![Alt](https://bitsandchips.me/sopicon)](https://bitsandchips.me) |
-| **IMAGE**: With alternate Link |                    [![Alt](https://bitsandchips.me/sopicon)][link] |
+| `TYPE`                         |                                                                                                                     `SYNTAX` |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------: |
+| **LINK**: Regular              |                                                                                              [Link](https://bitsandchips.me) |
+| **LINK**: Alternate            |                                                                                                            [Alternate][link] |
+| **IMAGE**: Regular             |                            ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true) |
+| **IMAGE**: Regular + Title     |    ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true "Shades of Purple icon") |
+| **IMAGE**: With Link           | [![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)](https://bitsandchips.me) |
+| **IMAGE**: With alternate Link |                    [![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)][link] |
 
 - [Link](https://bitsandchips.me)
 - [Alternate][link]
-- ![Alt](https://bitsandchips.me/sopicon)
-- ![Alt](https://bitsandchips.me/sopicon "Shades of Purple icon")
-- [![Alt](https://bitsandchips.me/sopicon)](https://bitsandchips.me)
-- [![Alt](https://bitsandchips.me/sopicon)][link]
+- ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)
+- ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true "Shades of Purple icon")
+- [![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)](https://bitsandchips.me)
+- [![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)][link]
 
 [link]: https://bitsandchips.me
 
@@ -89,7 +89,7 @@ Retained line
 
 [I'm a reference-style link][Arbitrary case-insensitive reference text]
 
-[I'm a relative reference to a repository file](./JavaScript.js)
+[I'm a relative reference to a repository file](./python.py)
 
 [You can use numbers for reference-style link definitions][1]
 

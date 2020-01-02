@@ -76,7 +76,7 @@ for things like poems
 ****
 --------------------------
 
-![picture alt](/images/photo.jpeg "Title is optional")
+![picture alt](../images/browser.svg "Title is optional")
 
 ## Markdown plus tables ##
 

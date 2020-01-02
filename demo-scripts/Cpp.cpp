@@ -11,7 +11,6 @@ int main()
 
     cout << "Enter a binary number: ";
     cin >> n;
- 
     cout << n << " in binary = " << convertBinaryToDecimal(n) << "in decimal";
     return 0;
 }

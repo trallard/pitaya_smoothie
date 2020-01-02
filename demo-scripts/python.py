@@ -1,57 +1,10 @@
-# -*- coding: utf-8 -*-
-import base64
-import fnmatch
-import glob
-import hashlib
-import io
 import json
-import operator
+from Pathlib import Path
+import numpy as np
 import os
-import re
-import sys
-
 import six
-import toml
-import tomlkit
-import vistir
-
-from first import first
-
-import pipfile
-import pipfile.api
-
-from .cmdparse import Script
-import hola
-
-from .environments import (
-    PIPENV_DEFAULT_PYTHON_VERSION,
-    PIPENV_IGNORE_VIRTUALENVS,
-    PIPENV_MAX_DEPTH,
-    PIPENV_PIPFILE,
-    PIPENV_PYTHON,
-    PIPENV_TEST_INDEX,
-    PIPENV_VENV_IN_PROJECT,
-    is_in_virtualenv,
-)
-from .utils import (
-    cleanup_toml,
-    convert_toml_outline_tables,
-    find_requirements,
-    get_canonical_names,
-    get_url_name,
-    get_workon_home,
-    is_editable,
-    is_installable_file,
-    is_star,
-    is_valid_url,
-    is_virtual_environment,
-    looks_like_dir,
-    normalize_drive,
-    pep423_name,
-    proper_case,
-    python_version,
-    safe_expandvars,
-)
+import re
+import glob
 
 
 def _normalized(p):
@@ -63,7 +16,7 @@ def _normalized(p):
             loc = loc.resolve()
         except OSError:
             loc = loc.absolute()
-    # Recase the path properly on Windows. From https://stackoverflow.com/a/35229734/5043728
+    # Recase the path properly on Windows.
     if os.name == "nt":
         matches = glob.glob(re.sub(r"([^:/\\])(?=[/\\]|$)", r"[\1]", str(loc)))
         path_str = matches and matches[0] or str(loc)
@@ -102,33 +55,21 @@ class _LockFileEncoder(json.JSONEncoder):
         return content
 
 
-def preferred_newlines(f):
-    if isinstance(f.newlines, six.text_type):
-        return f.newlines
-    return DEFAULT_NEWLINES
+data = np.random.random(2)
 
+data[0], data[1] = data[1], data[0]
 
-if PIPENV_PIPFILE:
-    if not os.path.isfile(PIPENV_PIPFILE):
-        raise RuntimeError("Given PIPENV_PIPFILE is not found!")
+print(data)
 
-    else:
-        PIPENV_PIPFILE = _normalized(PIPENV_PIPFILE)
-# (path, file contents) => TOMLFile
-# keeps track of pipfiles that we've seen so we do not need to re-parse 'em
-_pipfile_cache = {}
-
-
-class Sublime(sublime.task):
-    def run(self, edit):
-        self.task
 
 def my_decorator(func):
     def wrapper():
         print("Something is happening before the function is called.")
         func()
         print("Something is happening after the function is called.")
+
     return wrapper
+
 
 @my_decorator
 def say_whee():
