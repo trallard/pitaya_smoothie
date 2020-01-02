@@ -1,11 +1,11 @@
 
 <div align="center">
- <img alt="Logo" src="./images/logos/logo_square.svg" width="250" />
+ <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/logo_squared.png?raw=true" width="250" />
 </div>
 <br>
 
 <div align="center">
- <img alt="Logo" src="./images/logos/wording_full_rough.svg" width="400" />
+ <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true" width="400" />
 </div>
 <br>
 

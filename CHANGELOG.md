@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="./images/logos/wording_full.svg" width="250" />
+  <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true" width="250" />
 </div>
 <br>
 <br>
@@ -12,7 +12,7 @@ All notable changes to the "pitaya-smoothie" extension will be documented in thi
 
 ![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)
 
-> :package: Version 1.0.0 [`2229722`](https://github.com/trallard/pitaya_smoothie/commit/22297227cd53b5273ecf973cd5a09f1c5038868c) <br>
+> :package: Version 1.0.0 [`cb8c2f6`](https://github.com/trallard/pitaya_smoothie/commit/cb8c2f691fa4e88b4d2c283b926872a84828a8c8) <br>
 > :package: Logo [`fa78daa`](https://github.com/trallard/pitaya_smoothie/commit/fa78daa1149cfb6109b9bc323955fb57084d6ca6) <br>
 
 ![DOCS](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)

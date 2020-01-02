@@ -1,6 +1,5 @@
 // Theme Color reference
 {
-	// "tokenColors": "./pitaya_milkshake.tmTheme",
 	"colors": {
 		"editor.background": "#181036",
 		"editor.foreground": "#fefeff",

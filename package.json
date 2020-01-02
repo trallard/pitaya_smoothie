@@ -1,9 +1,12 @@
 {
     "name": "pitaya-smoothie",
     "displayName": "Pitaya smoothie",
-    "description": "An editor theme with handpicked colours and heavily inspired by the ultraviolet colour (colour of the year 2018) and Outrun aesthetics. ",
-    "version": "0.0.1",
+    "description": "A dark editor theme with handpicked colours and heavily inspired by the ultraviolet colour (colour of the year 2018) and Outrun aesthetics. A theme with contrast and accessibility for colourblindess in mind.",
+    "version": "1.0.0",
     "publisher": "trallard",
+    "author": {
+        "name": "Tania Allard"
+    },
     "license": "SEE LICENSE IN LICENSE.md",
     "repository": {
         "type": "git",
@@ -23,12 +26,26 @@
     "categories": [
         "Themes"
     ],
+    "icon": "images/logos/logo.png",
+    "galleryBanner": {
+        "color": "#332273",
+        "theme": "dark"
+    },
+    "bugs": {
+        "url": "https://github.com/trallard/pitaya_smoothie"
+    },
+    "homepage": "https://trallard.github.io/pitaya_smoothie/",
     "contributes": {
         "themes": [
             {
                 "label": "Pitaya smoothie",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Pitaya smoothie-color-theme.json"
+            },
+            {
+                "label": "Pitaya smoothie (No italics)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/themes/Pitaya smoothie-color-theme-noitalic.json"
             }
         ]
     }
