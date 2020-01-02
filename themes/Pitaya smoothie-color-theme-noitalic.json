@@ -133,11 +133,11 @@
 		"editorOverviewRuler.currentContentForeground": "#a599e9d5",
 		"editorOverviewRuler.incomingContentForeground": "#18c1c4d8",
 		// Errors and warnings:
-		"editorError.border": "#ff6e9ccc",
+		"editorError.border": "#181036",
 		"editorError.foreground": "#ff6e9ccc",
 		"editorWarning.border": "#181036",
 		"editorWarning.foreground": "#fad000c9",
-		"editorInfo.border": "#7998F2",
+		"editorInfo.border": "#181036",
 		"editorInfo.foreground": "#7998F2",
 		// Gutter: The gutter contains the glyph margins and the line numbers:
 		"editorGutter.addedBackground": "#18c1c4a6",
