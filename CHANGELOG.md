@@ -14,7 +14,6 @@ All notable changes to the "pitaya-smoothie" extension will be documented in thi
 
 > :package: Version 1.0.0 [`2229722`](https://github.com/trallard/pitaya_smoothie/commit/22297227cd53b5273ecf973cd5a09f1c5038868c) <br>
 > :package: Logo [`fa78daa`](https://github.com/trallard/pitaya_smoothie/commit/fa78daa1149cfb6109b9bc323955fb57084d6ca6) <br>
-> :package: VSC marketplace badge [`b0ec4d9`](https://github.com/trallard/pitaya_smoothie/commit/b0ec4d956b0cadc78594a342769da62a76321ec4) <br>
 
 ![DOCS](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
 

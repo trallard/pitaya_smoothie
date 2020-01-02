@@ -31,6 +31,7 @@
  <tr><td><sup> Follow Tania's #FOSS work on GitHub <a href='https://github.com/trallard'>@trallard</a> — Say Hi on Twitter <a href="https://twitter.com/ixek/">@ixek</a></sup></td><td align='center'> <a target="_blank" href='https://bitsandchips.me/'>👋 </a></td></tr>
 </table>
 
+:sparkle: If you wish to disable italics, there is now a no-italic theme available. You will have access to both, select **Pitaya Smoothie No Italics** as your color theme.
 
 ## Installation <img alt="cog" src="./images/settings.svg" width="50"/>
 
@@ -50,7 +51,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 | USAGE          | COLOUR HEX CODE                                                      |
 | -------------- | -------------------------------------------------------------------- |
 | Background     | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Foreground     | ![#fefeff](https://placehold.it/15/fefeff/000000?text=%20) `#FEFEFF` |
+| Foreground     | ![#efefef](https://placehold.it/15/efefef/000000?text=%20) `#efefef` |
 | Comment        | ![#5C588A](https://placehold.it/15/5C588A/000000?text=%20) `#5C588A` |
 | Keyword        | ![#f62196](https://placehold.it/15/f62196/000000?text=%20) `#f62196` |
 | String         | ![#7998F2](https://placehold.it/15/7998F2/000000?text=%20) `#7998F2` |
