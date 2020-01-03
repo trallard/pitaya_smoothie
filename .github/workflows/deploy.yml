@@ -1,11 +1,6 @@
 name: Publish release
 
-on:
-  release:
-    types:
-      - deleted
-      - created
-      - edited
+on: push
 
 jobs:
   deploy:
@@ -18,8 +13,12 @@ jobs:
       - name: Get version
         id: get_version
         run: |
-          echo "::set-env name=VERSION::${GITHUB_REF/refs\/tags\//}"
-          echo $VERSION
+          echo "::set-env name=SOURCE_TAG::${GITHUB_REF#refs/tags/}
+          echo $SOURCE_TAG
+          echo "The github context is:"
+          echo "${{ toJson(github) }}"
+      - name: Testing vars
+        run: echo $SOURCE_TAG
       # - uses: lannonbr/vsce-action@master
       #   name: Publish extension
       #   env:
