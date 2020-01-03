@@ -15,8 +15,13 @@ jobs:
       - run: npm install
       - name: Get version
         id: get_version
-        run: echo "::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}"
+        run: |
+          echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+          echo $VERSION
       - uses: lannonbr/vsce-action@master
         name: Publish extension
+        env:
+          VERSION: ${{ steps.vars.outputs.VERSION }}
+          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
         with:
-          args: "publish $VERSION -p ${{secrets.VSCE_TOKEN}}"
+          args: "publish $VERSION -p $VSCE_TOKEN"
