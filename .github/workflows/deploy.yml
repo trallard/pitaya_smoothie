@@ -1,6 +1,9 @@
 name: Publish release
 
-on: push
+on: 
+  release:
+    types:
+      - published
 
 jobs:
   deploy:
@@ -17,12 +20,10 @@ jobs:
           echo "$SOURCE_TAG"
           echo "The github context is:"
           echo "${{ toJson(github) }}"
-      - name: Testing vars
-        run: echo "$SOURCE_TAG"
-      # - uses: lannonbr/vsce-action@master
-      #   name: Publish extension
-      #   env:
-      #     VERSION: ${{ env.VERSION }}
-      #     VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
-      #   with:
-      #     args: "publish $VERSION -p $VSCE_TOKEN"
+      - uses: lannonbr/vsce-action@master
+        name: Publish extension
+        env:
+          VERSION: ${{ env.VERSION }}
+          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+        with:
+          args: "publish $VERSION -p $VSCE_TOKEN"
