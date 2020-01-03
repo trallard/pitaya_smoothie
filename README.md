@@ -13,7 +13,7 @@
 <table width='100%' align="center">
  <tr>
  <td align='left' width='100%' colspan='2'>
- A professional theme with hand-picked & bold colours for your VS Code editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.
+ A professional theme with hand-picked & bold colours for your <a href="https://code.visualstudio.com/?WT.mc_id=pitaya-smoothie-github-taallard" target="_blank"> VS Code </a> editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.
  However, colours are on the pastel side to help provide contrast and highlight what is essential.
  Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances.
  </td>
@@ -33,16 +33,16 @@
 
 :sparkle: If you wish to disable italics, there is now a no-italic theme available. You will have access to both, select **Pitaya Smoothie No Italics** as your color theme.
 
-## Installation <img alt="cog" src="./images/settings.svg" width="50"/>
+## Installation <img alt="cog" src="./images/icons/settings.png" width="50"/>
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/)
+1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=pitaya-smoothie-github-taallard)
 1. Open the extensions sidebar on Visual Studio Code
 1. Search for `Pitaya Smoothie`
 1. Click **Install** to install it.
 1. Click **Reload** to reload your editor.
 1. Code/File ＞ Preferences ＞ Color Theme ＞ **Pitaya Smoothie**
 
-## Pitaya Smoothie Syntax Colours <img alt="syntax" src="./images/highlighter.svg" width="50" />
+## Pitaya Smoothie Syntax Colours <img alt="syntax" src="./images/icons/highlighter.png" width="50" />
 
 Outrun aesthetics profoundly inspires this theme. The colour choices for the theme were made also taking into consideration accessibility for those users with colourblindness.
 The theme consists of a reasonably dark background and popping contrast colours. 
@@ -63,7 +63,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 | Diff inserted  | ![#18c1c4](https://placehold.it/15/18c1c4/000000?text=%20) `#18c1c4` |
 | Diff changed   | ![#ffe46b](https://placehold.it/15/ffe46b/000000?text=%20) `#ffe46b` |
 
-## UI elements colours <img alt="code" src="./images/browser.svg" width="50" />
+## UI elements colours <img alt="code" src="./images/icons/browser.png" width="50" />
 
 | UI ELEMENT                        | HEX CODES                                                                  |
 | --------------------------------- | -------------------------------------------------------------------------- |
@@ -78,7 +78,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 | Addition highlights               | ![#18c1c4a6](https://placehold.it/15/18c1c4a6/000000?text=%20) `#18c1c4a6` |
 | Modified highlights               | ![#AD70FC46](https://placehold.it/15/AD70FC46/000000?text=%20) `#AD70FC46` |
 
-## Snapshots <img alt="code" src="./images/code.svg" width="50" />
+## Snapshots <img alt="code" src="./images/icons/code.png" width="50" />
 
 <div align="center">
 
@@ -101,7 +101,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 
 </div>
 
-## Accessibility <img alt="accessibility" src="./images/access.svg" width="50" />
+## Accessibility <img alt="accessibility" src="./images/icons/access.png" width="50" />
 
 Accessibility was kept close in mind when designing this theme. The colours were chosen such that they would be acceessible to folks with colourblindness.
 <div align="center">
@@ -115,7 +115,7 @@ Accessibility was kept close in mind when designing this theme. The colours were
 
 </div>
 
-## Contributing <img alt="hands" src="./images/teamwork.svg" width="50" />
+## Contributing <img alt="hands" src="./images/icons/teamwork.png" width="50" />
 
 🚧 This project is always a work in progress, and everyone is welcome and encouraged to collaborate in it. 🚧
 
@@ -143,11 +143,11 @@ I defined the following colours in my `settings.json`:
   ]
 ```
 
-## License <img alt="documents" src="./images/archives.svg" width="50" />
+## License <img alt="documents" src="./images/icons/archives.png" width="50" />
 
 **Licensed** as BSD-3 ⓒ [Tania Allard](https://bitsandchips.me/).
 
-## Attributions <img alt="star" src="./images/favorite.svg" width="50" />
+## Attributions <img alt="star" src="./images/icons/favorite.png" width="50" />
 
 - Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> and adapted to match the theme's colours.
 
