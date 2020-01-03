@@ -3,7 +3,9 @@ name: Publish release
 on:
   release:
     types:
+      - deleted
       - created
+      - edited
 
 jobs:
   deploy:
@@ -16,12 +18,12 @@ jobs:
       - name: Get version
         id: get_version
         run: |
-          echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+          echo "::set-env name=VERSION::${GITHUB_REF/refs\/tags\//}"
           echo $VERSION
-      - uses: lannonbr/vsce-action@master
-        name: Publish extension
-        env:
-          VERSION: ${{ steps.vars.outputs.VERSION }}
-          VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
-        with:
-          args: "publish $VERSION -p $VSCE_TOKEN"
+      # - uses: lannonbr/vsce-action@master
+      #   name: Publish extension
+      #   env:
+      #     VERSION: ${{ env.VERSION }}
+      #     VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+      #   with:
+      #     args: "publish $VERSION -p $VSCE_TOKEN"
