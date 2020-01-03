@@ -26,13 +26,13 @@
     "categories": [
         "Themes"
     ],
-    "icon": "images/logos/logo.png",
+    "icon": "images/logos/logo_full.png",
     "galleryBanner": {
-        "color": "#332273",
+        "color": "#181e44",
         "theme": "dark"
     },
     "bugs": {
-        "url": "https://github.com/trallard/pitaya_smoothie"
+        "url": "https://github.com/trallard/pitaya_smoothie/issues"
     },
     "homepage": "https://trallard.github.io/pitaya_smoothie/",
     "contributes": {

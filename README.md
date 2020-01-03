@@ -10,6 +10,9 @@
 <br>
 
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+[![Version](https://vsmarketplacebadge.apphb.com/version/trallard.pitaya-smoothie.svg?subject=Pitaya%20Smoothie&colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie)
+
+
 <table width='100%' align="center">
  <tr>
  <td align='left' width='100%' colspan='2'>
@@ -31,7 +34,7 @@
  <tr><td><sup> Follow Tania's #FOSS work on GitHub <a href='https://github.com/trallard'>@trallard</a> — Say Hi on Twitter <a href="https://twitter.com/ixek/">@ixek</a></sup></td><td align='center'> <a target="_blank" href='https://bitsandchips.me/'>👋 </a></td></tr>
 </table>
 
-:sparkle: If you wish to disable italics, there is now a no-italic theme available. You will have access to both, select **Pitaya Smoothie No Italics** as your color theme.
+✨ If you wish to disable italics, there is now a no-italic theme available. You will have access to both, select **Pitaya Smoothie No Italics** as your color theme.
 
 ## Installation <img alt="cog" src="./images/icons/settings.png" width="50"/>
 
@@ -45,8 +48,8 @@
 ## Pitaya Smoothie Syntax Colours <img alt="syntax" src="./images/icons/highlighter.png" width="50" />
 
 Outrun aesthetics profoundly inspires this theme. The colour choices for the theme were made also taking into consideration accessibility for those users with colourblindness.
-The theme consists of a reasonably dark background and popping contrast colours. 
-I also made decisions to allow for meaningful contrast for reading comprehension and optimal colour-popping :sparkles:.
+The theme consists of a reasonably dark background and popping contrast colours.
+I also made decisions to allow for meaningful contrast for reading comprehension and optimal colour-popping ✨.
 
 | USAGE          | COLOUR HEX CODE                                                      |
 | -------------- | -------------------------------------------------------------------- |
@@ -83,17 +86,21 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 <div align="center">
 
 ![Python Syntax](https://img.shields.io/badge/SYNTAX-Python-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+</br>
 <img alt="python code" src="./images/demos/python.png"/>
 
-:sparkles: Using bracket style colorizer 👆🏼:sparkles:
+✨ Using bracket style colorizer 👆🏼✨
 
 ![R Syntax](https://img.shields.io/badge/SYNTAX-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+</br>
 <img alt="python code" src="./images/demos/R.png"/>
 
 ![React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+</br>
 <img alt="react code" src="./images/demos/react.png"/>
 
 ![cpp Syntax](https://img.shields.io/badge/SYNTAX-c++-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+</br>
 <img alt="react code" src="./images/demos/cpp.png"/>
 
 ![html Syntax](https://img.shields.io/badge/SYNTAX-HTML-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
@@ -121,7 +128,7 @@ Accessibility was kept close in mind when designing this theme. The colours were
 
 Everyone should follow our [code of conduct](./CODE_OF_CONDUCT.md) and to check out our [contributing guidelines](CONTRIBUTING.md) for more information on how to get started.
 
-## Preferences shown in the previews <img alt="design" src="./images/icons/design.png" width="50" />
+   ## Preferences shown in the previews <img alt="design" src="./images/icons/design.png" width="50" />
 
 The font in the previews is Fira Code. Editor settings to activate font ligatures:
 
