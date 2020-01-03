@@ -12,7 +12,7 @@ All notable changes to the "pitaya-smoothie" extension will be documented in thi
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
 
 > 🐛 Remove border in editor warnings and errors [`12f2ae5`](https://github.com/trallard/pitaya_smoothie/commit/2f2ae524c3ebc291152d98033fee91cc4d3fc6b0) <br>
-> 📦 Add CI for deployment
+> 📦 Add CI for deployment [`64ab538`](https://github.com/trallard/pitaya_smoothie/commit/64ab5385bbb79f8423dd9099d6ff66ae451c9af4)
 
 ## RELEASE: 1.0.0
 
