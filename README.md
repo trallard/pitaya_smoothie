@@ -1,4 +1,3 @@
-
 <div align="center">
  <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/logo_squared.png?raw=true" width="250" />
 </div>
@@ -12,8 +11,6 @@
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 [![Version](https://vsmarketplacebadge.apphb.com/version/trallard.pitaya-smoothie.svg?subject=Pitaya%20Smoothie&colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie)
 ![GH actions](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg)
-
-
 
 <table width='100%' align="center">
  <tr>
@@ -36,7 +33,7 @@
  <tr><td><sup> Follow Tania's #FOSS work on GitHub <a href='https://github.com/trallard'>@trallard</a> — Say Hi on Twitter <a href="https://twitter.com/ixek/">@ixek</a></sup></td><td align='center'> <a target="_blank" href='https://bitsandchips.me/'>👋 </a></td></tr>
 </table>
 
-✨ If you wish to disable italics, there is now a no-italic theme available. You will have access to both, select **Pitaya Smoothie No Italics** as your color theme.
+✨ If you wish to disable italics, there is now a no-italic theme available. You will have access to both; select **Pitaya Smoothie No Italics** as your colour theme.
 
 ## Installation <img alt="cog" src="./images/icons/settings.png" width="50"/>
 
@@ -56,7 +53,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 | USAGE          | COLOUR HEX CODE                                                      |
 | -------------- | -------------------------------------------------------------------- |
 | Background     | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Foreground     | ![#efefef](https://placehold.it/15/efefef/000000?text=%20) `#efefef` |
+| Foreground     | ![#fefeff](https://placehold.it/15/fefeff/000000?text=%20) `#fefeff` |
 | Comment        | ![#5C588A](https://placehold.it/15/5C588A/000000?text=%20) `#5C588A` |
 | Keyword        | ![#f62196](https://placehold.it/15/f62196/000000?text=%20) `#f62196` |
 | String         | ![#7998F2](https://placehold.it/15/7998F2/000000?text=%20) `#7998F2` |
@@ -91,7 +88,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 </br>
 <img alt="python code" src="./images/demos/python.png"/>
 
-✨ Using bracket style colorizer 👆🏼✨
+✨ Using bracket-style colorizer 👆🏼✨
 
 ![R Syntax](https://img.shields.io/badge/SYNTAX-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 </br>
@@ -130,7 +127,7 @@ Accessibility was kept close in mind when designing this theme. The colours were
 
 Everyone should follow our [code of conduct](./CODE_OF_CONDUCT.md) and to check out our [contributing guidelines](CONTRIBUTING.md) for more information on how to get started.
 
-   ## Preferences shown in the previews <img alt="design" src="./images/icons/design.png" width="50" />
+## Preferences shown in the previews <img alt="design" src="./images/icons/design.png" width="50" />
 
 The font in the previews is Fira Code. Editor settings to activate font ligatures:
 
@@ -139,17 +136,17 @@ The font in the previews is Fira Code. Editor settings to activate font ligature
 "editor.fontLigatures": true,
 ```
 
-The preview image is using [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), a really cool extension that highlights matching brackets. This can help reduce unwanted errors.
+The preview image for the Python syntax is using [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), a cool extension that highlights matching brackets. Using this extension can help reduce unwanted errors.
 
 I defined the following colours in my `settings.json`:
 
 ```json
 "bracket-pair-colorizer-2.colors": [
-    "#f18fac", // soft pink
-    "#facd49", // golden
-    "#c56cf0", // bright lilac
-    "#f85e9f"  // hot pink
-  ]
+ "#f18fac", // soft pink
+ "#facd49", // golden
+ "#c56cf0", // bright lilac
+ "#f85e9f" // hot pink
+ ]
 ```
 
 ## License <img alt="documents" src="./images/icons/archives.png" width="50" />
