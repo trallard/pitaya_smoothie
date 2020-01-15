@@ -830,7 +830,7 @@
 				"keyword.other.special-method.dockerfile"
 			],
 			"settings": {
-				"foreground": "#C4A2F5",
+				"foreground": "#b07afc",
 			}
 		},
 		// ENV
@@ -1017,11 +1017,22 @@
 			}
 		},
 		{
-			"name": "Tag attribute",
+			"name": "HTML Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "HTML Comment",
+			"scope": [
+				"punctuation.definition.comment.html",
+				"comment.block.html",
+			],
+			"settings": {
+				"foreground": "#5C588A",
+				"fontStyle": "italic"
 			}
 		},
 		// JSON
@@ -1030,6 +1041,17 @@
 			"scope": "string.quoted.double.json",
 			"settings": {
 				"foreground": "#C4A2F5"
+			}
+		},
+		//Arm
+		{
+			"name": "ARM - variables",
+			"scope": [
+				"variable.language.variables.tle.arm-template",
+				"variable.language.variables.variable-name.tle.arm-template"
+			],
+			"settings": {
+				"foreground": "#b07afc"
 			}
 		},
 		// Makefile
@@ -1316,7 +1338,7 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
 			],
 			"settings": {
 				"foreground": "#5C588A",
