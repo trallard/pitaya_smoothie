@@ -327,7 +327,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#C4A2F5"
+				"foreground": "#7998F2"
 			}
 		},
 		{
@@ -682,7 +682,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#7fdbca"
+				"foreground": "#d6deeb"
 			}
 		},
 		{
@@ -1605,6 +1605,16 @@
 			],
 			"settings": {
 				"foreground": "#B07AFC"
+			}
+		},
+		// SQL
+		{
+			"name": "SQL - string",
+			"scope": [
+				"source.sql string.quoted.single.sql"
+			],
+			"settings": {
+				"foreground": "#7998F2"
 			}
 		},
 		// Ruby

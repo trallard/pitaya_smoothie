@@ -1,7 +1,11 @@
 # Header 1 #
+
 ## Header 2 ##
-### Header 3 ###             (Hashes on right are optional)
-## Markdown plus h2 with a custom ID ##   {#id-goes-here}
+
+### Header 3
+
+## Markdown plus h2 with a custom ID  {#id-goes-here}
+
 [Link back to H2](#id-goes-here)
 
 ```js
@@ -27,7 +31,9 @@ function f() {
 </div>
 
 * Bullet lists are easy too
+
 - Another one
+
 + Another one
 
 This is a paragraph, which is text surrounded by
@@ -73,7 +79,9 @@ for things like poems
 ### Horizontal rules
 
 * * * *
+
 ****
+
 --------------------------
 
 ![picture alt](../images/browser.svg "Title is optional")
@@ -102,4 +110,3 @@ Pop
 * Definitions can include multiple paragraphs too
 
 *[ABBR]: Markdown plus abbreviations (produces an <abbr> tag)
- 
