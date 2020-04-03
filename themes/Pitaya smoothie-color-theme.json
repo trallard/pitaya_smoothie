@@ -785,7 +785,6 @@
 				"source.stylus support"
 			],
 			"settings": {
-				// "foreground": "#CAF884"
 				"foreground": "#7ef3ca"
 			}
 		},
@@ -881,6 +880,15 @@
 			],
 			"settings": {
 				"foreground": "#F26196"
+			}
+		},
+		{
+			"name": "GRAPHQL - punctuation",
+			"scope": [
+				"punctuation.operation.graphql"
+			],
+			"settings": {
+				"foreground": "#D6DEEB"
 			}
 		},
 		// INI 
@@ -1170,7 +1178,7 @@
 			"name": "MARKDOWN - Color for Separator",
 			"scope": "meta.separator.markdown",
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#82B1FF"
 			}
 		},
 		{
@@ -1531,7 +1539,7 @@
 				"variable.parameter.url.sass"
 			],
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#B07AFC"
 			}
 		},
 		{
@@ -1548,7 +1556,8 @@
 			"name": "Variables in SASS At-Rules",
 			"scope": [
 				"source.css.scss meta.at-rule variable",
-				"source.css.sass meta.at-rule variable"
+				"source.css.sass meta.at-rule variable",
+				"source.css.scss"
 			],
 			"settings": {
 				"foreground": "#c6d8fa"
@@ -1584,6 +1593,15 @@
 				"foreground": "#FFE46B"
 			}
 		},
+		{
+			"name": "SASS - support constant",
+			"scope": [
+				"source.sass support.constant.property-value.css.sass"
+			],
+			"settings": {
+				"foreground": "#FF6e9c"
+			}
+		}
 		// Ruby
 		{
 			"name": "RUBY- Keyword Operator Comparison, imports, returns and Keyword Operator",
