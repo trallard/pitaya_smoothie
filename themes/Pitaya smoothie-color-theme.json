@@ -16,7 +16,7 @@
 		"activityBarBadge.background": "#18c0c4",
 		"activityBarBadge.foreground": "#181036",
 		// Debug Icons.
-		"debugIcon.startForeground": "#7d79d1",
+		"debugIcon.startForeground": "#18c0c4",
 		"debugIcon.continueForeground": "#7d79d1",
 		"debugIcon.disconnectForeground": "#7d79d1",
 		"debugIcon.pauseForeground": "#7d79d1",
@@ -26,6 +26,7 @@
 		"debugIcon.stepOutForeground": "#7d79d1",
 		"debugIcon.stepOverForeground": "#7d79d1",
 		"debugIcon.stopForeground": "#f85e9f",
+		"debugIcon.breakpointForeground": "#f85e9f",
 		// Sidebar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
 		"sideBar.background": "#130C29",
@@ -34,6 +35,13 @@
 		"sideBarSectionHeader.foreground": "#7d79d1",
 		"sideBarTitle.foreground": "#7d79d1",
 		"sideBarSectionHeader.border": "#181036",
+		// Minimap
+		"minimap.findMatchHighlight": "#9e62ff",
+		"minimap.errorHighlight": "#f85e9f",
+		"minimap.warningHighlight": "#FAD000",
+		"minimapGutter.addedBackground": "#18c1c4a6",
+		"minimapGutter.deletedBackground": "#ff6e9c98",
+		"minimapGutter.modifiedBackground": "#AD70FC46",
 		// Badge.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
 		"badge.background": "#31E6E6",
@@ -204,6 +212,7 @@
 		"statusBarItem.prominentHoverBackground": "#FFE46B",
 		// Text Colors — Colors inside a text document, such as the welcome page.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
+		"walkThrough.embeddedEditorBackground": "#1E1E3F",
 		"textBlockQuote.background": "#1E1E3F",
 		"textBlockQuote.border": "#18c0c4",
 		"textCodeBlock.background": "#1E1E3F",
