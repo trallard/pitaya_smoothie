@@ -65,7 +65,6 @@
 		// The editorGroupHeader.
 		"editorGroupHeader.noTabsBackground": "#1f1445",
 		"editorGroupHeader.tabsBackground": "#1f1445",
-		// "editorGroupHeader.tabsBorder": "#595A8A",
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
 		"editorWidget.background": "#222244",
@@ -284,7 +283,6 @@
 			"scope": "markup.inserted.diff",
 			"settings": {
 				"foreground": "#18c1c4a6",
-				// "foreground": "#45f5cfc4", //original 
 				"fontStyle": "italic"
 			}
 		},
