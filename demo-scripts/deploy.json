@@ -1,0 +1,356 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "type": "string",
+            "defaultValue": "[resourceGroup().location]",
+            "metadata": {
+                "description": "Location for all resources."
+            }
+        },
+        "virtualMachineName": {
+            "type": "string",
+            "defaultValue": "TLJH-Ubuntu",
+            "metadata": {
+                "description": "Virtual machine name. Use a meaningful name."
+            }
+        },
+        "virtualMachineSize": {
+            "type": "string",
+            "defaultValue": "CPU-64GB",
+            "allowedValues": [
+                "CPU-8GB",
+                "CPU-14GB",
+                "CPU-16GB",
+                "CPU-28GB",
+                "CPU-32GB",
+                "CPU-64GB",
+                "CPU-112GB",
+                "CPU-128GB",
+                "CPU-256Gb",
+                "CPU-432Gb"
+            ],
+            "metadata": {
+                "description": "Your Virtual Machine size see https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes-general"
+            }
+        },
+        "adminUsername": {
+            "type": "string",
+            "metadata": {
+                "description": "Username for admin user."
+            }
+        },
+        "adminPassword": {
+            "type": "secureString",
+            "metadata": {
+                "description": "Root password, you need this to access the admin functions."
+            }
+        },
+        "ubuntuOSVersion": {
+            "type": "string",
+            "defaultValue": "18.04-LTS",
+            "allowedValues": [
+                "18.04-LTS"
+            ],
+            "metadata": {
+                "description": "The Ubuntu version for the VM. This will pick a fully patched image of this given Ubuntu version."
+            }
+        },
+        "publicIpAddressSku": {
+            "type": "string",
+            "defaultValue": "Basic",
+            "metadata": {
+                "description": "SKU for the public IP visit https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-ip-addresses-overview-arm#sku for more info."
+            }
+        },
+        "osDiskType": {
+            "type": "string",
+            "defaultValue": "Standard_LRS",
+            "allowedValues": [
+                "StandardSSD_LRS",
+                "Standard_LRS",
+                "Premium_LRS"
+            ],
+            "metadata": {
+                "description": "Disk type for your VM storage. Check https://docs.microsoft.com/en-us/azure/virtual-machines/windows/disks-types for reference."
+            }
+        },
+        "scriptLocation": {
+            "type": "string",
+            "metadata": {
+                "description": "The URL where the install script is located. If you do not require additional plugins or custom installs leave the default"
+            },
+            "defaultValue": "https://raw.githubusercontent.com/trallard/TLJH-azure-button/master/scripts/install.sh"
+        },
+        "dataDiskSize": {
+            "type": "string",
+            "metadata": {
+                "description": "Data disk size - this is attached to your VM for storage."
+            },
+            "defaultValue": "1024",
+            "allowedValues": [
+                "1024",
+                "2048",
+                "4096",
+                "8192",
+                "16384",
+                "32767"
+            ]
+        }
+    },
+    "variables": {
+        "publicIPAddressName": "jupyter-PublicIP",
+        "publicIPAddressType": "Dynamic",
+        "networkSecurityGroupName": "jupyter-vm-nsg",
+        "subnetName": "Subnet",
+        "subnet1Prefix": "10.0.0.0/24",
+        "virtualNetworkName": "jupyter-VNET",
+        "addressPrefix": "10.0.0.0/16",
+        "vmName": "[parameters('virtualMachineName')]",
+        "nsgId": "[resourceId(resourceGroup().name, 'Microsoft.Network/networkSecurityGroups', variables('networkSecurityGroupName'))]",
+        "vnetId": "[resourceId(resourceGroup().name, 'Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
+        "subnetRef": "[concat(variables('vnetId'), '/subnets/', variables('subnetName'))]",
+        "nicName": "jupyter-VMNic",
+        "dataDiskResourcesName": "[concat(variables('vmName'), '-datadisk1')]",
+        "managedDiskRef": "[resourceId('Microsoft.Compute/disks', variables('dataDiskResourcesName'))]",
+        "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'jupyter')]",
+        "vmSize": {
+            "CPU-8GB": "Standard_F4s_v2",
+            "CPU-14GB": "Standard_DS3_v2",
+            "CPU-16GB": "Standard_D4s_v3",
+            "CPU-28GB": "Standard_DS4_v2",
+            "CPU-32GB": "Standard_F4s_v2",
+            "CPU-64GB": "Standard_D16s_v3",
+            "CPU-112GB": "Standard_DS14-4_v2",
+            "CPU-128GB": "Standard_E16s_v3",
+            "CPU-256Gb": "Standard_E32_v3",
+            "CPU-432Gb": "Standard E64_v3"
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Network/networkSecurityGroups",
+            "apiVersion": "2019-06-01",
+            "name": "[variables('networkSecurityGroupName')]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "securityRules": [
+                    {
+                        "name": "HTTP",
+                        "properties": {
+                            "priority": 300,
+                            "protocol": "TCP",
+                            "access": "Allow",
+                            "direction": "Inbound",
+                            "sourceAddressPrefix": "*",
+                            "sourcePortRange": "*",
+                            "destinationAddressPrefix": "*",
+                            "destinationPortRange": "80"
+                        }
+                    },
+                    {
+                        "name": "HTTPS",
+                        "properties": {
+                            "priority": 310,
+                            "protocol": "TCP",
+                            "access": "Allow",
+                            "direction": "Inbound",
+                            "sourceAddressPrefix": "*",
+                            "sourcePortRange": "*",
+                            "destinationAddressPrefix": "*",
+                            "destinationPortRange": "443"
+                        }
+                    },
+                    {
+                        "name": "SSH",
+                        "properties": {
+                            "priority": 340,
+                            "protocol": "TCP",
+                            "access": "Allow",
+                            "direction": "Inbound",
+                            "sourceAddressPrefix": "*",
+                            "sourcePortRange": "*",
+                            "destinationAddressPrefix": "*",
+                            "destinationPortRange": "22"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Microsoft.Network/virtualNetworks",
+            "apiVersion": "2019-06-01",
+            "name": "[variables('virtualNetworkName')]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "addressSpace": {
+                    "addressPrefixes": [
+                        "[variables('addressPrefix')]"
+                    ]
+                },
+                "subnets": [
+                    {
+                        "name": "[variables('subnetName')]",
+                        "properties": {
+                            "addressPrefix": "[variables('subnet1Prefix')]"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Microsoft.Network/publicIpAddresses",
+            "apiVersion": "2019-06-01",
+            "name": "[variables('publicIpAddressName')]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "publicIpAllocationMethod": "[variables('publicIPAddressType')]"
+            },
+            "sku": {
+                "name": "[parameters('publicIpAddressSku')]",
+                "tier": "Regional"
+            }
+        },
+        {
+            "type": "Microsoft.Network/networkInterfaces",
+            "apiVersion": "2019-06-01",
+            "name": "[variables('nicName')]",
+            "location": "[parameters('location')]",
+            "dependsOn": [
+                "[concat('Microsoft.Network/networkSecurityGroups/', variables('networkSecurityGroupName'))]",
+                "[concat('Microsoft.Network/publicIpAddresses/', variables('publicIpAddressName'))]",
+                "[concat('Microsoft.Network/virtualNetworks/', variables('virtualNetworkName'))]"
+            ],
+            "properties": {
+                "ipConfigurations": [
+                    {
+                        "name": "ipconfig1",
+                        "properties": {
+                            "subnet": {
+                                "id": "[variables('subnetRef')]"
+                            },
+                            "privateIPAllocationMethod": "Dynamic",
+                            "publicIpAddress": {
+                                "id": "[resourceId(resourceGroup().name, 'Microsoft.Network/publicIpAddresses', variables('publicIpAddressName'))]"
+                            }
+                        }
+                    }
+                ],
+                "networkSecurityGroup": {
+                    "id": "[variables('nsgId')]"
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2019-06-01",
+            "name": "[variables('storageAccountName')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "[parameters('osDiskType')]"
+            },
+            "kind": "Storage",
+            "properties": {}
+        },
+        {
+            "type": "Microsoft.Compute/disks",
+            "name": "[variables('dataDiskResourcesName')]",
+            "apiVersion": "2018-06-01",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "[parameters('osDiskType')]"
+            },
+            "properties": {
+                "diskSizeGB": "[parameters('dataDiskSize')]",
+                "creationData": {
+                    "createOption": "empty"
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2019-07-01",
+            "name": "[parameters('virtualMachineName')]",
+            "location": "[parameters('location')]",
+            "tags": {
+                "displayName": "jupyter-vm"
+            },
+            "dependsOn": [
+                "[variables('managedDiskRef')]",
+                "[concat('Microsoft.Network/networkInterfaces/', variables('nicName'))]",
+                "[resourceId('Microsoft.Storage/storageAccounts/', variables('storageAccountName'))]"
+            ],
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "[variables('vmSize')[parameters('virtualMachineSize')]]"
+                },
+                "storageProfile": {
+                    "osDisk": {
+                        "createOption": "fromImage"
+                    },
+                    "imageReference": {
+                        "publisher": "Canonical",
+                        "offer": "UbuntuServer",
+                        "sku": "[parameters('ubuntuOSVersion')]",
+                        "version": "latest"
+                    },
+                    "dataDisks": [
+                        {
+                            "name": "[variables('dataDiskResourcesName')]",
+                            "lun": 0,
+                            "createOption": "attach",
+                            "managedDisk": {
+                                "id": "[variables('managedDiskRef')]"
+                            }
+                        }
+                    ]
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('nicName'))]"
+                        }
+                    ]
+                },
+                "osProfile": {
+                    "computerName": "[variables('vmName')]",
+                    "adminUsername": "[parameters('adminUsername')]",
+                    "adminPassword": "[parameters('adminPassword')]"
+                }
+            },
+            "resources": [
+                {
+                    "type": "Microsoft.Compute/virtualMachines/extensions",
+                    "apiVersion": "2019-07-01",
+                    "name": "[concat(variables('vmName'),'/installscript')]",
+                    "location": "[parameters('location')]",
+                    "dependsOn": [
+                        "[concat('Microsoft.Compute/virtualMachines/', concat(variables('vmName')))]"
+                    ],
+                    "tags": {
+                        "displayName": "Execute Jupyter install script"
+                    },
+                    "properties": {
+                        "publisher": "Microsoft.Azure.Extensions",
+                        "type": "CustomScript",
+                        "typeHandlerVersion": "2.0",
+                        "autoUpgradeMinorVersion": true,
+                        "protectedSettings": {
+                            "commandToExecute": "[concat('basename ', parameters('scriptLocation'), ' | xargs -I % bash \"%\" ', parameters('adminUsername'))]",
+                            "fileUris": [
+                                "[parameters('scriptLocation')]"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "outputs": {
+        "adminUsername": {
+            "type": "string",
+            "value": "[parameters('adminUsername')]"
+        }
+    }
+}

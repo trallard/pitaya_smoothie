@@ -26,6 +26,7 @@
 		"debugIcon.stepOutForeground": "#7d79d1",
 		"debugIcon.stepOverForeground": "#7d79d1",
 		"debugIcon.stopForeground": "#f85e9f",
+		"debugIcon.breakpointForeground": "#f85e9f",
 		// Sidebar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
 		"sideBar.background": "#130C29",
@@ -34,6 +35,13 @@
 		"sideBarSectionHeader.foreground": "#7d79d1",
 		"sideBarTitle.foreground": "#7d79d1",
 		"sideBarSectionHeader.border": "#181036",
+		// Minimap
+		"minimap.findMatchHighlight": "#9e62ff",
+		"minimap.errorHighlight": "#f85e9f",
+		"minimap.warningHighlight": "#FAD000",
+		"minimapGutter.addedBackground": "#18c1c4a6",
+		"minimapGutter.deletedBackground": "#ff6e9c98",
+		"minimapGutter.modifiedBackground": "#AD70FC46",
 		// Badge.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
 		"badge.background": "#31E6E6",
@@ -57,7 +65,6 @@
 		// The editorGroupHeader.
 		"editorGroupHeader.noTabsBackground": "#1f1445",
 		"editorGroupHeader.tabsBackground": "#1f1445",
-		// "editorGroupHeader.tabsBorder": "#595A8A",
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
 		"editorWidget.background": "#222244",
@@ -244,7 +251,7 @@
 		"gitDecoration.deletedResourceForeground": "#ff6e9c98", // Color for deleted git resources.
 		"gitDecoration.untrackedResourceForeground": "#18c1c4a6", // Color for untracked git resources.
 		"gitDecoration.ignoredResourceForeground": "#A599E981", // Color for ignored git resources.
-		"gitDecoration.conflictingResourceForeground": "#f28d52d7", // Color for conflicting git resources.
+		"gitDecoration.conflictingResourceForeground": "#f28d52d7" // Color for conflicting git resources.
 	},
 	"tokenColors": [
 		{
@@ -278,7 +285,6 @@
 		{
 			"name": "Global settings",
 			"settings": {
-				"background": "#181036",
 				"foreground": "#FEFEFF"
 			}
 		},
@@ -323,7 +329,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#C4A2F5"
 			}
 		},
 		{
@@ -461,14 +467,13 @@
 			"name": "Support Variable DOM",
 			"scope": "support.variable.dom",
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#B07AFC"
 			}
 		},
 		{
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#fd3777",
 				"foreground": "#fd3777"
 			}
 		},
@@ -624,7 +629,7 @@
 			"name": "Entity Other Attribute Name Id",
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#B07AFC"
 			}
 		},
 		{
@@ -812,7 +817,7 @@
 				"keyword.other.special-method.dockerfile"
 			],
 			"settings": {
-				"foreground": "#C4A2F5"
+				"foreground": "#b07afc"
 			}
 		},
 		// ENV
@@ -850,11 +855,28 @@
 			"name": "GRAPHQL — variables",
 			"scope": [
 				"meta.selectionset.graphql",
-				"source.graphql",
 				"variable.graphql"
 			],
 			"settings": {
-				"foreground": "#d6deeb"
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "GRAPHQL — source",
+			"scope": [
+				"source.graphql"
+			],
+			"settings": {
+				"foreground": "#F26196"
+			}
+		},
+		{
+			"name": "GRAPHQL - punctuation",
+			"scope": [
+				"punctuation.operation.graphql"
+			],
+			"settings": {
+				"foreground": "#D6DEEB"
 			}
 		},
 		// INI 
@@ -999,10 +1021,20 @@
 			}
 		},
 		{
-			"name": "Tag attribute",
+			"name": "HTML - Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "HTML Comment",
+			"scope": [
+				"punctuation.definition.comment.html",
+				"comment.block.html"
+			],
+			"settings": {
+				"foreground": "#5C588A"
 			}
 		},
 		// JSON
@@ -1011,6 +1043,17 @@
 			"scope": "string.quoted.double.json",
 			"settings": {
 				"foreground": "#C4A2F5"
+			}
+		},
+		//Arm
+		{
+			"name": "ARM - variables",
+			"scope": [
+				"variable.language.variables.tle.arm-template",
+				"variable.language.variables.variable-name.tle.arm-template"
+			],
+			"settings": {
+				"foreground": "#b07afc"
 			}
 		},
 		// Makefile
@@ -1120,7 +1163,7 @@
 			"name": "MARKDOWN - Color for Separator",
 			"scope": "meta.separator.markdown",
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#82B1FF"
 			}
 		},
 		{
@@ -1480,7 +1523,7 @@
 				"variable.parameter.url.sass"
 			],
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#B07AFC"
 			}
 		},
 		{
@@ -1494,10 +1537,9 @@
 			}
 		},
 		{
-			"name": "Variables in SASS At-Rules",
+			"name": "CSS source - sass",
 			"scope": [
-				"source.css.scss meta.at-rule variable",
-				"source.css.sass meta.at-rule variable"
+				"source.css.scss"
 			],
 			"settings": {
 				"foreground": "#c6d8fa"
@@ -1531,6 +1573,24 @@
 			],
 			"settings": {
 				"foreground": "#FFE46B"
+			}
+		},
+		{
+			"name": "SASS - support constant",
+			"scope": [
+				"source.sass support.constant.property-value.css.sass"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "SASS - variables maps",
+			"scope": [
+				"source.sass sass-script-maps variable.other"
+			],
+			"settings": {
+				"foreground": "#B07AFC"
 			}
 		},
 		// Ruby
