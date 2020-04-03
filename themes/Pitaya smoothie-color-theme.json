@@ -282,7 +282,6 @@
 		{
 			"name": "Global settings",
 			"settings": {
-				"background": "#181036",
 				"foreground": "#FEFEFF"
 			}
 		},
@@ -479,7 +478,6 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#fd3777",
 				"foreground": "#fd3777"
 			}
 		},
@@ -1553,10 +1551,8 @@
 			}
 		},
 		{
-			"name": "Variables in SASS At-Rules",
+			"name": "CSS source - sass",
 			"scope": [
-				"source.css.scss meta.at-rule variable",
-				"source.css.sass meta.at-rule variable",
 				"source.css.scss"
 			],
 			"settings": {
@@ -1599,9 +1595,18 @@
 				"source.sass support.constant.property-value.css.sass"
 			],
 			"settings": {
-				"foreground": "#FF6e9c"
+				"foreground": "#FF96B7"
 			}
-		}
+		},
+		{
+			"name": "SASS - variables maps",
+			"scope": [
+				"source.sass sass-script-maps variable.other"
+			],
+			"settings": {
+				"foreground": "#B07AFC"
+			}
+		},
 		// Ruby
 		{
 			"name": "RUBY- Keyword Operator Comparison, imports, returns and Keyword Operator",
