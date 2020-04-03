@@ -323,7 +323,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#C4A2F5"
 			}
 		},
 		{
@@ -461,7 +461,7 @@
 			"name": "Support Variable DOM",
 			"scope": "support.variable.dom",
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#B07AFC"
 			}
 		},
 		{
@@ -624,7 +624,7 @@
 			"name": "Entity Other Attribute Name Id",
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#B07AFC"
 			}
 		},
 		{
@@ -850,11 +850,19 @@
 			"name": "GRAPHQL — variables",
 			"scope": [
 				"meta.selectionset.graphql",
-				"source.graphql",
 				"variable.graphql"
 			],
 			"settings": {
-				"foreground": "#d6deeb"
+				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "GRAPHQL — source",
+			"scope": [
+				"source.graphql"
+			],
+			"settings": {
+				"foreground": "#F26196"
 			}
 		},
 		// INI 
@@ -1491,7 +1499,7 @@
 				"variable.parameter.url.sass"
 			],
 			"settings": {
-				"foreground": "#CAF884"
+				"foreground": "#C4A2F5"
 			}
 		},
 		{
@@ -1544,6 +1552,15 @@
 				"foreground": "#FFE46B"
 			}
 		},
+		{
+			"name": "SASS - support constant",
+			"scope": [
+				"support.constant.vendor.property-value.css.sass"
+			],
+			"settings": {
+				"foreground": "#b07afc"
+			},
+		}
 		// Ruby
 		{
 			"name": "RUBY- Keyword Operator Comparison, imports, returns and Keyword Operator",
