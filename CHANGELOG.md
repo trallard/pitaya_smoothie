@@ -11,13 +11,13 @@ All notable changes to the "pitaya-smoothie" extension will be documented in thi
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
 
-> ✨ Comments in HTML are now all dark [`3d4b868`](https://github.com/trallard/pitaya_smoothie/commit/3d4b868)
-> ✨ Improvements to js, scss, sass, and SQL [`95c0f57`](https://github.com/trallard/pitaya_smoothie/commit/95c0f57)
+> ✨ Comments in HTML are now all dark [`3d4b868`](https://github.com/trallard/pitaya_smoothie/commit/3d4b868)<br>
+> ✨ Improvements to js, scss, sass, and SQL [`95c0f57`](https://github.com/trallard/pitaya_smoothie/commit/95c0f57)<br>
 
 ![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)
 
-> 📦 Support for GraphQL [`efd71bc`](https://github.com/trallard/pitaya_smoothie/commit/efd71bc)
-> 📦 ARM templates now found and better suited highlights [`3d4b868`](https://github.com/trallard/pitaya_smoothie/commit/3d4b868)
+> 📦 Support for GraphQL [`efd71bc`](https://github.com/trallard/pitaya_smoothie/commit/efd71bc)<br>
+> 📦 ARM templates now found and better suited highlights [`3d4b868`](https://github.com/trallard/pitaya_smoothie/commit/3d4b868) <br>
 > 📦 Minimap Gutter colours now match Editor Gutter colours [`f11fec2`](https://github.com/trallard/pitaya_smoothie/commit/f11fec2)
 
 ## RELEASE: 1.0.1
