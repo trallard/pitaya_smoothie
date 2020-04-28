@@ -60,9 +60,10 @@
 		"dropdown.background": "#252549",
 		"dropdown.border": "#252549",
 		"dropdown.foreground": "#FEFEFF",
+		// The editorGroupHeader.
+		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
 		"editorGroup.border": "#222244",
 		"editorGroup.dropBackground": "#222244D0",
-		// The editorGroupHeader.
 		"editorGroupHeader.noTabsBackground": "#1f1445",
 		"editorGroupHeader.tabsBackground": "#1f1445",
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
@@ -108,6 +109,7 @@
 		"tab.inactiveBackground": "#1f1445",
 		"tab.activeForeground": "#9491ce",
 		"tab.inactiveForeground": "#484f7d",
+		"tab.activeBorder": "#31E6E6",
 		// Title bar
 		"titleBar.activeBackground": "#1E1E3F",
 		"titleBar.activeForeground": "#789EF8",
