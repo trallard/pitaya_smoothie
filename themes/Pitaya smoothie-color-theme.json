@@ -1517,21 +1517,94 @@
 			}
 		},
 		{
-			"name": "R - Variable functions",
-			"scope": [
-				"variable.function.r"
-			],
-			"settings": {
-				// "foreground": "#f3ca7e"
-			}
-		},
-		{
 			"name": "R - punctuation",
 			"scope": [
 				"keyword.operator.assignment.r"
 			],
 			"settings": {
 				"foreground": "#C4A2F5"
+			}
+		},
+		// RST 
+		{
+			"name": "RST - punctuation",
+			"scope": [
+				"punctuation.definition.heading.restructuredtext",
+				"markup.heading.restructuredtxt",
+			],
+			"settings": {
+				"foreground": "#82b1ff",
+			}
+		},
+		{
+			"name": "RST -  directives",
+			"scope": [
+				"support.directive.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#7ef3ca",
+			}
+		},
+		{
+			"name": "RST - substitutions",
+			"scope": [
+				"markup.underline.substitution.restructuredtext",
+				"markup.underline.link",
+				"punctuation.definition.substitution.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#66E9EC",
+			}
+		},
+		{
+			"name": "RST - references",
+			"scope": [
+				"entity.name"
+			],
+			"settings": {
+				"foreground": "#A599E9",
+			}
+		},
+		{
+			"name": "RST - lists",
+			"scope": [
+				"markup.list.restructuredtext",
+				"beginning.punctuation.definition.list.restructuredtext",
+				"punctuation.definition.list.begin.restructuredtext",
+				"markup.list.unnumbered.restructuredtext",
+				"markup.list.numbered.restructuredtext",
+			],
+			"settings": {
+				"foreground": "#82b1ff",
+			}
+		},
+		{
+			"name": "RST - bold",
+			"scope": [
+				"markup.bold.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#F3CA7E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "RST -inline code",
+			"scope": [
+				"markup.inline.raw.string.restructuredtext",
+				"punctuation.definition.raw.restructuredtext",
+				"markup.raw.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#A599E9",
+			}
+		},
+		{
+			"name": "RST - Color for Emphasis Italic",
+			"scope": "markup.italic.restructuredtext",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#b07afc"
 			}
 		},
 		// SASS
