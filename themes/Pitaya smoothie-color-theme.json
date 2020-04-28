@@ -550,7 +550,7 @@
 			"name": "Double-Slashed Comment",
 			"scope": "comment.line.double-slash",
 			"settings": {
-				"foreground": "#5C588A"
+				"foreground": "#7E7AAA"
 			}
 		},
 		{
@@ -1052,7 +1052,7 @@
 				"comment.block.html",
 			],
 			"settings": {
-				"foreground": "#5C588A",
+				"foreground": "#7E7AAA",
 				"fontStyle": "italic"
 			}
 		},
@@ -1149,7 +1149,7 @@
 				"meta.diff.header.from-file"
 			],
 			"settings": {
-				"foreground": "#5C588A"
+				"foreground": "#7E7AAA"
 			}
 		},
 		{
@@ -1362,7 +1362,7 @@
 				"punctuation.definition.comment",
 			],
 			"settings": {
-				"foreground": "#5C588A",
+				"foreground": "#7E7AAA",
 				"fontStyle": "italic"
 			}
 		},

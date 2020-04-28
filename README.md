@@ -54,7 +54,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 | -------------- | -------------------------------------------------------------------- |
 | Background     | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
 | Foreground     | ![#fefeff](https://placehold.it/15/fefeff/000000?text=%20) `#fefeff` |
-| Comment        | ![#5C588A](https://placehold.it/15/5C588A/000000?text=%20) `#5C588A` |
+| Comment        | ![#7E7AAA](https://placehold.it/15/7E7AAA/000000?text=%20) `#7E7AAA` |
 | Keyword        | ![#f62196](https://placehold.it/15/f62196/000000?text=%20) `#f62196` |
 | String         | ![#7998F2](https://placehold.it/15/7998F2/000000?text=%20) `#7998F2` |
 | Number         | ![#f3907e](https://placehold.it/15/f3907e/000000?text=%20) `#f3907e` |
