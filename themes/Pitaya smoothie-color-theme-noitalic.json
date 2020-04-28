@@ -108,6 +108,7 @@
 		"tab.inactiveBackground": "#1f1445",
 		"tab.activeForeground": "#9491ce",
 		"tab.inactiveForeground": "#484f7d",
+		"tab.activeBorder": "#31E6E6",
 		// Title bar
 		"titleBar.activeBackground": "#1E1E3F",
 		"titleBar.activeForeground": "#789EF8",
@@ -538,7 +539,7 @@
 			"name": "Double-Slashed Comment",
 			"scope": "comment.line.double-slash",
 			"settings": {
-				"foreground": "#5C588A"
+				"foreground": "#7E7AAA"
 			}
 		},
 		{
@@ -1034,7 +1035,7 @@
 				"comment.block.html"
 			],
 			"settings": {
-				"foreground": "#5C588A"
+				"foreground": "#7E7AAA"
 			}
 		},
 		// JSON
@@ -1130,7 +1131,7 @@
 				"meta.diff.header.from-file"
 			],
 			"settings": {
-				"foreground": "#5C588A"
+				"foreground": "#7E7AAA"
 			}
 		},
 		{
@@ -1342,7 +1343,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#5C588A"
+				"foreground": "#7E7AAA"
 			}
 		},
 		{
@@ -1511,6 +1512,88 @@
 			],
 			"settings": {
 				"foreground": "#C4A2F5"
+			}
+		},
+		// RST 
+		{
+			"name": "RST - punctuation",
+			"scope": [
+				"punctuation.definition.heading.restructuredtext",
+				"markup.heading.restructuredtxt",
+			],
+			"settings": {
+				"foreground": "#82b1ff",
+			}
+		},
+		{
+			"name": "RST -  directives",
+			"scope": [
+				"support.directive.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#7ef3ca",
+			}
+		},
+		{
+			"name": "RST - substitutions",
+			"scope": [
+				"markup.underline.substitution.restructuredtext",
+				"markup.underline.link",
+				"punctuation.definition.substitution.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#66E9EC",
+			}
+		},
+		{
+			"name": "RST - references",
+			"scope": [
+				"entity.name"
+			],
+			"settings": {
+				"foreground": "#A599E9",
+			}
+		},
+		{
+			"name": "RST - lists",
+			"scope": [
+				"markup.list.restructuredtext",
+				"beginning.punctuation.definition.list.restructuredtext",
+				"punctuation.definition.list.begin.restructuredtext",
+				"markup.list.unnumbered.restructuredtext",
+				"markup.list.numbered.restructuredtext",
+			],
+			"settings": {
+				"foreground": "#82b1ff",
+			}
+		},
+		{
+			"name": "RST - bold",
+			"scope": [
+				"markup.bold.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#F3CA7E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "RST -inline code",
+			"scope": [
+				"markup.inline.raw.string.restructuredtext",
+				"punctuation.definition.raw.restructuredtext",
+				"markup.raw.restructuredtext"
+			],
+			"settings": {
+				"foreground": "#A599E9",
+			}
+		},
+		{
+			"name": "RST - Color for Emphasis Italic",
+			"scope": "markup.italic.restructuredtext",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#b07afc"
 			}
 		},
 		// SASS

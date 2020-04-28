@@ -7,6 +7,17 @@
 # Change Log
 All notable changes to the "pitaya-smoothie" extension will be documented in this file.
 
+## RELEASE: 1.0.3
+
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
+
+> ✨ Changed comments foreground to increase the contrast ratio [`afe1c39`](https://github.com/trallard/pitaya_smoothie/commit/afe1c39)
+
+![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)
+
+> 📦 Add support for Restructuredtext [33bd1bd](https://github.com/trallard/pitaya_smoothie/commit/33bd1bd) <br>
+> 📦 Add active tab border colour [e42baea](https://github.com/trallard/pitaya_smoothie/commit/e42baea)
+
 ## RELEASE: 1.0.2
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
