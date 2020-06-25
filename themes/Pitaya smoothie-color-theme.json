@@ -60,6 +60,7 @@
 		"dropdown.background": "#252549",
 		"dropdown.border": "#252549",
 		"dropdown.foreground": "#FEFEFF",
+		"dropdown.listBackground": "#252549",
 		// The editorGroupHeader.
 		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
 		"editorGroup.border": "#222244",
@@ -79,7 +80,7 @@
 		"editorSuggestWidget.selectedBackground": "#2D2B55",
 		// The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
 		"editorMarkerNavigation.background": "#252549af",
-		"editorMarkerNavigationError.background": "#FD1D53",
+		"editorMarkerNavigationError.background": "#f85e9f",
 		"editorMarkerNavigationWarning.background": "#FAD000",
 		// Input Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
@@ -88,11 +89,13 @@
 		"input.foreground": "#fefeff",
 		"input.placeholderForeground": "#A599E9",
 		"inputOption.activeBorder": "#1E1E3F",
-		"inputValidation.errorBackground": "#FD1D53",
+		"inputValidation.errorBackground": "#FF6E9C",
+		"inputValidation.errorForeground": "#181036",
 		"inputValidation.errorBorder": "#181036",
 		"inputValidation.infoBackground": "#7998F2",
 		"inputValidation.infoBorder": "#181036",
 		"inputValidation.warningBackground": "#FAD000",
+		"inputValidation.warningForeground": "#181036",
 		"inputValidation.warningBorder": "#181036",
 		"inputOption.activeBackground": "#5D37F0",
 		// List
@@ -288,12 +291,12 @@
 				"fontStyle": "italic"
 			}
 		},
-		{
-			"name": "Global settings",
-			"settings": {
-				"foreground": "#FEFEFF"
-			}
-		},
+		// {
+		// 	"name": "Global settings",
+		// 	"settings": {
+		// 		"foreground": "#FEFEFF"
+		// 	}
+		// },
 		{
 			"name": "String",
 			"scope": "string",
