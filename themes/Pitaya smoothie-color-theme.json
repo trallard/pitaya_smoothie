@@ -82,6 +82,7 @@
 		"editorMarkerNavigation.background": "#252549af",
 		"editorMarkerNavigationError.background": "#f85e9f",
 		"editorMarkerNavigationWarning.background": "#FAD000",
+		"editorMarkerNavigationInfo.background": "#7998F2",
 		// Input Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
 		"input.background": "#181036",
@@ -119,19 +120,19 @@
 		"titleBar.inactiveBackground": "#1E1E3F",
 		"titleBar.inactiveForeground": "#789EF8AF",
 		// Highlight and selection 
-		"editor.selectionBackground": "#654ea3ea", // Color of the editor selection.
-		"editor.inactiveSelectionBackground": "#294592e8", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+		"editor.selectionBackground": "#381e7eb7", // Color of the editor selection.
+		"editor.inactiveSelectionBackground": "#31108c9d", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
 		"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
-		"editor.wordHighlightBackground": "#FFFFFF0D", // Same words other places.
+		"editor.wordHighlightBackground": "#2d105fda", // Same words other places.
 		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
-		"editor.findMatchBackground": "#7580B8C0", // Color of the current search match.
-		"editor.findMatchHighlightBackground": "#8390d1c0", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
-		"editor.findRangeHighlightBackground": "#8390d1c0", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
-		"editor.hoverHighlightBackground": "#654ea3ea", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
+		"editor.findMatchBackground": "#153449d7", // Color of the current search match.
+		"editor.findMatchHighlightBackground": "#17384fe7", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
+		"editor.findRangeHighlightBackground": "#381e7eb7", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+		"editor.hoverHighlightBackground": "#2d105fda", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
 		"editor.lineHighlightBackground": "#1E1C3F", // Current line of code. Background color for the highlight of line at the cursor position.
 		"editor.lineHighlightBorder": "#1E1C3F",
 		"editor.rangeHighlightBackground": "#1E1C3F",
-		"editorLink.activeForeground": "#A599E9",
+		"editorLink.activeForeground": "#381e7eb7",
 		"editorIndentGuide.background": "#A599E90F",
 		"editorIndentGuide.activeBackground": "#A599E942",
 		"editorRuler.foreground": "#e999aa1c", // Editor Ruler.
