@@ -19,7 +19,7 @@
 		"debugIcon.startForeground": "#18c0c4",
 		"debugIcon.continueForeground": "#7d79d1",
 		"debugIcon.disconnectForeground": "#7d79d1",
-		"debugIcon.pauseForeground": "#7d79d1",
+		"debugIcon.pauseForeground": "#7998F2",
 		"debugIcon.restartForeground": "#18c0c4",
 		"debugIcon.stepBackForeground": "#7d79d1",
 		"debugIcon.stepIntoForeground": "#7d79d1",
@@ -177,13 +177,13 @@
 		"merge.incomingHeaderBackground": "#ff6e9c98",
 		// Notification Colors.
 		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
-		"notificationCenterHeader.foreground": "#FFFFFF", // Notification Center header foreground color.
+		"notificationCenterHeader.foreground": "#fefeff", // Notification Center header foreground color.
 		"notificationCenterHeader.background": "#130C29", // Notification Center header background color.
 		"notificationToast.border": "#130C29", // Notification toast border color.
 		"notifications.foreground": "#CEC5FF", // Notification foreground color.
 		"notifications.background": "#130C29", // Notification background color.
 		"notifications.border": "#2D2B55", // Notification border color separating from other notifications in the Notification Center.
-		"notificationLink.foreground": "#FFFFFF", // Notification links foreground color.
+		"notificationLink.foreground": "#fefeff", // Notification links foreground color.
 		// Panel.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
 		"panel.background": "#130C29",
@@ -196,7 +196,7 @@
 		"progressBar.background": "#F26196",
 		// Scroll Bar Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
-		"scrollbar.shadow": "#010b14",
+		"scrollbar.shadow": "#CEC5FF",
 		"scrollbarSlider.background": "#57549293",
 		"scrollbarSlider.hoverBackground": "#A56CF5",
 		"scrollbarSlider.activeBackground": "#F26196",
