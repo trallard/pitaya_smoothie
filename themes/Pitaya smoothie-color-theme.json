@@ -196,7 +196,7 @@
 		"progressBar.background": "#F26196",
 		// Scroll Bar Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
-		"scrollbar.shadow": "#CEC5FF",
+		"scrollbar.shadow": "#010b14",
 		"scrollbarSlider.background": "#57549293",
 		"scrollbarSlider.hoverBackground": "#A56CF5",
 		"scrollbarSlider.activeBackground": "#F26196",
