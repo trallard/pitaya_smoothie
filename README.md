@@ -26,7 +26,7 @@
  <td>
  A FOSS (Free & Open Source Software) project developed by <a href='https://github.com/trallard' target="_blank">Tania Allard</a>.
  </td>
- <td align='center'>
+ <td align='center'>s
  <a target="_blank" href='https://bitsandchips.me/'>
  <img src='https://img.shields.io/badge/%E2%86%92-TANIA%20ALLARD-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat' width='100' />
  </a>
