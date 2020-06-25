@@ -10,7 +10,6 @@
 		// Activity Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 		"activityBar.background": "#181036",
-		"activityBar.dropBackground": "#1f1445",
 		"activityBar.foreground": "#7A76C2",
 		"activityBar.inactiveForeground": "#403c86",
 		"activityBarBadge.background": "#18c0c4",
@@ -19,7 +18,7 @@
 		"debugIcon.startForeground": "#7d79d1",
 		"debugIcon.continueForeground": "#7d79d1",
 		"debugIcon.disconnectForeground": "#7d79d1",
-		"debugIcon.pauseForeground": "#7d79d1",
+		"debugIcon.pauseForeground": "#7998F2",
 		"debugIcon.restartForeground": "#18c0c4",
 		"debugIcon.stepBackForeground": "#7d79d1",
 		"debugIcon.stepIntoForeground": "#7d79d1",
@@ -60,8 +59,7 @@
 		"dropdown.background": "#252549",
 		"dropdown.border": "#252549",
 		"dropdown.foreground": "#FEFEFF",
-		"editorGroup.border": "#222244",
-		"editorGroup.dropBackground": "#222244D0",
+		"dropdown.listBackground": "#252549",
 		// The editorGroupHeader.
 		"editorGroupHeader.noTabsBackground": "#1f1445",
 		"editorGroupHeader.tabsBackground": "#1f1445",
@@ -78,8 +76,9 @@
 		"editorSuggestWidget.selectedBackground": "#2D2B55",
 		// The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
 		"editorMarkerNavigation.background": "#252549af",
-		"editorMarkerNavigationError.background": "#FD1D53",
+		"editorMarkerNavigationError.background": "#f85e9f",
 		"editorMarkerNavigationWarning.background": "#FAD000",
+		"editorMarkerNavigationInfo.background": "#7998F2",
 		// Input Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
 		"input.background": "#181036",
@@ -87,11 +86,13 @@
 		"input.foreground": "#fefeff",
 		"input.placeholderForeground": "#A599E9",
 		"inputOption.activeBorder": "#1E1E3F",
-		"inputValidation.errorBackground": "#FD1D53",
+		"inputValidation.errorBackground": "#FF6E9C",
 		"inputValidation.errorBorder": "#181036",
+		"inputValidation.errorForeground": "#181036",
 		"inputValidation.infoBackground": "#7998F2",
 		"inputValidation.infoBorder": "#181036",
 		"inputValidation.warningBackground": "#FAD000",
+		"inputValidation.warningForeground": "#fefeff",
 		"inputValidation.warningBorder": "#181036",
 		"inputOption.activeBackground": "#5D37F0",
 		// List
@@ -115,19 +116,19 @@
 		"titleBar.inactiveBackground": "#1E1E3F",
 		"titleBar.inactiveForeground": "#789EF8AF",
 		// Highlight and selection 
-		"editor.selectionBackground": "#654ea3ea", // Color of the editor selection.
-		"editor.inactiveSelectionBackground": "#294592e8", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+		"editor.selectionBackground": "#381e7eb7", // Color of the editor selection.
+		"editor.inactiveSelectionBackground": "#31108c9d", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
 		"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
-		"editor.wordHighlightBackground": "#FFFFFF0D", // Same words other places.
+		"editor.wordHighlightBackground": "#2d105fda", // Same words other places.
 		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
-		"editor.findMatchBackground": "#7580B8C0", // Color of the current search match.
-		"editor.findMatchHighlightBackground": "#8390d1c0", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
-		"editor.findRangeHighlightBackground": "#8390d1c0", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
-		"editor.hoverHighlightBackground": "#654ea3ea", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
+		"editor.findMatchBackground": "#153449d7", // Color of the current search match.
+		"editor.findMatchHighlightBackground": "#17384fe7", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
+		"editor.findRangeHighlightBackground": "#381e7eb7", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+		"editor.hoverHighlightBackground": "#2d105fda", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
 		"editor.lineHighlightBackground": "#1E1C3F", // Current line of code. Background color for the highlight of line at the cursor position.
 		"editor.lineHighlightBorder": "#1E1C3F",
 		"editor.rangeHighlightBackground": "#1E1C3F",
-		"editorLink.activeForeground": "#A599E9",
+		"editorLink.activeForeground": "#381e7eb7",
 		"editorIndentGuide.background": "#A599E90F",
 		"editorIndentGuide.activeBackground": "#A599E942",
 		"editorRuler.foreground": "#e999aa1c", // Editor Ruler.
@@ -173,13 +174,13 @@
 		"merge.incomingHeaderBackground": "#ff6e9c98",
 		// Notification Colors.
 		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
-		"notificationCenterHeader.foreground": "#FFFFFF", // Notification Center header foreground color.
+		"notificationCenterHeader.foreground": "#fefeff", // Notification Center header foreground color.
 		"notificationCenterHeader.background": "#130C29", // Notification Center header background color.
 		"notificationToast.border": "#130C29", // Notification toast border color.
 		"notifications.foreground": "#CEC5FF", // Notification foreground color.
 		"notifications.background": "#130C29", // Notification background color.
 		"notifications.border": "#2D2B55", // Notification border color separating from other notifications in the Notification Center.
-		"notificationLink.foreground": "#FFFFFF", // Notification links foreground color.
+		"notificationLink.foreground": "#fefeff", // Notification links foreground color.
 		// Panel.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
 		"panel.background": "#130C29",
@@ -192,7 +193,7 @@
 		"progressBar.background": "#F26196",
 		// Scroll Bar Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
-		"scrollbar.shadow": "#010b14",
+		"scrollbar.shadow": "#CEC5FF",
 		"scrollbarSlider.background": "#57549293",
 		"scrollbarSlider.hoverBackground": "#A56CF5",
 		"scrollbarSlider.activeBackground": "#F26196",

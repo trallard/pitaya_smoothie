@@ -10,7 +10,6 @@
 		// Activity Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 		"activityBar.background": "#181036",
-		"activityBar.dropBackground": "#1f1445",
 		"activityBar.foreground": "#7A76C2",
 		"activityBar.inactiveForeground": "#403c86",
 		"activityBarBadge.background": "#18c0c4",
@@ -96,7 +95,7 @@
 		"inputValidation.infoBackground": "#7998F2",
 		"inputValidation.infoBorder": "#181036",
 		"inputValidation.warningBackground": "#FAD000",
-		"inputValidation.warningForeground": "#181036",
+		"inputValidation.warningForeground": "#fefeff",
 		"inputValidation.warningBorder": "#181036",
 		"inputOption.activeBackground": "#5D37F0",
 		// List
