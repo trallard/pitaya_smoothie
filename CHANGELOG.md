@@ -7,6 +7,14 @@
 # Change Log
 All notable changes to the "pitaya-smoothie" extension will be documented in this file.
 
+## RELEASE: 1.0.4
+
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
+
+> ✨ Multiple improvements to general accesibility: [highlighting](https://github.com/trallard/pitaya_smoothie/commit/512a3ef), [debugging](https://github.com/trallard/pitaya_smoothie/commit/0c755e9), [error and warning](https://github.com/trallard/pitaya_smoothie/commit/8b697eb)
+
+> ✨ Remove deprecated theme tags [5c782e2](https://github.com/trallard/pitaya_smoothie/commit/5c782e2)
+
 ## RELEASE: 1.0.3
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
