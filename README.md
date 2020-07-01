@@ -158,8 +158,15 @@ You can find `Pitaya Smoothie` in the following places:
 
 - ✨ Iterm theme [https://github.com/trallard/pitaya-smoothie-iterm/tree/master](https://github.com/trallard/pitaya-smoothie-iterm/tree/master)
 
-- ✨ Slack theme - if you want to match your VS Code theme and your Slack theme head to `preferences` -> `themes` in Slack and paste the following colours `#181036,#27264D,#251954,#66E9EC,#27264D,#ABA9DB,#AD70FC,#FF6E9C`
+- ✨ Slack theme - if you want to match your VS Code theme and your Slack theme head to `preferences` -> `themes` in Slack and paste the following colours:
+ `#181036,#27264D,#251954,#66E9EC,#27264D,#ABA9DB,#AD70FC,#FF6E9C`
+  </br>
   - The colours included are: ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` ![#27264d](https://placehold.it/15/27264d/000000?text=%20) `#27264d` ![#251954](https://placehold.it/15/251954/000000?text=%20) `#251954` ![#66e9ec](https://placehold.it/15/66e9ec/000000?text=%20) `#66e9ec` ![#ABA9DB](https://placehold.it/15/ABA9DB/000000?text=%20) `#ABA9DB` ![#ad70fc](https://placehold.it/15/ad70fc/000000?text=%20) `#ad70fc` ![#ff6e9c](https://placehold.it/15/ff6e9c/000000?text=%20) `#ff6e9c`
+
+- ✨ Matplotlib theme - now your plots can have a Pitaya Smoothie look (dark and light themes included). Developed by [@dhaitz](https://github.com/dhaitz) - check it out at [https://github.com/dhaitz/matplotlib-stylesheets](https://github.com/dhaitz/matplotlib-stylesheets).
+
+![mpl light demo](https://github.com/dhaitz/matplotlib-stylesheets/raw/master/img/pitayasmoothie_light.png)
+![mpl dark demo](https://github.com/dhaitz/matplotlib-stylesheets/raw/master/img/pitayasmoothie_dark.png)
 
 If you want to port Pitaya Smoothie to other places let us know and we'll add a link to your port and add you to our contributors list ✨💜
 
