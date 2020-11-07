@@ -7,6 +7,14 @@
 # Change Log
 All notable changes to the "pitaya-smoothie" extension will be documented in this file.
 
+## RELEASE: 1.0.5
+
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
+
+> ✨ Improve general highlighting accesibility [c2e4bbd](https://github.com/trallard/pitaya_smoothie/commit/c2e4bbd)
+
+> ✨ Change active links colour so that they are readable [c2e4bbd](https://github.com/trallard/pitaya_smoothie/commit/c2e4bbd)
+
 ## RELEASE: 1.0.4
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
