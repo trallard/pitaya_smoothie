@@ -1,3 +1,5 @@
+// Contrast.
+// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_contrast-colors
 {
     "env": {
         "es6": true,

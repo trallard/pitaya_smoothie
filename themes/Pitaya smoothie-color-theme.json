@@ -119,25 +119,25 @@
 		"titleBar.inactiveBackground": "#1E1E3F",
 		"titleBar.inactiveForeground": "#789EF8AF",
 		// Highlight and selection 
-		"editor.selectionBackground": "#381e7eb7", // Color of the editor selection.
+		"editor.selectionBackground": "#341e83e5", // Color of the editor selection.
 		"editor.inactiveSelectionBackground": "#31108c9d", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
 		"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
 		"editor.wordHighlightBackground": "#2d105fda", // Same words other places.
 		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
-		"editor.findMatchBackground": "#153449d7", // Color of the current search match.
-		"editor.findMatchHighlightBackground": "#17384fe7", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
+		"editor.findMatchBackground": "#1f1549d7", // Color of the current search match.
+		"editor.findMatchHighlightBackground": "#341e83e5", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
 		"editor.findRangeHighlightBackground": "#381e7eb7", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
 		"editor.hoverHighlightBackground": "#2d105fda", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
 		"editor.lineHighlightBackground": "#1E1C3F", // Current line of code. Background color for the highlight of line at the cursor position.
 		"editor.lineHighlightBorder": "#1E1C3F",
 		"editor.rangeHighlightBackground": "#1E1C3F",
-		"editorLink.activeForeground": "#381e7eb7",
+		"editorLink.activeForeground": "#7EA7F3",
 		"editorIndentGuide.background": "#A599E90F",
 		"editorIndentGuide.activeBackground": "#A599E942",
 		"editorRuler.foreground": "#e999aa1c", // Editor Ruler.
 		"editorOverviewRuler.border": "#A599E91C",
 		"editorCodeLens.foreground": "#A599E9",
-		"editorBracketMatch.background": "#AD70FC46",
+		"editorBracketMatch.background": "#341e83e5",
 		"editorBracketMatch.border": "#AD70FC46",
 		// Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an 
 		// overview of the decorations in the editor.
