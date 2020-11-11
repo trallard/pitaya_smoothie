@@ -13,7 +13,7 @@
 
 ![Publish release](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg?branch=master)
 
-![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)  ✨ Improved highlighting for inline links and fixed some colour discrepancies (thanks to @aedwarg)
+![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)  ✨ Improved highlighting for inline links and fixed some colour discrepancies (thanks to [@aedwardg](https://github.com/aedwardg))
 
 <table width='100%' align="center">
  <tr>

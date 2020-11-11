@@ -15,9 +15,9 @@ All notable changes to the "pitaya-smoothie" extension will be documented in thi
 
 > ✨ Change active links colour so that they are readable [c2e4bbd](https://github.com/trallard/pitaya_smoothie/commit/c2e4bbd)
 
-> ✨ Fix pink shade discrepancies in 'no italic' theme by @aedwarg [c0d3e87](https://github.com/trallard/pitaya_smoothie/commit/c0d3e87)
+> ✨ Fix pink shade discrepancies in 'no italic' theme by @aedwardg [c0d3e87](https://github.com/trallard/pitaya_smoothie/commit/c0d3e87)
 
-> ✨ Fix shade of purple for JavaScript const names by @aedwarg [954ffee](https://github.com/trallard/pitaya_smoothie/commit/954ffee)
+> ✨ Fix shade of purple for JavaScript const names by @aedwardg [954ffee](https://github.com/trallard/pitaya_smoothie/commit/954ffee)
 
 ## RELEASE: 1.0.4
 
