@@ -17,7 +17,7 @@ jobs:
       - name: Get project version
         id: get_version
         run: |
-          echo ::set-env name=VERSION::${GITHUB_REF/refs\/tags\//}
+          echo "VERSION=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
           echo "$VERSION"
       - uses: lannonbr/vsce-action@master
         name: Publish extension
