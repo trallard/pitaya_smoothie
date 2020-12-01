@@ -121,9 +121,9 @@
 		"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
 		"editor.wordHighlightBackground": "#2d105fda", // Same words other places.
 		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
-		"editor.findMatchBackground": "#1f1549d7", // Color of the current search match.
-		"editor.findMatchHighlightBackground": "#341e83e5", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
-		"editor.findRangeHighlightBackground": "#381e7eb7", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+		"editor.findMatchBackground": "#863bffb9", // Color of the current search match.
+		"editor.findMatchHighlightBackground": "#863bff63", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
+		"editor.findRangeHighlightBackground": "#863bff63", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
 		"editor.hoverHighlightBackground": "#2d105fda", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
 		"editor.lineHighlightBackground": "#1E1C3F", // Current line of code. Background color for the highlight of line at the cursor position.
 		"editor.lineHighlightBorder": "#1E1C3F",
