@@ -9,7 +9,7 @@
 <br>
 
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
-[![Version](https://vsmarketplacebadge.apphb.com/version/trallard.pitaya-smoothie.svg?subject=Pitaya%20Smoothie&colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie)
+[![Version](https://vsmarketplacebadge.apphb.com/version/trallard.pitaya-smoothie.svg?subject=Pitaya%20Smoothie&colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie&WT.mc_id=academic-0000-taallard)
 
 ![Publish release](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg?branch=master)
 
@@ -18,7 +18,7 @@
 <table width='100%' align="center">
  <tr>
  <td align='left' width='100%' colspan='2'>
- A professional theme with hand-picked & bold colours for your <a href="https://code.visualstudio.com/?WT.mc_id=pitaya-smoothie-github-taallard" target="_blank"> VS Code </a> editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.
+ A professional theme with hand-picked & bold colours for your <a href="https://code.visualstudio.com/?WT.mc_id=academic-0000-taallard" target="_blank"> VS Code </a> editor and terminal. The theme is heavily inspired by the <a href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2018">Pantone colour of the year 2018</a> and the Outrun aesthetics.
  However, colours are on the pastel side to help provide contrast and highlight what is essential.
  Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances.
  </td>
@@ -40,7 +40,7 @@
 
 ## Installation <img alt="cog" src="./images/icons/settings.png" width="50"/>
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=pitaya-smoothie-github-taallard)
+1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-taallard)
 1. Open the extensions sidebar on Visual Studio Code
 1. Search for `Pitaya Smoothie`
 1. Click **Install** to install it.
@@ -139,7 +139,7 @@ The font in the previews is Fira Code. Editor settings to activate font ligature
 "editor.fontLigatures": true,
 ```
 
-The preview image for the Python syntax is using [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer), a cool extension that highlights matching brackets. Using this extension can help reduce unwanted errors.
+The preview image for the Python syntax is using [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer&WT.mc_id=academic-0000-taallard), a cool extension that highlights matching brackets. Using this extension can help reduce unwanted errors.
 
 I defined the following colours in my `settings.json`:
 
