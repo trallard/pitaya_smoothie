@@ -170,7 +170,7 @@ You can find `Pitaya Smoothie` in the following places:
 
 If you want to port Pitaya Smoothie to other places let us know and we'll add a link to your port and add you to our contributors list ✨💜
 
-## License <img alt="documents" src="./images/icons/archives.png" width="0" />
+## License <img alt="documents" src="./images/icons/archives.png" width="50" />
 
 **Licensed** as BSD-3 ⓒ [Tania Allard](https://bitsandchips.me/).
 
