@@ -26,3 +26,23 @@ jobs:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
         with:
           args: "publish $VERSION -p $VSCE_TOKEN"
+  
+  publish_to_openvsx:
+    runs-on: ubuntu-latest
+    name: Publish to ovsx
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout repo
+      - uses: actions/setup-node@v1
+        name: Setup node
+        with:
+          node-version: '12'
+      - name: Install deps
+        run: |
+          npm install ovsx
+          npm install 
+      - name: Publish to ovsx
+        env:
+          OSVX_PAT: ${{ secrets.OVSX_PAT }}
+        run: npx ovsx publish -p ${{ secrets.OVSX_PAT }}
+        
