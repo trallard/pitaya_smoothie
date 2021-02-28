@@ -3,39 +3,42 @@
 	"colors": {
 		"editor.background": "#181036",
 		"editor.foreground": "#fefeff",
-		"editorWhitespace.foreground": "#2A1B5C",
+		"editorWhitespace.foreground": "#261B4D",
 		"editorLineNumber.foreground": "#484f7d", // Color of editor line numbers.
-		"editorLineNumber.activeForeground": "#18c0c4",
+		"editorLineNumber.activeForeground": "#18c1c4",
 		"editorCursor.foreground": "#f85e9f", //  Color of the editor cursor.
 		// Activity Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 		"activityBar.background": "#181036",
-		"activityBar.foreground": "#7A76C2",
-		"activityBar.inactiveForeground": "#403c86",
-		"activityBarBadge.background": "#18c0c4",
+		"activityBar.foreground": "#827ECF",
+		"activityBar.inactiveForeground": "#3D3885",
+		"activityBarBadge.background": "#18c1c4",
 		"activityBarBadge.foreground": "#181036",
 		// Debug Icons.
-		"debugIcon.startForeground": "#18c0c4",
-		"debugIcon.continueForeground": "#7d79d1",
-		"debugIcon.disconnectForeground": "#7d79d1",
+		"debugIcon.startForeground": "#18c1c4",
+		"debugIcon.continueForeground": "#827ECF",
+		"debugIcon.disconnectForeground": "#827ECF",
 		"debugIcon.pauseForeground": "#7998F2",
-		"debugIcon.restartForeground": "#18c0c4",
-		"debugIcon.stepBackForeground": "#7d79d1",
-		"debugIcon.stepIntoForeground": "#7d79d1",
-		"debugIcon.stepOutForeground": "#7d79d1",
-		"debugIcon.stepOverForeground": "#7d79d1",
+		"debugIcon.restartForeground": "#18c1c4",
+		"debugIcon.stepBackForeground": "#827ECF",
+		"debugIcon.stepIntoForeground": "#827ECF",
+		"debugIcon.stepOutForeground": "#827ECF",
+		"debugIcon.stepOverForeground": "#827ECF",
 		"debugIcon.stopForeground": "#f85e9f",
 		"debugIcon.breakpointForeground": "#f85e9f",
+		// Debug toolbar
+		"debugToolBar.background": "#181036",
+		"debugToolBar.border": "#352962",
 		// Sidebar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
 		"sideBar.background": "#130C29",
 		"sideBar.foreground": "#9491ce",
 		"sideBarSectionHeader.background": "#181036",
-		"sideBarSectionHeader.foreground": "#7d79d1",
-		"sideBarTitle.foreground": "#7d79d1",
+		"sideBarSectionHeader.foreground": "#827ECF",
+		"sideBarTitle.foreground": "#827ECF",
 		"sideBarSectionHeader.border": "#181036",
 		// Minimap
-		"minimap.findMatchHighlight": "#9e62ff",
+		"minimap.findMatchHighlight": "#A56CF5",
 		"minimap.errorHighlight": "#f85e9f",
 		"minimap.warningHighlight": "#FAD000",
 		"minimapGutter.addedBackground": "#18c1c4a6",
@@ -43,23 +46,23 @@
 		"minimapGutter.modifiedBackground": "#AD70FC46",
 		// Badge.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
-		"badge.background": "#31E6E6",
-		"badge.foreground": "#201a38",
+		"badge.background": "#18c1c4",
+		"badge.foreground": "#130C29",
 		// Button.
 		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
-		"button.background": "#7D66BA",
+		"button.background": "#494595",
 		"button.foreground": "#F7F7F7",
-		"button.hoverBackground": "#9e62ff",
+		"button.hoverBackground": "#A56CF5",
 		// Contrast.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_contrast-colors
 		"contrastActiveBorder": "#FFFFFF00",
 		"contrastBorder": "#FFFFFF00",
 		// Dropdown.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
-		"dropdown.background": "#252549",
-		"dropdown.border": "#252549",
+		"dropdown.background": "#130C29",
+		"dropdown.border": "#130C29",
 		"dropdown.foreground": "#FEFEFF",
-		"dropdown.listBackground": "#252549",
+		"dropdown.listBackground": "#130C29",
 		// The editorGroupHeader.
 		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
 		"editorGroup.border": "#222244",
@@ -88,7 +91,7 @@
 		"input.border": "#181036",
 		"input.foreground": "#fefeff",
 		"input.placeholderForeground": "#A599E9",
-		"inputOption.activeBorder": "#1E1E3F",
+		"inputOption.activeBorder": "#7998F2",
 		"inputValidation.errorBackground": "#FF6E9C",
 		"inputValidation.errorForeground": "#181036",
 		"inputValidation.errorBorder": "#181036",
@@ -119,9 +122,10 @@
 		"titleBar.inactiveBackground": "#1E1E3F",
 		"titleBar.inactiveForeground": "#789EF8AF",
 		// Highlight and selection 
-		"editor.selectionBackground": "#341e83e5", // Color of the editor selection.
-		"editor.inactiveSelectionBackground": "#31108c9d", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
-		"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
+		// "editor.selectionBackground": "#341e83e5", // Color of the editor selection.
+		"editor.selectionBackground": "#301c7abd", // Color of the editor selection. -psbright-600
+		"editor.inactiveSelectionBackground": "#221068db", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+		"editor.selectionHighlightBackground": "#301c7abd", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
 		"editor.wordHighlightBackground": "#2d105fda", // Same words other places.
 		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
 		"editor.findMatchBackground": "#863bffb9", // Color of the current search match.
@@ -157,10 +161,10 @@
 		"editorGutter.modifiedBackground": "#AD70FC46",
 		// Diff Editor.
 		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
-		"diffEditor.insertedTextBackground": "#18c1c4a6",
-		"diffEditor.insertedTextBorder": "#18c1c4a6",
-		"diffEditor.removedTextBackground": "#ff6e9c98",
-		"diffEditor.removedTextBorder": "#ff6e9c98",
+		"diffEditor.insertedTextBackground": "#18c1c42a",
+		"diffEditor.insertedTextBorder": "#18c1c498",
+		"diffEditor.removedTextBackground": "#f85e9e2a",
+		"diffEditor.removedTextBorder": "#f85e9f98",
 		// Breadcrumbs.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
 		"breadcrumb.foreground": "#9491ce",
@@ -171,9 +175,9 @@
 		"merge.border": "#FFFFFF00",
 		"merge.commonContentBackground": "#A599E981",
 		"merge.commonHeaderBackground": "#A599E981",
-		"merge.currentContentBackground": "#18c1c4a6",
+		"merge.currentContentBackground": "#18c1c42a",
 		"merge.currentHeaderBackground": "#18c1c4a6",
-		"merge.incomingContentBackground": "#ff6e9c98",
+		"merge.incomingContentBackground": "#ff6e9c2a",
 		"merge.incomingHeaderBackground": "#ff6e9c98",
 		// Notification Colors.
 		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
@@ -196,8 +200,8 @@
 		"progressBar.background": "#F26196",
 		// Scroll Bar Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
-		"scrollbar.shadow": "#010b14",
-		"scrollbarSlider.background": "#57549293",
+		"scrollbar.shadow": "#130C29",
+		"scrollbarSlider.background": "#3D3986",
 		"scrollbarSlider.hoverBackground": "#A56CF5",
 		"scrollbarSlider.activeBackground": "#F26196",
 		// Status Bar Colors.
@@ -218,7 +222,7 @@
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
 		"walkThrough.embeddedEditorBackground": "#1E1E3F",
 		"textBlockQuote.background": "#1E1E3F",
-		"textBlockQuote.border": "#18c0c4",
+		"textBlockQuote.border": "#18c1c4",
 		"textCodeBlock.background": "#1E1E3F",
 		"textLink.activeForeground": "#B362FF",
 		"textLink.foreground": "#B362FF",
@@ -231,16 +235,16 @@
 		"editor.snippetFinalTabstopHighlightBorder": "#6943ff62",
 		// Integrated Terminal Colors.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors
-		"terminal.ansiBlack": "#000000",
-		"terminal.ansiRed": "#FD1D53",
+		"terminal.ansiBlack": "#605F97",
+		"terminal.ansiRed": "#F26196",
 		"terminal.ansiGreen": "#45F5CF",
 		"terminal.ansiYellow": "#f5d131",
 		"terminal.ansiBlue": "#7998F2",
 		"terminal.ansiMagenta": "#a56CF5",
 		"terminal.ansiCyan": "#80FCFF",
 		"terminal.ansiWhite": "#FFFFFF",
-		"terminal.ansiBrightBlack": "#5C5C61",
-		"terminal.ansiBrightRed": "#f74b73",
+		"terminal.ansiBrightBlack": "#9491CE",
+		"terminal.ansiBrightRed": "#FF99CC",
 		"terminal.ansiBrightGreen": "#6df7d9",
 		"terminal.ansiBrightYellow": "#fce687",
 		"terminal.ansiBrightBlue": "#95acf1",
@@ -1408,7 +1412,7 @@
 			"name": "PYTHON - Color for Self Argument",
 			"scope": "variable.parameter.function.language.special.self.python",
 			"settings": {
-				"foreground": "#18c0c4"
+				"foreground": "#18c1c4"
 			}
 		},
 		{
@@ -1463,7 +1467,7 @@
 			"name": "Punctuations in Python",
 			"scope": "punctuation.python",
 			"settings": {
-				"foreground": "#18c0c4"
+				"foreground": "#18c1c4"
 			}
 		},
 		{
