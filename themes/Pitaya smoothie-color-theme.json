@@ -11,8 +11,9 @@
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 		"activityBar.background": "#181036",
 		"activityBar.foreground": "#827ECF",
-		"activityBar.inactiveForeground": "#3D3885",
+		"activityBar.inactiveForeground": "#372B64",
 		"activityBarBadge.background": "#18c1c4",
+		"activityBar.activeBorder": "#18c1c4",
 		"activityBarBadge.foreground": "#181036",
 		// Debug Icons.
 		"debugIcon.startForeground": "#18c1c4",
@@ -39,10 +40,11 @@
 		"sideBarSectionHeader.border": "#181036",
 		// Minimap
 		"minimap.findMatchHighlight": "#A56CF5",
-		"minimap.errorHighlight": "#f85e9f",
-		"minimap.warningHighlight": "#FAD000",
-		"minimapGutter.addedBackground": "#18c1c4a6",
-		"minimapGutter.deletedBackground": "#ff6e9c98",
+		"minimap.selectionHighlight":"#827ECF",		
+		"minimap.errorHighlight": "#f85e9f98",
+		"minimap.warningHighlight": "#FAD00098",
+		"minimapGutter.addedBackground": "#18c1c498",
+		"minimapGutter.deletedBackground": "#f85e9f98",
 		"minimapGutter.modifiedBackground": "#AD70FC46",
 		// Badge.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
