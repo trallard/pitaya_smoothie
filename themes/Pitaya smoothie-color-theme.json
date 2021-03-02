@@ -95,6 +95,14 @@
 		"editorOverviewRuler.commonContentForeground": "#18c1c498",
 		"editorOverviewRuler.currentContentForeground": "#a599e9d5",
 		"editorOverviewRuler.incomingContentForeground": "#f85e9fad",
+		// Merge Conflicts.
+		"merge.border": "#352962",
+		"merge.commonContentBackground": "#A599E92a",
+		"merge.commonHeaderBackground": "#A599E998",
+		"merge.currentContentBackground": "#18c1c42a",
+		"merge.currentHeaderBackground": "#18c1c498",
+		"merge.incomingContentBackground": "#ff6e9c2a",
+		"merge.incomingHeaderBackground": "#ff6e9c98",
 		// Editor - Errors and warnings:
 		"editorError.border": "#181036",
 		"editorError.foreground": "#ff6e9ccc",
@@ -191,14 +199,6 @@
 		"breadcrumb.focusForeground": "#7ee2f3", // Color of focused breadcrumb items.
 		"breadcrumb.activeSelectionForeground": "#F7F7F7", // Color of selected breadcrumb items.
 		"breadcrumbPicker.background": "#181036", // Background color of breadcrumb item picker.
-		// Merge Conflicts.
-		"merge.border": "#FFFFFF00",
-		"merge.commonContentBackground": "#A599E981",
-		"merge.commonHeaderBackground": "#A599E981",
-		"merge.currentContentBackground": "#18c1c42a",
-		"merge.currentHeaderBackground": "#18c1c4a6",
-		"merge.incomingContentBackground": "#ff6e9c2a",
-		"merge.incomingHeaderBackground": "#ff6e9c98",
 		// Notification Colors.
 		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
 		"notificationCenterHeader.foreground": "#fefeff", // Notification Center header foreground color.
