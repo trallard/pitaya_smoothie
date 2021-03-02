@@ -1,12 +1,6 @@
 // Theme Color reference
 {
 	"colors": {
-		"editor.background": "#181036",
-		"editor.foreground": "#fefeff",
-		"editorWhitespace.foreground": "#261B4D",
-		"editorLineNumber.foreground": "#484f7d", // Color of editor line numbers.
-		"editorLineNumber.activeForeground": "#18c1c4",
-		"editorCursor.foreground": "#f85e9f", //  Color of the editor cursor.
 		// Activity Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 		"activityBar.background": "#181036",
@@ -45,7 +39,7 @@
 		"minimap.warningHighlight": "#FAD00098",
 		"minimapGutter.addedBackground": "#18c1c498",
 		"minimapGutter.deletedBackground": "#f85e9f98",
-		"minimapGutter.modifiedBackground": "#AD70FC46",
+		"minimapGutter.modifiedBackground": "#A56CF598",
 		// Badge.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
 		"badge.background": "#18c1c4",
@@ -53,7 +47,7 @@
 		// Button.
 		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
 		"button.background": "#494595",
-		"button.foreground": "#F7F7F7",
+		"button.foreground": "#fefeff",
 		"button.hoverBackground": "#A56CF5",
 		"button.secondaryBackground": "#7998F2",
 		// Contrast.
@@ -64,30 +58,99 @@
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
 		"dropdown.background": "#130C29",
 		"dropdown.border": "#352962",
-		"dropdown.foreground": "#FEFEFF",
+		"dropdown.foreground": "#fefeff",
 		"dropdown.listBackground": "#130C29",
+		// Editor colours
+		"editor.background": "#181036",
+		"editor.foreground": "#fefeff",
+		"editorWhitespace.foreground": "#261B4D",
+		"editorLineNumber.foreground": "#484f7d", // Color of editor line numbers.
+		"editorLineNumber.activeForeground": "#18c1c4",
+		"editorCursor.foreground": "#f85e9f", //  Color of the editor cursor.
+		// Editor - Highlight and selection 
+		"editor.selectionBackground": "#301c7abd", // Color of the editor selection. -psbright-600
+		"editor.inactiveSelectionBackground": "#221068db", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+		"editor.selectionHighlightBackground": "#301c7abd", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
+		"editor.selectionHighlightBorder": "#863bffb9",
+		"editor.wordHighlightBackground": "#863bffb9", // Same words other places.
+		"editor.wordHighlightStrongBackground": "#301c7abd", // Cursor inside current variable.
+		"editor.findMatchBackground": "#863bffb9", // Color of the current search match.
+		"editor.findMatchHighlightBackground": "#863bff63", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
+		"editor.findRangeHighlightBackground": "#863bff63", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+		"editor.hoverHighlightBackground": "#221068db", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
+		"editor.lineHighlightBackground": "#261B4D", // Current line of code. Background color for the highlight of line at the cursor position.
+		"editor.lineHighlightBorder": "#261B4D",
+		"editor.rangeHighlightBackground": "#261B4D",
+		"editorLink.activeForeground": "#7EA7F3",
+		"editorIndentGuide.background": "#863bff63",
+		"editorIndentGuide.activeBackground": "#078E91",
+		"editorRuler.foreground": "#301c7ae3", // Editor Ruler.
+		"editorOverviewRuler.border": "#301c7abd",
+		"editorCodeLens.foreground": "#7b83b3",
+		"editorBracketMatch.background": "#341e83e5",
+		"editorBracketMatch.border": "#f85e9fad",
+		"editor.foldBackground": "#863bff32",
+		// Editor - Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an 
+		// overview of the decorations in the editor.
+		"editorOverviewRuler.commonContentForeground": "#18c1c498",
+		"editorOverviewRuler.currentContentForeground": "#a599e9d5",
+		"editorOverviewRuler.incomingContentForeground": "#f85e9fad",
+		// Editor - Errors and warnings:
+		"editorError.border": "#181036",
+		"editorError.foreground": "#ff6e9ccc",
+		"editorWarning.border": "#181036",
+		"editorWarning.foreground": "#fad000c9",
+		"editorInfo.border": "#181036",
+		"editorInfo.foreground": "#7998F2",
+		"editorHint.border": "#181036",
+		"editorInlineHint.foreground": "#18c1c4",
+		"problemsErrorIcon.foreground": "#ff6e9c",
+		"problemsWarningIcon.foreground": "#fad000",
+		"problemsInfoIcon.foreground": "#7998F2",
+		// Editor - Gutter: The gutter contains the glyph margins and the line numbers:
+		"editorGutter.addedBackground": "#18c1c4a6",
+		"editorGutter.deletedBackground": "#ff6e9c98",
+		"editorGutter.modifiedBackground": "#A56CF598",
+		"editorGutter.foldingControlForeground":"#F26196",
+		// Diff Editor.
+		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
+		"diffEditor.insertedTextBackground": "#18c1c42a",
+		"diffEditor.insertedTextBorder": "#18c1c498",
+		"diffEditor.removedTextBackground": "#f85e9e2a",
+		"diffEditor.removedTextBorder": "#f85e9f98",
+		"diffEditor.diagonalFill": "#292569",
 		// The editorGroupHeader.
 		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
-		"editorGroup.border": "#29256A",
-		"editorGroup.dropBackground": "#222244D0",
+		"editorGroup.border": "#f85e9f",
+		"editorGroup.dropBackground": "#261B4D",
 		"editorGroupHeader.noTabsBackground": "#1f1445",
 		"editorGroupHeader.tabsBackground": "#1f1445",
+		// Tabs
+		"tab.activeBackground": "#130C29",
+		"tab.inactiveBackground": "#191135",
+		"tab.border": "#352962",
+		"tab.activeForeground": "#7998F2",
+		"tab.inactiveForeground": "#484f7d",
+		"tab.activeBorder": "#18c1c4",
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
 		"editorWidget.background": "#222244",
-		"editorWidget.border": "#1F1F41",
-		"editorHoverWidget.background": "#161633",
-		"editorHoverWidget.border": "#161633",
-		"editorSuggestWidget.background": "#1F1F41",
-		"editorSuggestWidget.border": "#1F1F41",
-		"editorSuggestWidget.foreground": "#A599E9",
+		"editorWidget.border": "#18c1c4",
+		"editorHoverWidget.background": "#130C29",
+		"editorHoverWidget.border": "#494595",
+		"editorHoverWidget.foreground": "#fefeff",
+		"editorSuggestWidget.background": "#130C29",
+		"editorSuggestWidget.border": "#494595",
+		"editorSuggestWidget.foreground": "#fefeff",
 		"editorSuggestWidget.highlightForeground": "#FF6E9C",
 		"editorSuggestWidget.selectedBackground": "#2D2B55",
+		"debugExceptionWidget.background": "#130C29",
+		"debugExceptionWidget.border": "#F26196",
 		// The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
-		"editorMarkerNavigation.background": "#252549af",
-		"editorMarkerNavigationError.background": "#f85e9f",
-		"editorMarkerNavigationWarning.background": "#FAD000",
-		"editorMarkerNavigationInfo.background": "#7998F2",
+		"editorMarkerNavigation.background": "#130C29",
+		"editorMarkerNavigationError.background": "#f85e9f98",
+		"editorMarkerNavigationWarning.background": "#FAD00098",
+		"editorMarkerNavigationInfo.background": "#7998F298",
 		// Input Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
 		"input.background": "#181036",
@@ -117,63 +180,11 @@
 		"list.highlightForeground": "#A56CF5",
 		"list.inactiveSelectionBackground": "#181036",
 		"list.inactiveSelectionForeground": "#7998F2",
-		// Tabs
-		"tab.activeBackground": "#130C29",
-		"tab.inactiveBackground": "#191135",
-		"tab.border": "#352962",
-		"tab.activeForeground": "#7998F2",
-		"tab.inactiveForeground": "#484f7d",
-		"tab.activeBorder": "#18c1c4",
 		// Title bar
 		"titleBar.activeBackground": "#1E1E3F",
 		"titleBar.activeForeground": "#789EF8",
 		"titleBar.inactiveBackground": "#1E1E3F",
 		"titleBar.inactiveForeground": "#789EF8AF",
-		// Highlight and selection 
-		// "editor.selectionBackground": "#341e83e5", // Color of the editor selection.
-		"editor.selectionBackground": "#301c7abd", // Color of the editor selection. -psbright-600
-		"editor.inactiveSelectionBackground": "#221068db", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
-		"editor.selectionHighlightBackground": "#301c7abd", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
-		"editor.wordHighlightBackground": "#2d105fda", // Same words other places.
-		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
-		"editor.findMatchBackground": "#863bffb9", // Color of the current search match.
-		"editor.findMatchHighlightBackground": "#863bff63", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
-		"editor.findRangeHighlightBackground": "#863bff63", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
-		"editor.hoverHighlightBackground": "#2d105fda", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
-		"editor.lineHighlightBackground": "#1E1C3F", // Current line of code. Background color for the highlight of line at the cursor position.
-		"editor.lineHighlightBorder": "#1E1C3F",
-		"editor.rangeHighlightBackground": "#1E1C3F",
-		"editorLink.activeForeground": "#7EA7F3",
-		"editorIndentGuide.background": "#A599E90F",
-		"editorIndentGuide.activeBackground": "#A599E942",
-		"editorRuler.foreground": "#e999aa1c", // Editor Ruler.
-		"editorOverviewRuler.border": "#A599E91C",
-		"editorCodeLens.foreground": "#A599E9",
-		"editorBracketMatch.background": "#341e83e5",
-		"editorBracketMatch.border": "#AD70FC46",
-		// Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an 
-		// overview of the decorations in the editor.
-		"editorOverviewRuler.commonContentForeground": "#18c1c498",
-		"editorOverviewRuler.currentContentForeground": "#a599e9d5",
-		"editorOverviewRuler.incomingContentForeground": "#18c1c4d8",
-		// Errors and warnings:
-		"editorError.border": "#181036",
-		"editorError.foreground": "#ff6e9ccc",
-		"editorWarning.border": "#181036",
-		"editorWarning.foreground": "#fad000c9",
-		"editorInfo.border": "#181036",
-		"editorInfo.foreground": "#7998F2",
-		// Gutter: The gutter contains the glyph margins and the line numbers:
-		"editorGutter.addedBackground": "#18c1c4a6",
-		"editorGutter.deletedBackground": "#ff6e9c98",
-		"editorGutter.modifiedBackground": "#AD70FC46",
-		// Diff Editor.
-		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
-		"diffEditor.insertedTextBackground": "#18c1c42a",
-		"diffEditor.insertedTextBorder": "#18c1c498",
-		"diffEditor.removedTextBackground": "#f85e9e2a",
-		"diffEditor.removedTextBorder": "#f85e9f98",
-		"diffEditor.diagonalFill": "#292569",
 		// Breadcrumbs.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
 		"breadcrumb.foreground": "#9491ce",
