@@ -71,12 +71,12 @@
 		"editor.selectionBackground": "#301c7abd", // Color of the editor selection. -psbright-600
 		"editor.inactiveSelectionBackground": "#221068db", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
 		"editor.selectionHighlightBackground": "#301c7abd", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
-		"editor.selectionHighlightBorder": "#863bffb9",
-		"editor.wordHighlightBackground": "#863bffb9", // Same words other places.
+		"editor.selectionHighlightBorder": "#863bff8f",
+		"editor.wordHighlightBackground": "#863bff8f", // Same words other places.
 		"editor.wordHighlightStrongBackground": "#301c7abd", // Cursor inside current variable.
-		"editor.findMatchBackground": "#863bffb9", // Color of the current search match.
+		"editor.findMatchBackground": "#863bff8f", // Color of the current search match.
 		"editor.findMatchHighlightBackground": "#863bff63", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
-		"editor.findRangeHighlightBackground": "#863bff63", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+		"editor.findRangeHighlightBackground": "#863bff63", // #FF730056. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
 		"editor.hoverHighlightBackground": "#221068db", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
 		"editor.lineHighlightBackground": "#261B4D", // Current line of code. Background color for the highlight of line at the cursor position.
 		"editor.lineHighlightBorder": "#261B4D",
@@ -84,23 +84,23 @@
 		"editorLink.activeForeground": "#7EA7F3",
 		"editorIndentGuide.background": "#863bff63",
 		"editorIndentGuide.activeBackground": "#078E91",
-		"editorRuler.foreground": "#301c7ae3", // Editor Ruler.
+		"editorRuler.foreground": "#301c7abd", // Editor Ruler.
 		"editorOverviewRuler.border": "#301c7abd",
-		"editorCodeLens.foreground": "#7b83b3",
-		"editorBracketMatch.background": "#341e83e5",
-		"editorBracketMatch.border": "#f85e9fad",
+		"editorCodeLens.foreground": "#484f7d",
+		"editorBracketMatch.background": "#301c7abd",
+		"editorBracketMatch.border": "#ff6e9c98",
 		"editor.foldBackground": "#863bff32",
 		// Editor - Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an 
 		// overview of the decorations in the editor.
 		"editorOverviewRuler.commonContentForeground": "#18c1c498",
-		"editorOverviewRuler.currentContentForeground": "#a599e9d5",
-		"editorOverviewRuler.incomingContentForeground": "#f85e9fad",
+		"editorOverviewRuler.currentContentForeground": "#A599E998",
+		"editorOverviewRuler.incomingContentForeground": "#ff6e9c98",
 		// Merge Conflicts.
 		"merge.border": "#352962",
 		"merge.commonContentBackground": "#A599E92a",
 		"merge.commonHeaderBackground": "#A599E998",
 		"merge.currentContentBackground": "#18c1c42a",
-		"merge.currentHeaderBackground": "#18c1c498",
+		"merge.currentHeaderBackground": "#7f8d8d98",
 		"merge.incomingContentBackground": "#ff6e9c2a",
 		"merge.incomingHeaderBackground": "#ff6e9c98",
 		// Editor - Errors and warnings:
@@ -126,7 +126,7 @@
 		"diffEditor.insertedTextBorder": "#18c1c498",
 		"diffEditor.removedTextBackground": "#f85e9e2a",
 		"diffEditor.removedTextBorder": "#f85e9f98",
-		"diffEditor.diagonalFill": "#292569",
+		"diffEditor.diagonalFill": "#261B4D",
 		// The editorGroupHeader.
 		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
 		"editorGroup.border": "#f85e9f",
@@ -212,9 +212,11 @@
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
 		"panel.background": "#130C29",
 		"panel.border": "#A56CF5",
-		"panelTitle.activeBorder": "#A56CF5",
-		"panelTitle.activeForeground": "#A56CF5",
+		"panelTitle.activeBorder": "#18c1c4",
+		"panelTitle.activeForeground": "#7998F2",
 		"panelTitle.inactiveForeground": "#A599E9",
+		//Image preview
+		"imagePreview.border": "#352962",
 		// Progress Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
 		"progressBar.background": "#F26196",
@@ -236,7 +238,7 @@
 		"statusBar.noFolderForeground": "#9491ce",
 		"statusBarItem.activeBackground": "#FFE46B",
 		"statusBarItem.hoverBackground": "#2A1B5C",
-		"statusBarItem.prominentBackground": "#211547",
+		"statusBarItem.prominentBackground": "#2A1B5C",
 		"statusBarItem.prominentHoverBackground": "#FFE46B",
 		// Text Colors — Colors inside a text document, such as the welcome page.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
@@ -255,14 +257,14 @@
 		"editor.snippetFinalTabstopHighlightBorder": "#6943ff62",
 		// Integrated Terminal Colors.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors
-		"terminal.ansiBlack": "#605F97",
+		"terminal.ansiBlack": "#130C29",
 		"terminal.ansiRed": "#F26196",
-		"terminal.ansiGreen": "#45F5CF",
-		"terminal.ansiYellow": "#f5d131",
+		"terminal.ansiGreen": "#18c1c4",
+		"terminal.ansiYellow": "#fad000",
 		"terminal.ansiBlue": "#7998F2",
 		"terminal.ansiMagenta": "#a56CF5",
 		"terminal.ansiCyan": "#80FCFF",
-		"terminal.ansiWhite": "#FFFFFF",
+		"terminal.ansiWhite": "#fefefeff",
 		"terminal.ansiBrightBlack": "#9491CE",
 		"terminal.ansiBrightRed": "#FF99CC",
 		"terminal.ansiBrightGreen": "#6df7d9",
@@ -270,7 +272,7 @@
 		"terminal.ansiBrightBlue": "#95acf1",
 		"terminal.ansiBrightMagenta": "#b991f1",
 		"terminal.ansiBrightCyan": "#a1f7f8",
-		"terminal.ansiBrightWhite": "#2D2B55",
+		"terminal.ansiBrightWhite": "#fefeff",
 		"terminal.background": "#181036",
 		"terminal.foreground": "#FEFEFF",
 		"terminalCursor.background": "#f85e9f",
