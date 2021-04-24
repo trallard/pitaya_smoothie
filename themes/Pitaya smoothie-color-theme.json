@@ -142,7 +142,7 @@
 		"tab.activeBorder": "#18c1c4",
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
-		"editorWidget.background": "#222244",
+		"editorWidget.background": "#1E1E3F",
 		"editorWidget.border": "#18c1c4",
 		"editorHoverWidget.background": "#130C29",
 		"editorHoverWidget.border": "#494595",
@@ -151,7 +151,7 @@
 		"editorSuggestWidget.border": "#494595",
 		"editorSuggestWidget.foreground": "#fefeff",
 		"editorSuggestWidget.highlightForeground": "#FF6E9C",
-		"editorSuggestWidget.selectedBackground": "#2D2B55",
+		"editorSuggestWidget.selectedBackground": "#2D2B55", 
 		"debugExceptionWidget.background": "#130C29",
 		"debugExceptionWidget.border": "#F26196",
 		// The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
@@ -161,8 +161,8 @@
 		"editorMarkerNavigationInfo.background": "#7998F298",
 		// Input Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
-		"input.background": "#181036",
-		"input.border": "#181036",
+		"input.background": "#130C29",
+		"input.border": "#130C29",
 		"input.foreground": "#fefeff",
 		"input.placeholderForeground": "#A599E9",
 		"inputValidation.errorBackground": "#FF6E9C",
@@ -185,7 +185,7 @@
 		"list.focusBackground": "#261B4D",
 		"list.hoverBackground": "#261B4D",
 		"list.hoverForeground": "#7998F2",
-		"list.highlightForeground": "#A56CF5",
+		"list.highlightForeground": "#",
 		"list.inactiveSelectionBackground": "#181036",
 		"list.inactiveSelectionForeground": "#7998F2",
 		// Title bar
@@ -196,7 +196,7 @@
 		// Breadcrumbs.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
 		"breadcrumb.foreground": "#9491ce",
-		"breadcrumb.focusForeground": "#7ee2f3", // Color of focused breadcrumb items.
+		"breadcrumb.focusForeground": "#18c1c4", // Color of focused breadcrumb items.
 		"breadcrumb.activeSelectionForeground": "#F7F7F7", // Color of selected breadcrumb items.
 		"breadcrumbPicker.background": "#181036", // Background color of breadcrumb item picker.
 		// Notification Colors.
@@ -204,7 +204,7 @@
 		"notificationCenterHeader.foreground": "#fefeff", // Notification Center header foreground color.
 		"notificationCenterHeader.background": "#130C29", // Notification Center header background color.
 		"notificationToast.border": "#130C29", // Notification toast border color.
-		"notifications.foreground": "#CEC5FF", // Notification foreground color.
+		"notifications.foreground": "#A599E9", // Notification foreground color.
 		"notifications.background": "#130C29", // Notification background color.
 		"notifications.border": "#2D2B55", // Notification border color separating from other notifications in the Notification Center.
 		"notificationLink.foreground": "#fefeff", // Notification links foreground color.
@@ -223,8 +223,8 @@
 		// Scroll Bar Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
 		"scrollbar.shadow": "#130C29",
-		"scrollbarSlider.background": "#3D3986",
-		"scrollbarSlider.hoverBackground": "#A56CF5",
+		"scrollbarSlider.background": "#789ef8b6",
+		"scrollbarSlider.hoverBackground": "#789ef8de",
 		"scrollbarSlider.activeBackground": "#F26196",
 		// Status Bar Colors.
 		// The Status Bar is shown in the bottom of the workbench.
