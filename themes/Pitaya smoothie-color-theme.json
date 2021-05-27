@@ -23,8 +23,8 @@
 		"debugIcon.stopForeground": "#f85e9f",
 		"debugIcon.breakpointForeground": "#f85e9f",
 		// Debug toolbar
-		"debugToolBar.background": "#352962",
-		"debugToolBar.border": "#352962",
+		"debugToolBar.background": "#261B4D62",
+		"debugToolBar.border": "#261B4D62",
 		// Sidebar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
 		"sideBar.background": "#130C29",
@@ -61,7 +61,7 @@
 		// Dropdown.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
 		"dropdown.background": "#130C29",
-		"dropdown.border": "#352962",
+		"dropdown.border": "#261B4D62",
 		"dropdown.foreground": "#fefeff",
 		"dropdown.listBackground": "#130C29",
 		// Editor colours
@@ -101,7 +101,7 @@
 		"editorOverviewRuler.currentContentForeground": "#A599E998",
 		"editorOverviewRuler.incomingContentForeground": "#ff6e9c98",
 		// Merge Conflicts.
-		"merge.border": "#352962",
+		"merge.border": "#261B4D62",
 		"merge.commonContentBackground": "#A599E92a",
 		"merge.commonHeaderBackground": "#A599E998",
 		"merge.currentContentBackground": "#18c1c42a",
@@ -142,15 +142,15 @@
 		// "tab.activeBackground": "#130C29",
 		"tab.activeBackground": "#261B4D",
 		"tab.inactiveBackground": "#130C29",
-		"tab.hoverBackground": "#352962",
-		"tab.border": "#352962",
+		"tab.hoverBackground": "#261B4D62",
+		"tab.border": "#261B4D62",
 		"tab.activeForeground": "#fad000",
 		"tab.inactiveForeground": "#827ECF",
 		"tab.activeBorder": "#18c1c4",
 		"tab.unfocusedActiveForeground": "#7998F2",
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
-		"editorWidget.background": "#1E1E3F",
+		"editorWidget.background": "#261B4D62",
 		"editorWidget.border": "#18c1c4",
 		"editorHoverWidget.background": "#130C29",
 		"editorHoverWidget.border": "#494595",
@@ -197,13 +197,14 @@
 		"list.inactiveSelectionBackground": "#181036",
 		"list.inactiveSelectionForeground": "#7998F2",
 		// Title bar
-		"titleBar.activeBackground": "#1E1E3F",
-		"titleBar.activeForeground": "#789EF8",
-		"titleBar.inactiveBackground": "#1E1E3F",
-		"titleBar.inactiveForeground": "#789EF8AF",
+		"titleBar.activeBackground": "#b07afc",
+		"titleBar.activeForeground": "#1E1E3F",
+		"titleBar.inactiveBackground": "#130C29",
+		"titleBar.inactiveForeground": "#7998F2",
 		// Breadcrumbs.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
 		"breadcrumb.foreground": "#9491ce",
+		"breadcrumb.background": "#130C29",
 		"breadcrumb.focusForeground": "#18c1c4", // Color of focused breadcrumb items.
 		"breadcrumb.activeSelectionForeground": "#F7F7F7", // Color of selected breadcrumb items.
 		"breadcrumbPicker.background": "#181036", // Background color of breadcrumb item picker.
@@ -222,9 +223,9 @@
 		"panel.border": "#A56CF5",
 		"panelTitle.activeBorder": "#18c1c4",
 		"panelTitle.activeForeground": "#7998F2",
-		"panelTitle.inactiveForeground": "#A599E9",
+		"panelTitle.inactiveForeground": "#7998F2AF",
 		//Image preview
-		"imagePreview.border": "#352962",
+		"imagePreview.border": "#261B4D62",
 		// Progress Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
 		"progressBar.background": "#F26196",
@@ -245,24 +246,26 @@
 		"statusBar.noFolderBackground": "#130C29",
 		"statusBar.noFolderForeground": "#9491ce",
 		"statusBarItem.activeBackground": "#FFE46B",
-		"statusBarItem.hoverBackground": "#2A1B5C",
-		"statusBarItem.prominentBackground": "#2A1B5C",
+		"statusBarItem.hoverBackground": "#261B4D",
+		"statusBarItem.prominentBackground": "#261B4D",
 		"statusBarItem.prominentHoverBackground": "#FFE46B",
+		"statusBarItem.remoteBackground": "#18c1c4",
+		"statusBarItem.errorBackground": "#FF6E9C",
 		// Text Colors — Colors inside a text document, such as the welcome page.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
 		"walkThrough.embeddedEditorBackground": "#1E1E3F",
 		"textBlockQuote.background": "#1E1E3F",
 		"textBlockQuote.border": "#18c1c4",
 		"textCodeBlock.background": "#1E1E3F",
-		"textLink.activeForeground": "#B362FF",
-		"textLink.foreground": "#B362FF",
-		"textPreformat.foreground": "#F26196",
+		"textLink.activeForeground": "#A56CF5",
+		"textLink.foreground": "#A56CF5",
+		"textPreformat.foreground": "#7998F2",
 		"textSeparator.foreground": "#1E1E3F",
 		// Tab stops.
-		"editor.snippetTabstopHighlightBackground": "#6943ff62",
-		"editor.snippetTabstopHighlightBorder": "#6943ff62",
-		"editor.snippetFinalTabstopHighlightBackground": "#6943ff62",
-		"editor.snippetFinalTabstopHighlightBorder": "#6943ff62",
+		"editor.snippetTabstopHighlightBackground": "#261B4D62",
+		"editor.snippetTabstopHighlightBorder": "#261B4D62",
+		"editor.snippetFinalTabstopHighlightBackground": "#261B4D62",
+		"editor.snippetFinalTabstopHighlightBorder": "#261B4D62",
 		// Integrated Terminal Colors.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors
 		"terminal.ansiBlack": "#130C29",
@@ -274,12 +277,12 @@
 		"terminal.ansiCyan": "#80FCFF",
 		"terminal.ansiWhite": "#fefefeff",
 		"terminal.ansiBrightBlack": "#9491CE",
-		"terminal.ansiBrightRed": "#FF99CC",
-		"terminal.ansiBrightGreen": "#6df7d9",
-		"terminal.ansiBrightYellow": "#fce687",
-		"terminal.ansiBrightBlue": "#95acf1",
-		"terminal.ansiBrightMagenta": "#b991f1",
-		"terminal.ansiBrightCyan": "#a1f7f8",
+		"terminal.ansiBrightRed": "#f26196dc",
+		"terminal.ansiBrightGreen": "#18c1c4dc",
+		"terminal.ansiBrightYellow": "#fad000dc",
+		"terminal.ansiBrightBlue": "#7998F2",
+		"terminal.ansiBrightMagenta": "#a56CF5dc",
+		"terminal.ansiBrightCyan": "#80FCFFdc",
 		"terminal.ansiBrightWhite": "#fefeff",
 		"terminal.background": "#181036",
 		"terminal.foreground": "#FEFEFF",
