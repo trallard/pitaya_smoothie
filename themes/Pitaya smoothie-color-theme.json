@@ -10,6 +10,7 @@
 		"activityBar.activeBorder": "#18c1c4",
 		"activityBarBadge.foreground": "#181036",
 		// Debug Icons.
+		// https://code.visualstudio.com/api/references/theme-color#debug-icons-colors
 		"debugIcon.startForeground": "#18c1c4",
 		"debugIcon.continueForeground": "#827ECF",
 		"debugIcon.disconnectForeground": "#827ECF",
@@ -22,7 +23,7 @@
 		"debugIcon.stopForeground": "#f85e9f",
 		"debugIcon.breakpointForeground": "#f85e9f",
 		// Debug toolbar
-		"debugToolBar.background": "#181036",
+		"debugToolBar.background": "#352962",
 		"debugToolBar.border": "#352962",
 		// Sidebar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
@@ -50,6 +51,9 @@
 		"button.foreground": "#fefeff",
 		"button.hoverBackground": "#A56CF5",
 		"button.secondaryBackground": "#7998F2",
+		"button.secondaryForeground": "#181036",
+		// TODO: redefine the hover foreground
+		"button.secondaryHoverBackground": "#91AAF2",
 		// Contrast.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_contrast-colors
 		"contrastActiveBorder": "#FFFFFF00",
@@ -61,6 +65,7 @@
 		"dropdown.foreground": "#fefeff",
 		"dropdown.listBackground": "#130C29",
 		// Editor colours
+		// https://code.visualstudio.com/api/references/theme-color#editor-colors
 		"editor.background": "#181036",
 		"editor.foreground": "#fefeff",
 		"editorWhitespace.foreground": "#261B4D",
@@ -129,17 +134,20 @@
 		"diffEditor.diagonalFill": "#261B4D",
 		// The editorGroupHeader.
 		// https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
-		"editorGroup.border": "#f85e9f",
+		"editorGroup.border": "#18c1c4",
 		"editorGroup.dropBackground": "#261B4D",
 		"editorGroupHeader.noTabsBackground": "#1f1445",
 		"editorGroupHeader.tabsBackground": "#1f1445",
 		// Tabs
-		"tab.activeBackground": "#130C29",
-		"tab.inactiveBackground": "#191135",
+		// "tab.activeBackground": "#130C29",
+		"tab.activeBackground": "#261B4D",
+		"tab.inactiveBackground": "#130C29",
+		"tab.hoverBackground": "#352962",
 		"tab.border": "#352962",
-		"tab.activeForeground": "#7998F2",
-		"tab.inactiveForeground": "#484f7d",
+		"tab.activeForeground": "#fad000",
+		"tab.inactiveForeground": "#827ECF",
 		"tab.activeBorder": "#18c1c4",
+		"tab.unfocusedActiveForeground": "#7998F2",
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
 		"editorWidget.background": "#1E1E3F",
@@ -185,7 +193,7 @@
 		"list.focusBackground": "#261B4D",
 		"list.hoverBackground": "#261B4D",
 		"list.hoverForeground": "#7998F2",
-		"list.highlightForeground": "#",
+		"list.highlightForeground": "#A56CF5",
 		"list.inactiveSelectionBackground": "#181036",
 		"list.inactiveSelectionForeground": "#7998F2",
 		// Title bar
