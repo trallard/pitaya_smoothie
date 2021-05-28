@@ -13,7 +13,7 @@
 
 ![Publish release](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg?branch=master)
 
-![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)  ✨ Improved highlighting for inline links and fixed some colour discrepancies (thanks to [@aedwardg](https://github.com/aedwardg))
+![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)  ✨ The whole UI has been made more consistent. There are also significant accessibiliy improvements to ensure all is AAA-WCAG compliant.
 
 <table width='100%' align="center">
  <tr>
