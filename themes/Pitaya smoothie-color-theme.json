@@ -84,6 +84,7 @@
 		"editor.findRangeHighlightBackground": "#863bff63", // #FF730056. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
 		"editor.hoverHighlightBackground": "#221068DB", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
 		"editor.lineHighlightBackground": "#261B4D", // Current line of code. Background color for the highlight of line at the cursor position.
+		"editor.linkedEditingBackground": "#261B4D62", // HTML Matching Elements.
 		"editor.lineHighlightBorder": "#261B4D",
 		"editor.rangeHighlightBackground": "#261B4D",
 		"editorLink.activeForeground": "#A56CF5",
@@ -100,6 +101,9 @@
 		"editorOverviewRuler.commonContentForeground": "#18C1C498",
 		"editorOverviewRuler.currentContentForeground": "#A599E998",
 		"editorOverviewRuler.incomingContentForeground": "#FF6E9C98",
+		// Lightbulb
+		"editorLightBulb.foreground": "#18C1C4",
+		"editorLightBulbAutoFix.foreground": "#f5a394",
 		// Merge Conflicts.
 		"merge.border": "#261B4D62",
 		"merge.commonContentBackground": "#A599E92A",
@@ -149,7 +153,7 @@
 		"tab.unfocusedActiveForeground": "#7998F2",
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
-		"editorWidget.background": "#261B4D",
+		"editorWidget.background": "#130C29",
 		"editorWidget.border": "#18C1C4",
 		"editorHoverWidget.background": "#130C29",
 		"editorHoverWidget.border": "#494595",
@@ -196,7 +200,7 @@
 		"list.inactiveSelectionBackground": "#181036",
 		"list.inactiveSelectionForeground": "#7998F2",
 		// Title bar
-		"titleBar.activeBackground": "#B07AFC",
+		"titleBar.activeBackground": "#18C1C4",
 		"titleBar.activeForeground": "#1E1E3F",
 		"titleBar.inactiveBackground": "#130C29",
 		"titleBar.inactiveForeground": "#7998F2",
@@ -294,6 +298,19 @@
 		"gitDecoration.untrackedResourceForeground": "#18C1C4A6", // Color for untracked git resources.
 		"gitDecoration.ignoredResourceForeground": "#A599E981", // Color for ignored git resources.
 		"gitDecoration.conflictingResourceForeground": "#f28d52d7", // Color for conflicting git resources.
+		// Settings UI
+		"settings.checkboxBackground": "#494595",
+		"settings.dropdownBorder": "#372B64",
+		"settings.checkboxBorder": "#372B64",
+		"settings.textInputBorder": "#372B64",
+		"settings.numberInputBorder": "#372B64",
+		"settings.focusedRowBackground": "#261B4D",
+		// notebook
+		"notebook.focusedRowBorder": "#18C1C4",
+		"notebook.cellHoverBackground": "#261B4D",
+		"notebook.selectedCellBorder": "#18C1C4",
+		"notebook.inactiveFocusedCellBorder": "#7998F2",
+		"notebook.inactiveSelectedCellBorder": "#7998F2",
 	},
 	"tokenColors": [
 		// Diff colours
@@ -367,7 +384,7 @@
 			"name": "Support Constant Math",
 			"scope": "support.constant.math",
 			"settings": {
-				"foreground": "#F3907E"
+				"foreground": "#F5A394"
 			}
 		},
 		{
@@ -395,7 +412,7 @@
 			"name": "Constant Character Escape",
 			"scope": "constant.character.escape",
 			"settings": {
-				"foreground": "#F3907E"
+				"foreground": "#F5A394"
 			}
 		},
 		{
@@ -427,7 +444,7 @@
 				"constant.character.numeric"
 			],
 			"settings": {
-				"foreground": "#F3907E",
+				"foreground": "#F5A394",
 				"fontStyle": ""
 			}
 		},
@@ -436,7 +453,7 @@
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"foreground": "#F3907E",
+				"foreground": "#F5A394",
 				"fontStyle": "italic"
 			}
 		},
@@ -822,7 +839,7 @@
 			"name": "Constant Other Color RGB Value Punctuation Definition Constant",
 			"scope": "constant.other.color.rgb-value punctuation.definition.constant",
 			"settings": {
-				"foreground": "#F3907E"
+				"foreground": "#F5A394"
 			}
 		},
 		// C#
@@ -1729,7 +1746,7 @@
 				"meta.attribute-selector.sass entity.other.attribute-name.attribute"
 			],
 			"settings": {
-				"foreground": "#F3907E"
+				"foreground": "#F5A394"
 			}
 		},
 		{
@@ -1823,7 +1840,8 @@
 			"name": "terraform - variable other",
 			"scope": [
 				"variable.other.terraform",
-				"source.terraform"
+				"source.terraform",
+				"variable.other.readwrite.terraform"
 			],
 			"settings": {
 				"foreground": "#EFEFEF"
@@ -1974,6 +1992,16 @@
 			],
 			"settings": {
 				"foreground": "#B07AFC"
+			}
+		},
+		{
+			"name": "YAML - plain",
+			"scope": [
+				"sring.unquoted.plain.out.yaml",
+				"text.yaml.jinja"
+			],
+			"settings": {
+				"foreground": "#D6DEEB"
 			}
 		},
 		{
