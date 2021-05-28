@@ -5,7 +5,6 @@
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 		"activityBar.background": "#181036",
 		"activityBar.foreground": "#827ECF",
-		// TODO: replace all inactive
 		"activityBar.inactiveForeground": "#372B64",
 		"activityBarBadge.background": "#18C1C4",
 		"activityBar.activeBorder": "#18C1C4",
@@ -36,7 +35,7 @@
 		"sideBarSectionHeader.border": "#181036",
 		// Minimap
 		"minimap.findMatchHighlight": "#A56CF5",
-		"minimap.selectionHighlight":"#827ECF",		
+		"minimap.selectionHighlight": "#827ECF",
 		"minimap.errorHighlight": "#F85E9F98",
 		"minimap.warningHighlight": "#FAD00098",
 		"minimapGutter.addedBackground": "#18C1C498",
@@ -128,7 +127,7 @@
 		"editorGutter.addedBackground": "#18C1C4A6",
 		"editorGutter.deletedBackground": "#FF6E9C98",
 		"editorGutter.modifiedBackground": "#A56CF598",
-		"editorGutter.foldingControlForeground":"#F26196",
+		"editorGutter.foldingControlForeground": "#F26196",
 		// Diff Editor.
 		// https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
 		"diffEditor.insertedTextBackground": "#18C1C42A",
@@ -162,7 +161,7 @@
 		"editorSuggestWidget.border": "#494595",
 		"editorSuggestWidget.foreground": "#FEFEFF",
 		"editorSuggestWidget.highlightForeground": "#FF6E9C",
-		"editorSuggestWidget.selectedBackground": "#130C29", 
+		"editorSuggestWidget.selectedBackground": "#130C29",
 		"debugExceptionWidget.background": "#130C29",
 		"debugExceptionWidget.border": "#F26196",
 		// The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
@@ -1356,18 +1355,22 @@
 		// Clojure
 		{
 			"name": "[CLOJURE] - META",
-			"scope": ["constant.keyword.clojure",
-			"meta.map.clojure",
-			"meta.definition.global.clojure",
-			"meta.expression.clojure"],
+			"scope": [
+				"constant.keyword.clojure",
+				"meta.map.clojure",
+				"meta.definition.global.clojure",
+				"meta.expression.clojure"
+			],
 			"settings": {
 				"foreground": "#C4A2F5",
 			}
 		},
 		{
 			"name": "[CLOJURE] - META",
-			"scope": ["meta.vector.clojure",
-			"source.clojure"],
+			"scope": [
+				"meta.vector.clojure",
+				"source.clojure"
+			],
 			"settings": {
 				"foreground": "#FEFEFF",
 			}
@@ -1528,9 +1531,12 @@
 		},
 		{
 			"name": "[PYTHON] - Punctuations in Python",
-			"scope": ["punctuation.python", "punctuation.separator.element.python",
-			"punctuation.definition.arguments.begin.python",
-			"punctuation.definition.arguments.end.python"],
+			"scope": [
+				"punctuation.python",
+				"punctuation.separator.element.python",
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python"
+			],
 			"settings": {
 				"foreground": "#C4A2F5"
 			}
@@ -1559,7 +1565,8 @@
 		{
 			"name": "[Python] - import keyword",
 			"scope": [
-			"meta.member.access.python"],
+				"meta.member.access.python"
+			],
 			"settings": {
 				"foreground": "#C4A2F5"
 			}
@@ -1892,7 +1899,10 @@
 		},
 		{
 			"name": "[TYPESCRIPT] - Color for Punctuation Arrow Parameters",
-			"scope": ["meta.arrow.ts punctuation.definition.parameters", "keyword.symbol.arrow.fsharp"],
+			"scope": [
+				"meta.arrow.ts punctuation.definition.parameters",
+				"keyword.symbol.arrow.fsharp"
+			],
 			"settings": {
 				"foreground": "#C4A2F5"
 			}
