@@ -11,8 +11,6 @@
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 [![Version](https://vsmarketplacebadge.apphb.com/version/trallard.pitaya-smoothie.svg?subject=Pitaya%20Smoothie&colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie&WT.mc_id=academic-0000-taallard)
 
-![Publish release](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg?branch=master)
-
 ![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)  ✨ The whole UI has been made more consistent. There are also significant accessibiliy improvements to ensure all is AAA-WCAG compliant.
 
 <table width='100%' align="center">
@@ -55,33 +53,33 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 
 | USAGE          | COLOUR HEX CODE                                                      |
 | -------------- | -------------------------------------------------------------------- |
-| Background     | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` |
-| Foreground     | ![#fefeff](https://placehold.it/15/fefeff/000000?text=%20) `#fefeff` |
-| Comment        | ![#7E7AAA](https://placehold.it/15/7E7AAA/000000?text=%20) `#5C588A` |
-| Keyword        | ![#f26196](https://placehold.it/15/f26196/000000?text=%20) `#f26196` |
-| String         | ![#7998F2](https://placehold.it/15/7998F2/000000?text=%20) `#7998F2` |
-| Number         | ![#f3907e](https://placehold.it/15/f3907e/000000?text=%20) `#f3907e` |
-| Built-in const | ![#CAF884](https://placehold.it/15/CAF884/000000?text=%20) `#CAF884` |
-| Constant       | ![#A267F5](https://placehold.it/15/A267F5/000000?text=%20) `#A267F5` |
-| Other          | ![#66E9EC](https://placehold.it/15/66E9EC/000000?text=%20) `#66E9EC` |
-| Diff deleted   | ![#ff6e9c](https://placehold.it/15/ff6e9c/000000?text=%20) `#FF6E9C` |
-| Diff inserted  | ![#18c1c4](https://placehold.it/15/18c1c4/000000?text=%20) `#18c1c4` |
-| Diff changed   | ![#ffe46b](https://placehold.it/15/ffe46b/000000?text=%20) `#ffe46b` |
+| Background     | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036` |
+| Foreground     | ![#fefeff](https://via.placeholder.com/10/fefeff/000000?text=%20) `#fefeff` |
+| Comment        | ![#7E7AAA](https://via.placeholder.com/10/7E7AAA/000000?text=%20) `#5C588A` |
+| Keyword        | ![#f26196](https://via.placeholder.com/10/f26196/000000?text=%20) `#f26196` |
+| String         | ![#7998F2](https://via.placeholder.com/10/7998F2/000000?text=%20) `#7998F2` |
+| Number         | ![#f3907e](https://via.placeholder.com/10/f3907e/000000?text=%20) `#f3907e` |
+| Built-in const | ![#CAF884](https://via.placeholder.com/10/CAF884/000000?text=%20) `#CAF884` |
+| Constant       | ![#A267F5](https://via.placeholder.com/10/A267F5/000000?text=%20) `#A267F5` |
+| Other          | ![#66E9EC](https://via.placeholder.com/10/66E9EC/000000?text=%20) `#66E9EC` |
+| Diff deleted   | ![#ff6e9c](https://via.placeholder.com/10/ff6e9c/000000?text=%20) `#FF6E9C` |
+| Diff inserted  | ![#18c1c4](https://via.placeholder.com/10/18c1c4/000000?text=%20) `#18c1c4` |
+| Diff changed   | ![#ffe46b](https://via.placeholder.com/10/ffe46b/000000?text=%20) `#ffe46b` |
 
 ## UI elements colours <img alt="code" src="./images/icons/browser.png" width="50" />
 
 | UI ELEMENT                        | HEX CODES                                                                  |
 | --------------------------------- | -------------------------------------------------------------------------- |
-| Activity bar background           | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036`       |
-| Activity bar foreground           | ![#7A76C2](https://placehold.it/15/7A76C2/000000?text=%20) `#7A76C2`       |
-| Activity bar foreground           | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036`       |
-| Sidebar background                | ![#130C29](https://placehold.it/15/130C29/000000?text=%20) `#130C29`       |
-| Sidebar section header background | ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036`       |
-| Sidebar section header foreground | ![#7d79d1](https://placehold.it/15/7d79d1/000000?text=%20) `#7d79d1`       |
-| Sidebar section header foreground | ![#18c0c4](https://placehold.it/15/18c0c4/000000?text=%20) `#18c0c4`       |
-| Deletion highlights               | ![#ff6e9c98](https://placehold.it/15/ff6e9c98/000000?text=%20) `#ff6e9c98` |
-| Addition highlights               | ![#18c1c4a6](https://placehold.it/15/18c1c4a6/000000?text=%20) `#18c1c4a6` |
-| Modified highlights               | ![#AD70FC46](https://placehold.it/15/AD70FC46/000000?text=%20) `#AD70FC46` |
+| Activity bar background           | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036`       |
+| Activity bar foreground           | ![#7A76C2](https://via.placeholder.com/10/7A76C2/000000?text=%20) `#7A76C2`       |
+| Activity bar foreground           | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036`       |
+| Sidebar background                | ![#130C29](https://via.placeholder.com/10/130C29/000000?text=%20) `#130C29`       |
+| Sidebar section header background | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036`       |
+| Sidebar section header foreground | ![#7d79d1](https://via.placeholder.com/10/7d79d1/000000?text=%20) `#7d79d1`       |
+| Sidebar section header foreground | ![#18c0c4](https://via.placeholder.com/10/18c0c4/000000?text=%20) `#18c0c4`       |
+| Deletion highlights               | ![#ff6e9c98](https://via.placeholder.com/10/ff6e9c98/000000?text=%20) `#ff6e9c98` |
+| Addition highlights               | ![#18c1c4a6](https://via.placeholder.com/10/18c1c4a6/000000?text=%20) `#18c1c4a6` |
+| Modified highlights               | ![#AD70FC46](https://via.placeholder.com/10/AD70FC46/000000?text=%20) `#AD70FC46` |
 
 ## Snapshots <img alt="code" src="./images/icons/code.png" width="50" />
 
@@ -161,7 +159,7 @@ You can find `Pitaya Smoothie` in the following places:
 - ✨ Slack theme - if you want to match your VS Code theme and your Slack theme head to `preferences` -> `themes` in Slack and paste the following colours:
  `#181036,#27264D,#251954,#66E9EC,#27264D,#ABA9DB,#AD70FC,#FF6E9C`
   </br>
-  - The colours included are: ![#181036](https://placehold.it/15/181036/000000?text=%20) `#181036` ![#27264d](https://placehold.it/15/27264d/000000?text=%20) `#27264d` ![#251954](https://placehold.it/15/251954/000000?text=%20) `#251954` ![#66e9ec](https://placehold.it/15/66e9ec/000000?text=%20) `#66e9ec` ![#ABA9DB](https://placehold.it/15/ABA9DB/000000?text=%20) `#ABA9DB` ![#ad70fc](https://placehold.it/15/ad70fc/000000?text=%20) `#ad70fc` ![#ff6e9c](https://placehold.it/15/ff6e9c/000000?text=%20) `#ff6e9c`
+  - The colours included are: ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036` ![#27264d](https://via.placeholder.com/10/27264d/000000?text=%20) `#27264d` ![#251954](https://via.placeholder.com/10/251954/000000?text=%20) `#251954` ![#66e9ec](https://via.placeholder.com/10/66e9ec/000000?text=%20) `#66e9ec` ![#ABA9DB](https://via.placeholder.com/10/ABA9DB/000000?text=%20) `#ABA9DB` ![#ad70fc](https://via.placeholder.com/10/ad70fc/000000?text=%20) `#ad70fc` ![#ff6e9c](https://via.placeholder.com/10/ff6e9c/000000?text=%20) `#ff6e9c`
 
 - ✨ Matplotlib theme - now your plots can have a Pitaya Smoothie look (dark and light themes included). Developed by [@dhaitz](https://github.com/dhaitz) - check it out at [https://github.com/dhaitz/matplotlib-stylesheets](https://github.com/dhaitz/matplotlib-stylesheets).
 
