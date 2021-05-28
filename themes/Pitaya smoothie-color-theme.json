@@ -5,6 +5,7 @@
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
 		"activityBar.background": "#181036",
 		"activityBar.foreground": "#827ECF",
+		// TODO: replace all inactive
 		"activityBar.inactiveForeground": "#372B64",
 		"activityBarBadge.background": "#18C1C4",
 		"activityBar.activeBorder": "#18C1C4",
@@ -87,7 +88,7 @@
 		"editor.rangeHighlightBackground": "#261B4D",
 		"editorLink.activeForeground": "#A56CF5",
 		"editorIndentGuide.background": "#863bff63",
-		"editorIndentGuide.activeBackground": "#18c1c4",
+		"editorIndentGuide.activeBackground": "#18C1C4",
 		"editorRuler.foreground": "#301C7ABD", // Editor Ruler.
 		"editorOverviewRuler.border": "#301C7ABD",
 		"editorCodeLens.foreground": "#484F7D",
@@ -148,7 +149,7 @@
 		"tab.unfocusedActiveForeground": "#7998F2",
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
-		"editorWidget.background": "#261B4D62",
+		"editorWidget.background": "#261B4D",
 		"editorWidget.border": "#18C1C4",
 		"editorHoverWidget.background": "#130C29",
 		"editorHoverWidget.border": "#494595",
@@ -750,7 +751,7 @@
 			"name": "Keyword Control Operator",
 			"scope": "keyword.control.operator",
 			"settings": {
-				"foreground": "#9CF1F5"
+				"foreground": "#B07AFC"
 			}
 		},
 		// Invalid
@@ -794,17 +795,11 @@
 			}
 		},
 		{
-			"name": "[CSS] - Color for Element Selector",
-			"scope": "entity.name.tag",
-			"settings": {
-				"foreground": "#9EFFFF"
-			}
-		},
-		{
 			"name": "[CSS] - Color for Support",
 			"scope": [
 				"source.css support",
 				"entity.name.tag.css",
+				"entity.name.tag",
 				"source.stylus support"
 			],
 			"settings": {
@@ -1037,7 +1032,7 @@
 			}
 		},
 		{
-			"name": "HTML Tag names",
+			"name": "[HTML] -  Tag names",
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.other.html",
@@ -1056,7 +1051,7 @@
 			}
 		},
 		{
-			"name": "HTML Tag attribute",
+			"name": "[HTML] -  Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"fontStyle": "italic",
@@ -1064,7 +1059,7 @@
 			}
 		},
 		{
-			"name": "HTML Comment",
+			"name": "[HTML] -  Comment",
 			"scope": [
 				"punctuation.definition.comment.html",
 				"comment.block.html",
@@ -1076,10 +1071,10 @@
 		},
 		// JSON
 		{
-			"name": "JSON - Json string",
+			"name": "[JSON] - Json string",
 			"scope": "string.quoted.double.json",
 			"settings": {
-				"foreground": "#C4A2F5"
+				"foreground": "#D6DEEB"
 			}
 		},
 		//Arm
@@ -1098,7 +1093,14 @@
 			"name": "MAKEFILE - variables",
 			"scope": "variable.other.makefile",
 			"settings": {
-				"foreground": "#F26196"
+				"foreground": "#66E9EC"
+			}
+		},
+		{
+			"name": "MAKEFILE - punctuation",
+			"scope": "punctuation.definition.variable.makefile",
+			"settings": {
+				"foreground": "#66E9EC"
 			}
 		},
 		// Markdown 
@@ -1285,7 +1287,7 @@
 				"punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#494685"
+				"foreground": "#82B1FF"
 			}
 		},
 		{
@@ -1332,6 +1334,25 @@
 			],
 			"settings": {
 				"foreground": "#C6D8FA"
+			}
+		},
+		// Clojure
+		{
+			"name": "[CLOJURE] - META",
+			"scope": ["constant.keyword.clojure",
+			"meta.map.clojure",
+			"meta.definition.global.clojure",
+			"meta.expression.clojure"],
+			"settings": {
+				"foreground": "#C4A2F5",
+			}
+		},
+		{
+			"name": "[CLOJURE] - META",
+			"scope": ["meta.vector.clojure",
+			"source.clojure"],
+			"settings": {
+				"foreground": "#FEFEFF",
 			}
 		},
 		// Punctuation
@@ -1407,19 +1428,13 @@
 			}
 		},
 		{
-			"name": "Punctuation Section Embedded",
-			"scope": "punctuation.section.embedded",
-			"settings": {
-				"foreground": "#D3423E"
-			}
-		},
-		{
-			"name": "Punctuation D6DEEB",
+			"name": "Punctuation",
 			"scope": [
 				"punctuation.terminator.expression",
 				"punctuation.definition.arguments",
 				"punctuation.definition.array",
 				"punctuation.section.array",
+				"punctuation.section.embedded",
 				"meta.array"
 			],
 			"settings": {
@@ -1435,7 +1450,7 @@
 				"punctuation.definition.list"
 			],
 			"settings": {
-				"foreground": "#D9F5DD"
+				"foreground": "#7EF3CA"
 			}
 		},
 		// Python
@@ -1512,7 +1527,7 @@
 			"name": "[Python] Language Variable",
 			"scope": "source.python variable.language.special",
 			"settings": {
-				"foreground": "#8EACE3"
+				"foreground": "#C4A2F5",
 			}
 		},
 		{
@@ -1762,7 +1777,7 @@
 				"keyword.operator.expression.instanceof.tsx"
 			],
 			"settings": {
-				"foreground": "#C792EA",
+				"foreground": "#B07AFC",
 				"fontStyle": "italic"
 			}
 		},
@@ -1816,35 +1831,35 @@
 		},
 		// Typescript
 		{
-			"name": "TYPESCRIPT - Color for Keyword",
+			"name": "[TYPESCRIPT] - Color for Keyword",
 			"scope": "source.ts keyword",
 			"settings": {
 				"foreground": "#C4A2F5"
 			}
 		},
 		{
-			"name": "TYPESCRIPT - Color for Punctuation Parameters",
+			"name": "[TYPESCRIPT] - Color for Punctuation Parameters",
 			"scope": "source.ts punctuation.definition.parameters",
 			"settings": {
 				"foreground": "#D6DEEB"
 			}
 		},
 		{
-			"name": "TYPESCRIPT - Color for Punctuation Arrow Parameters",
-			"scope": "meta.arrow.ts punctuation.definition.parameters",
+			"name": "[TYPESCRIPT] - Color for Punctuation Arrow Parameters",
+			"scope": ["meta.arrow.ts punctuation.definition.parameters", "keyword.symbol.arrow.fsharp"],
 			"settings": {
-				"foreground": "#FFED9E"
+				"foreground": "#C4A2F5"
 			}
 		},
 		{
-			"name": "TYPESCRIPT - Color for Storage",
+			"name": "[TYPESCRIPT] - Color for Storage",
 			"scope": "source.ts storage",
 			"settings": {
 				"foreground": "#FF96B7"
 			}
 		},
 		{
-			"name": "TypeScript[React] Variables and Object Properties",
+			"name": "[TypeScript][React] Variables and Object Properties",
 			"scope": [
 				"variable.other.readwrite.alias.ts",
 				"variable.other.readwrite.alias.tsx",
@@ -1864,7 +1879,7 @@
 			}
 		},
 		{
-			"name": "TYPESCRIPT - Decorators",
+			"name": "[TYPESCRIPT] - Decorators",
 			"scope": [
 				"meta.decorator punctuation.decorator.ts",
 				"meta.decorator punctuation.decorator.tsx",
@@ -1875,7 +1890,7 @@
 			}
 		},
 		{
-			"name": "TYPESCRIPT[React] Entity Name Types",
+			"name": "[TYPESCRIPT][React] Entity Name Types",
 			"scope": [
 				"entity.name.type.ts",
 				"entity.name.type.tsx"
@@ -1885,7 +1900,7 @@
 			}
 		},
 		{
-			"name": "TYPESCRIPT[React] Node Classes",
+			"name": "[TYPESCRIPT][React] Node Classes",
 			"scope": [
 				"support.class.node.ts",
 				"support.class.node.tsx"
@@ -1895,7 +1910,7 @@
 			}
 		},
 		{
-			"name": "TYPESCRIPT[React] Entity Name Types as Parameters",
+			"name": "[TYPESCRIPT][React] Entity Name Types as Parameters",
 			"scope": [
 				"meta.type.parameters.ts entity.name.type",
 				"meta.type.parameters.tsx entity.name.type"
@@ -1905,7 +1920,7 @@
 			}
 		},
 		{
-			"name": "TYPESCRIPT[React] Import/Export Punctuations",
+			"name": "[TYPESCRIPT][React] Import/Export Punctuations",
 			"scope": [
 				"meta.import.ts punctuation.definition.block",
 				"meta.import.tsx punctuation.definition.block",
@@ -1917,7 +1932,7 @@
 			}
 		},
 		{
-			"name": "TYPESCRIPT[React] Punctuation Decorators",
+			"name": "[TYPESCRIPT][React] Punctuation Decorators",
 			"scope": "meta.tag.js meta.jsx.children.tsx",
 			"settings": {
 				"foreground": "#FF96B7"
