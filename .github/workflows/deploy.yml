@@ -26,7 +26,7 @@ jobs:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
         with:
           args: "publish $VERSION -p $VSCE_TOKEN"
-  
+
   publish_to_openvsx:
     runs-on: ubuntu-latest
     name: Publish to ovsx
