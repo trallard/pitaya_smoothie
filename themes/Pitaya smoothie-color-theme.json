@@ -1511,9 +1511,11 @@
 		},
 		{
 			"name": "[PYTHON] - Punctuations in Python",
-			"scope": "punctuation.python",
+			"scope": ["punctuation.python", "punctuation.separator.element.python",
+			"punctuation.definition.arguments.begin.python",
+			"punctuation.definition.arguments.end.python"],
 			"settings": {
-				"foreground": "#18C1C4"
+				"foreground": "#C4A2F5"
 			}
 		},
 		{
@@ -1535,6 +1537,14 @@
 			"scope": "keyword.control.import.python",
 			"settings": {
 				"foreground": "#F26196"
+			}
+		},
+		{
+			"name": "[Python] - import keyword",
+			"scope": [
+			"meta.member.access.python"],
+			"settings": {
+				"foreground": "#C4A2F5"
 			}
 		},
 		// R
@@ -1578,6 +1588,24 @@
 			],
 			"settings": {
 				"foreground": "#C4A2F5"
+			}
+		},
+		{
+			"name": "[R] - meta function",
+			"scope": [
+				"constant.language.r"
+			],
+			"settings": {
+				"foreground": "#FF96B7"
+			}
+		},
+		{
+			"name": "[R] - meta function",
+			"scope": [
+				"meta.function-call.r"
+			],
+			"settings": {
+				"foreground": "#F3CA7E"
 			}
 		},
 		// RST 
