@@ -1,0 +1,131 @@
+#8 64.33 
+#8 64.33 creating build/temp.linux-x86_64-3.8/scipy/fft
+#8 64.33 creating build/temp.linux-x86_64-3.8/scipy/fft/_pocketfft
+#8 64.33 compile options: '-DPOCKETFFT_PTHREADS -I/opt/conda/envs/scipy-dev/lib/python3.8/site-packages/pybind11/include -I/opt/conda/envs/scipy-dev/lib/python3.8/site-packages/pybind11/include -I/opt/conda/envs/scipy-dev/lib/python3.8/site-packages/numpy/core/include -Ibuild/src.linux-x86_64-3.8/numpy/distutils/include -I/opt/conda/envs/scipy-dev/include/python3.8 -c'
+#8 64.33 extra options: '-std=c++14 -pthread -fvisibility=hidden -msse -msse2 -msse3'
+#8 64.33 ccache: scipy/fft/_pocketfft/pypocketfft.cxx
+#8 92.71 ccache -pthread -shared -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,-rpath,/opt/conda/envs/scipy-dev/lib -L/opt/conda/envs/scipy-dev/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,-rpath,/opt/conda/envs/scipy-dev/lib -L/opt/conda/envs/scipy-dev/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/opt/conda/envs/scipy-dev/lib -Wl,-rpath-link,/opt/conda/envs/scipy-dev/lib -L/opt/conda/envs/scipy-dev/lib -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/envs/scipy-dev/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/envs/scipy-dev/include build/temp.linux-x86_64-3.8/scipy/fft/_pocketfft/pypocketfft.o -Lbuild/temp.linux-x86_64-3.8 -o scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so -Wl,--version-script=build/temp.linux-x86_64-3.8/link-version-scipy.fft._pocketfft.pypocketfft.map -pthread
+#8 92.71 ccache: invalid option -- 't'
+#8 92.71 Usage:
+#8 92.71     ccache [options]
+#8 92.71     ccache compiler [compiler options]
+#8 92.71     compiler [compiler options]          (via symbolic link)
+#8 92.71 
+#8 92.71 Common options:
+#8 92.71     -c, --cleanup              delete old files and recalculate size counters
+#8 92.71                                (normally not needed as this is done
+#8 92.71                                automatically)
+#8 92.71     -C, --clear                clear the cache completely (except configuration)
+#8 92.71         --config-path PATH     operate on configuration file PATH instead of the
+#8 92.71                                default
+#8 92.71     -d, --directory PATH       operate on cache directory PATH instead of the
+#8 92.71                                default
+#8 92.71         --evict-older-than AGE remove files older than AGE (unsigned integer
+#8 92.71                                with a d (days) or s (seconds) suffix)
+#8 92.71     -F, --max-files NUM        set maximum number of files in cache to NUM (use
+#8 92.71                                0 for no limit)
+#8 92.71     -M, --max-size SIZE        set maximum size of cache to SIZE (use 0 for no
+#8 92.71                                limit); available suffixes: k, M, G, T (decimal)
+#8 92.71                                and Ki, Mi, Gi, Ti (binary); default suffix: G
+#8 92.71     -X, --recompress LEVEL     recompress the cache to LEVEL (integer level or
+#8 92.71                                "uncompressed")
+#8 92.71     -o, --set-config KEY=VAL   set configuration item KEY to value VAL
+#8 92.71     -x, --show-compression     show compression statistics
+#8 92.71     -p, --show-config          show current configuration options in
+#8 92.71                                human-readable format
+#8 92.71     -s, --show-stats           show summary of configuration and statistics
+#8 92.71                                counters in human-readable format
+#8 92.71     -z, --zero-stats           zero statistics counters
+#8 92.71 
+#8 92.71     -h, --help                 print this help text
+#8 92.71     -V, --version              print version and copyright information
+#8 92.71 
+#8 92.71 Options for scripting or debugging:
+#8 92.71         --checksum-file PATH   print the checksum (64 bit XXH3) of the file at
+#8 92.71                                PATH
+#8 92.71         --dump-manifest PATH   dump manifest file at PATH in text format
+#8 92.71         --dump-result PATH     dump result file at PATH in text format
+#8 92.71         --extract-result PATH  extract data stored in result file at PATH to the
+#8 92.71                                current working directory
+#8 92.71     -k, --get-config KEY       print the value of configuration key KEY
+#8 92.71         --hash-file PATH       print the hash (160 bit BLAKE3) of the file at
+#8 92.71                                PATH
+#8 92.71         --print-stats          print statistics counter IDs and corresponding
+#8 92.71                                values in machine-parsable format
+#8 92.71 
+#8 92.71 See also <https://ccache.dev>.
+#8 92.71 (default) absolute_paths_in_stderr = false
+#8 92.71 (default) base_dir = 
+#8 92.71 (default) cache_dir = /home/gitpod/.cache/ccache
+#8 92.71 (default) compiler = 
+#8 92.71 (default) compiler_check = mtime
+#8 92.71 (default) compiler_type = auto
+#8 92.71 (default) compression = true
+#8 92.71 (default) compression_level = 0
+#8 92.71 (default) cpp_extension = 
+#8 92.71 (default) debug = false
+#8 92.71 (default) depend_mode = false
+#8 92.71 (default) direct_mode = true
+#8 92.71 (default) disable = false
+#8 92.71 (default) extra_files_to_hash = 
+#8 92.71 (default) file_clone = false
+#8 92.71 (default) hard_link = false
+#8 92.71 (default) hash_dir = true
+#8 92.71 (default) ignore_headers_in_manifest = 
+#8 92.71 (default) ignore_options = 
+#8 92.71 (default) inode_cache = false
+#8 92.71 (default) keep_comments_cpp = false
+#8 92.71 (default) limit_multiple = 0.8
+#8 92.71 (default) log_file = 
+#8 92.71 (default) max_files = 0
+#8 92.71 (default) max_size = 5.0G
+#8 92.71 (default) path = 
+#8 92.71 (default) pch_external_checksum = false
+#8 92.71 (default) prefix_command = 
+#8 92.71 (default) prefix_command_cpp = 
+#8 92.71 (default) read_only = false
+#8 92.71 (default) read_only_direct = false
+#8 92.71 (default) recache = false
+#8 92.71 (default) run_second_cpp = true
+#8 92.71 (default) sloppiness = 
+#8 92.71 (default) stats = true
+#8 92.71 (default) temporary_dir = /home/gitpod/.cache/ccache/tmp
+#8 92.71 (default) umask = 
+#8 92.71 Running from SciPy source directory.
+#8 92.71 
+#8 92.71 ########### EXT COMPILER OPTIMIZATION ###########
+#8 92.71 Platform      : 
+#8 92.71   Architecture: x64
+#8 92.71   Compiler    : unix-like
+#8 92.71 
+#8 92.71 CPU baseline  : 
+#8 92.71   Requested   : 'min'
+#8 92.71   Enabled     : SSE SSE2 SSE3
+#8 92.71   Flags       : -msse -msse2 -msse3
+#8 92.71   Extra checks: none
+#8 92.71 
+#8 92.71 CPU dispatch  : 
+#8 92.71   Requested   : 'max -xop -fma4'
+#8 92.71   Enabled     : SSSE3 SSE41 POPCNT SSE42 AVX F16C FMA3 AVX2 AVX512F AVX512CD AVX512_KNL AVX512_KNM AVX512_SKX AVX512_CLX AVX512_CNL AVX512_ICL
+#8 92.71   Generated   : none
+#8 92.71 CCompilerOpt._cache_write[796] : write cache to path -> /workspace/scipy/build/temp.linux-x86_64-3.8/ccompiler_opt_cache_ext.py
+#8 92.72 
+#8 92.72 ########### CLIB COMPILER OPTIMIZATION ###########
+#8 92.72 Platform      : 
+#8 92.72   Architecture: x64
+#8 92.72   Compiler    : unix-like
+#8 92.72 
+#8 92.72 CPU baseline  : 
+#8 92.72   Requested   : 'min'
+#8 92.72   Enabled     : SSE SSE2 SSE3
+#8 92.72   Flags       : -msse -msse2 -msse3
+#8 92.72   Extra checks: none
+#8 92.72 
+#8 92.72 CPU dispatch  : 
+#8 92.72   Requested   : 'max -xop -fma4'
+#8 92.72   Enabled     : SSSE3 SSE41 POPCNT SSE42 AVX F16C FMA3 AVX2 AVX512F AVX512CD AVX512_KNL AVX512_KNM AVX512_SKX AVX512_CLX AVX512_CNL AVX512_ICL
+#8 92.72   Generated   : none
+#8 92.72 CCompilerOpt._cache_write[796] : write cache to path -> /workspace/scipy/build/temp.linux-x86_64-3.8/ccompiler_opt_cache_clib.py
+#8 92.72 error: Command "ccache -pthread -shared -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,-rpath,/opt/conda/envs/scipy-dev/lib -L/opt/conda/envs/scipy-dev/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,-rpath,/opt/conda/envs/scipy-dev/lib -L/opt/conda/envs/scipy-dev/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/opt/conda/envs/scipy-dev/lib -Wl,-rpath-link,/opt/conda/envs/scipy-dev/lib -L/opt/conda/envs/scipy-dev/lib -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /opt/conda/envs/scipy-dev/include -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /opt/conda/envs/scipy-dev/include build/temp.linux-x86_64-3.8/scipy/fft/_pocketfft/pypocketfft.o -Lbuild/temp.linux-x86_64-3.8 -o scipy/fft/_pocketfft/pypocketfft.cpython-38-x86_64-linux-gnu.so -Wl,--version-script=build/temp.linux-x86_64-3.8/link-version-scipy.fft._pocketfft.pypocketfft.map -pthread" failed with exit status 1
+------
+executor failed running [/bin/bash --login -o pipefail -c chmod a+rx ${WORKSPACE}/tools/docker_dev/fix_permissions &&     tools/docker_dev/fix_permissions &&     python setup.py build_ext --inplace]: exit code: 1

@@ -5,29 +5,18 @@
 <br>
 
 # Change Log
-
 All notable changes to the "pitaya-smoothie" extension will be documented in this file.
 
-## Release 2.0.0
-
-![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)
-
-> 📦  Now notebooks and Settings UI are consistent with the rest of the theme [b3c640](https://github.com/trallard/pitaya_smoothie/commit/b3c640cabe8735521da4b250b3729fb02c752d07)
-
-![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
-
-> ✨ Ensure the UX palette is scalable and consistent [ab85fe](https://github.com/trallard/pitaya_smoothie/commit/ab85fe)
-> ✨ Improve highlight colours for better visibility [e717e8](https://github.com/trallard/pitaya_smoothie/commit/e717e8)
-> ✨ Rearrange the themes to have groups of tokens [3fb5c0f](https://github.com/trallard/pitaya_smoothie/commit/3fb5c0f8a2e5e53e48fc62f12efdb2f08e3b8f31)
-> ✨ Fix merge colours - now AAA compliance  [3e9716](https://github.com/trallard/pitaya_smoothie/commit/3e9716bc0b2ef0673763315b373ddb1b7fe93899)
-> ✨ Reduce number of highlight colours [cf12b0](cf12b0c37b1eeb90cf032f0b1e822d121c3f8f24)
 ## RELEASE: 1.0.5
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
 
 > ✨ Improve general highlighting accesibility [c2e4bbd](https://github.com/trallard/pitaya_smoothie/commit/c2e4bbd)
+
 > ✨ Change active links colour so that they are readable [c2e4bbd](https://github.com/trallard/pitaya_smoothie/commit/c2e4bbd)
+
 > ✨ Fix pink shade discrepancies in 'no italic' theme by @aedwardg [c0d3e87](https://github.com/trallard/pitaya_smoothie/commit/c0d3e87)
+
 > ✨ Fix shade of purple for JavaScript const names by @aedwardg [954ffee](https://github.com/trallard/pitaya_smoothie/commit/954ffee)
 
 ## RELEASE: 1.0.4
@@ -35,6 +24,7 @@ All notable changes to the "pitaya-smoothie" extension will be documented in thi
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
 
 > ✨ Multiple improvements to general accesibility: [highlighting](https://github.com/trallard/pitaya_smoothie/commit/512a3ef), [debugging](https://github.com/trallard/pitaya_smoothie/commit/0c755e9), [error and warning](https://github.com/trallard/pitaya_smoothie/commit/8b697eb)
+
 > ✨ Remove deprecated theme tags [5c782e2](https://github.com/trallard/pitaya_smoothie/commit/5c782e2)
 
 ## RELEASE: 1.0.3

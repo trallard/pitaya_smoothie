@@ -77,5 +77,3 @@ def say_whee():
 
 
 True, False, None 
-
-df.columns 

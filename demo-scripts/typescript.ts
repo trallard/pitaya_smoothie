@@ -21,3 +21,5 @@ function greeter(person: string) {
 let user = "Jane User";
 
 document.body.innerHTML = greeter(user);
+
+var myFunc2 = (h: number, w: number) => h * w;

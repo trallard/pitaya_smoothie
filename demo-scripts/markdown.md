@@ -69,15 +69,15 @@ Retained line
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------: |
 | **LINK**: Regular              |                                                                                              [Link](https://bitsandchips.me) |
 | **LINK**: Alternate            |                                                                                                            [Alternate][link] |
-| **IMAGE**: Regular             |                            ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true) |
-| **IMAGE**: Regular + Title     |    ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true "Shades of Purple icon") |
-| **IMAGE**: With Link           | [![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)](https://bitsandchips.me) |
 | **IMAGE**: With alternate Link |                    [![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)][link] |
+| **IMAGE**: With Link           | [![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)](https://bitsandchips.me) |
+| **IMAGE**: Regular + Title     |    ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true "Shades of Purple icon") |
+| **IMAGE**: Regular             |                            ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true) |
 
 - [Link](https://bitsandchips.me)
 - [Alternate][link]
 - ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)
-- ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true "Shades of Purple icon")
+- ![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true "Pitaya Smoothie icon")
 - [![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)](https://bitsandchips.me)
 - [![Alt](https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true)][link]
 

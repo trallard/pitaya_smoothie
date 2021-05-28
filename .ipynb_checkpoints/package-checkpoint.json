@@ -40,12 +40,12 @@
             {
                 "label": "Pitaya smoothie",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Pitaya-smoothie-color-theme.json"
+                "path": "./themes/Pitaya smoothie-color-theme.json"
             },
             {
                 "label": "Pitaya smoothie (No italics)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Pitaya-smoothie-color-theme-noitalic.json"
+                "path": "./themes/Pitaya smoothie-color-theme-noitalic.json"
             }
         ]
     }
