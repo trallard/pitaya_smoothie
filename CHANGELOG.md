@@ -8,6 +8,11 @@
 
 All notable changes to the "pitaya-smoothie" extension will be documented in this file.
 
+## Release 2.0.1
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
+
+> 🐛 Fix Italic's theme path [`60f2d75`](https://github.com/trallard/pitaya_smoothie/commit/60f2d75) <br> by @aedwardg
+
 ## Release 2.0.0
 
 ![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)
