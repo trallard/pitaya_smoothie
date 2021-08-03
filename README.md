@@ -1,17 +1,17 @@
 <div align="center">
- <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/logo_squared.png?raw=true" width="250" />
+ <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/main/images/logos/logo_squared.png?raw=true" width="250" />
 </div>
 <br>
 
 <div align="center">
- <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true" width="400" />
+ <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/main/images/logos/wording.png?raw=true" width="400" />
 </div>
 <br>
 
 ![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 [![Version](https://vsmarketplacebadge.apphb.com/version/trallard.pitaya-smoothie.svg?subject=Pitaya%20Smoothie&colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie)
 
-![Publish release](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg?branch=master)
+![Publish release](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg?branch=main)
 
 ![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)  ✨ The whole UI has been made more consistent. There are also significant accessibiliy improvements to ensure all is AAA-WCAG compliant.
 
@@ -156,7 +156,7 @@ I defined the following colours in my `settings.json`:
 
 You can find `Pitaya Smoothie` in the following places:
 
-- ✨ Iterm theme [https://github.com/trallard/pitaya-smoothie-iterm/tree/master](https://github.com/trallard/pitaya-smoothie-iterm/tree/master)
+- ✨ Iterm theme [https://github.com/trallard/pitaya-smoothie-iterm/tree/main](https://github.com/trallard/pitaya-smoothie-iterm/tree/main)
 
 - ✨ Slack theme - if you want to match your VS Code theme and your Slack theme head to `preferences` -> `themes` in Slack and paste the following colours:
  `#181036,#27264D,#251954,#66E9EC,#27264D,#ABA9DB,#AD70FC,#FF6E9C`

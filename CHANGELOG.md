@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/master/images/logos/wording.png?raw=true" width="250" />
+  <img alt="Logo" src="https://github.com/trallard/pitaya_smoothie/blob/main/images/logos/wording.png?raw=true" width="250" />
 </div>
 <br>
 <br>
