@@ -8,12 +8,7 @@
 </div>
 <br>
 
-![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
-[![Version](https://vsmarketplacebadge.apphb.com/version/trallard.pitaya-smoothie.svg?subject=Pitaya%20Smoothie&colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie)
-
-![Publish release](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg?branch=main)
-
-![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)  ✨ The whole UI has been made more consistent. There are also significant accessibiliy improvements to ensure all is AAA-WCAG compliant.
+![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4) ✨ Comments and editor selection colours have been updated to meet WCAG AA standards.
 
 <table width='100%' align="center">
  <tr>
@@ -41,7 +36,7 @@
 ## Installation <img alt="cog" src="./images/icons/settings.png" width="50"/>
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-taallard)
-1. Open the extensions sidebar on Visual Studio Code
+1. Open the extensions' sidebar on Visual Studio Code
 1. Search for `Pitaya Smoothie`
 1. Click **Install** to install it.
 1. Click **Reload** to reload your editor.
@@ -49,39 +44,40 @@
 
 ## Pitaya Smoothie Syntax Colours <img alt="syntax" src="./images/icons/highlighter.png" width="50" />
 
-Outrun aesthetics profoundly inspires this theme. The colour choices for the theme were made also taking into consideration accessibility for those users with colourblindness.
+Outrun aesthetics profoundly inspires this theme. The colour choices for the theme were made also taking into consideration accessibility for those users with colourblindness. By default, the theme is suitable for multiple types of colourblindness - no settings tweaking required.
+
 The theme consists of a reasonably dark background and popping contrast colours.
 I also made decisions to allow for meaningful contrast for reading comprehension and optimal colour-popping ✨.
 
 | USAGE          | COLOUR HEX CODE                                                      |
 | -------------- | -------------------------------------------------------------------- |
-| Background     | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036` |
-| Foreground     | ![#fefeff](https://via.placeholder.com/10/fefeff/000000?text=%20) `#fefeff` |
-| Comment        | ![#7E7AAA](https://via.placeholder.com/10/7E7AAA/000000?text=%20) `#5C588A` |
-| Keyword        | ![#f26196](https://via.placeholder.com/10/f26196/000000?text=%20) `#f26196` |
-| String         | ![#7998F2](https://via.placeholder.com/10/7998F2/000000?text=%20) `#7998F2` |
-| Number         | ![#f3907e](https://via.placeholder.com/10/f3907e/000000?text=%20) `#f3907e` |
-| Built-in const | ![#CAF884](https://via.placeholder.com/10/CAF884/000000?text=%20) `#CAF884` |
-| Constant       | ![#A267F5](https://via.placeholder.com/10/A267F5/000000?text=%20) `#A267F5` |
-| Other          | ![#66E9EC](https://via.placeholder.com/10/66E9EC/000000?text=%20) `#66E9EC` |
-| Diff deleted   | ![#ff6e9c](https://via.placeholder.com/10/ff6e9c/000000?text=%20) `#FF6E9C` |
-| Diff inserted  | ![#18c1c4](https://via.placeholder.com/10/18c1c4/000000?text=%20) `#18c1c4` |
-| Diff changed   | ![#ffe46b](https://via.placeholder.com/10/ffe46b/000000?text=%20) `#ffe46b` |
+| Background     | #181036 |
+| Foreground     | #fefeff |
+| Comment        | #8786ac |
+| Keyword        | #f26196 |
+| String         | #7998F2 |
+| Number         | #f3907e |
+| Built-in constant | #CAF884 |
+| Constant       | #A267F5 |
+| Other          | #66E9EC |
+| Diff deleted   | #FF6E9C |
+| Diff inserted  | #18c1c4 |
+| Diff changed   | #ffe46b |
 
 ## UI elements colours <img alt="code" src="./images/icons/browser.png" width="50" />
 
 | UI ELEMENT                        | HEX CODES                                                                  |
 | --------------------------------- | -------------------------------------------------------------------------- |
-| Activity bar background           | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036`       |
-| Activity bar foreground           | ![#7A76C2](https://via.placeholder.com/10/7A76C2/000000?text=%20) `#7A76C2`       |
-| Activity bar foreground           | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036`       |
-| Sidebar background                | ![#130C29](https://via.placeholder.com/10/130C29/000000?text=%20) `#130C29`       |
-| Sidebar section header background | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036`       |
-| Sidebar section header foreground | ![#7d79d1](https://via.placeholder.com/10/7d79d1/000000?text=%20) `#7d79d1`       |
-| Sidebar section header foreground | ![#18c0c4](https://via.placeholder.com/10/18c0c4/000000?text=%20) `#18c0c4`       |
-| Deletion highlights               | ![#ff6e9c98](https://via.placeholder.com/10/ff6e9c98/000000?text=%20) `#ff6e9c98` |
-| Addition highlights               | ![#18c1c4a6](https://via.placeholder.com/10/18c1c4a6/000000?text=%20) `#18c1c4a6` |
-| Modified highlights               | ![#AD70FC46](https://via.placeholder.com/10/AD70FC46/000000?text=%20) `#AD70FC46` |
+| Activity bar background           | #181036       |
+| Activity bar foreground           | #7A76C2       |
+| Activity bar foreground           | #181036       |
+| Sidebar background                | #130C29       |
+| Sidebar section header background | #181036       |
+| Sidebar section header foreground | #7d79d1       |
+| Sidebar section header foreground | #18c0c4       |
+| Deletion highlights               | #ff6e9c98 |
+| Addition highlights               | #18c1c4a6 |
+| Modified highlights               | #AD70FC46 |
 
 ## Snapshots <img alt="code" src="./images/icons/code.png" width="50" />
 
@@ -89,39 +85,648 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 
 ![Python Syntax](https://img.shields.io/badge/SYNTAX-Python-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 </br>
-<img alt="python code" src="./images/demos/python.png"/>
+<img alt="Pitaya smoothie italics - Python code demo" src="./images/demos/python.png"/>
 
 ✨ Using bracket-style colorizer 👆🏼✨
 
-![R Syntax](https://img.shields.io/badge/SYNTAX-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+![Pitaya smoothie - R Syntax](https://img.shields.io/badge/SYNTAX-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 </br>
-<img alt="python code" src="./images/demos/R.png"/>
+<img alt="Pitaya smoothie italics - R code demo" src="./images/demos/R.png"/>
 
-![React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+![Pitaya Smoothie -React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 </br>
-<img alt="react code" src="./images/demos/react.png"/>
+<img alt="Pitaya smoothie italics - React code" src="./images/demos/react.png"/>
 
-![cpp Syntax](https://img.shields.io/badge/SYNTAX-c++-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+![Pitaya Smoothie - cpp Syntax](https://img.shields.io/badge/SYNTAX-c++-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 </br>
-<img alt="react code" src="./images/demos/cpp.png"/>
+<img alt="Pitaya smoothie italics - c++ code demo" src="./images/demos/cpp.png"/>
 
-![html Syntax](https://img.shields.io/badge/SYNTAX-HTML-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
-<img alt="react code" src="./images/demos/html.png"/>
+![Pitaya Smoothie - HTML Syntax](https://img.shields.io/badge/SYNTAX-HTML-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="Pitaya smoothie italics - HTML code demo" src="./images/demos/html.png"/>
 
 </div>
 
 ## Accessibility <img alt="accessibility" src="./images/icons/access.png" width="50" />
 
-Accessibility was kept close in mind when designing this theme. The colours were chosen such that they would be acceessible to folks with colourblindness.
+### Colourblindness
+
+Accessibility was kept close in mind when designing this theme. The colours were chosen such that they would be accessible to folks with colourblindness.
 <div align="center">
-<img alt="palette" src="./images/access/Coloring_for_Colorblindness.png" width="300" />
+<img alt="Pitaya Soothie colour palette - simulated for Protanopia, Deuteranopia, and Tritanopia" src="./images/access/Coloring_for_Colorblindness.png" width="300" />
 
-![python prot Syntax](https://img.shields.io/badge/PROTANOMALY-Python-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
-<img alt="react code" src="./images/demos/python-protanomaly.png"/>
+![Badge - python code with Protanopia filter](https://img.shields.io/badge/PROTANOMALY-Python-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="Pitaya Smoothie italics - python code with Protanopia filter" src="./images/demos/python-protanomaly.png"/>
 
-![python prot Syntax](https://img.shields.io/badge/TRITANOPIA-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
-<img alt="react code" src="./images/demos/R-tritanopia.png"/>
+![Badge - R code with Tritanopia filter](https://img.shields.io/badge/TRITANOPIA-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="Pitaya Smoothie italics - R code with Tritanopia filter" src="./images/demos/R-tritanopia.png"/>
 
+</div>
+
+### Colour contrast
+
+Additionally, all the colours used in the theme are compliant with [WCAG 2.1 standards](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html).
+
+<!-- Contrast Grid generated by contrast-grid.eightshapes.com -->
+<!-- Editable link: https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=%23181036%2C%20%0D%0A%23231458%2C%20selection%20and%20highlight%0D%0A&foreground-colors=%23FEFEFF%2C%20default%20foreground%0D%0A%238786ac%2C%20comments%0D%0A%23F26196%0D%0A%237998F2%0D%0A%23F3907E%0D%0A%23CAF884%0D%0A%2366E9EC%0D%0A%23B07AFC%0D%0A%23FFE46B%2C%20diff-changed%0D%0A%2318C1C4%2C%20diff-inserted%0D%0A%23FF6E9C%2C%20diff-deleted%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp -->
+<div class="es-contrast-grid es-contrast-grid--compact">
+    <div class="es-contrast-grid__inner">
+        <table class="es-contrast-grid__table">
+            <thead>
+                <tr class="es-contrast-grid__foreground-key">
+                    <th>
+                        <div class="es-contrast-grid__key-swatch-spacer">
+                            <span class="es-contrast-grid__key-swatch-label es-contrast-grid__key-swatch-label--background">Background</span>
+                            <span class="es-contrast-grid__key-swatch-label es-contrast-grid__key-swatch-label--text">Text</span>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#FEFEFF" style="background-color: #fefeff;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">default foreground</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">#FEFEFF</div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#8786AC" style="background-color: #8786ac;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">comments</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">#8786AC</div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#F26196" style="background-color: #f26196;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">#F26196</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#7998F2" style="background-color: #7998f2;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">#7998F2</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#F3907E" style="background-color: #f3907e;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">#F3907E</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#CAF884" style="background-color: #caf884;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">#CAF884</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#66E9EC" style="background-color: #66e9ec;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">#66E9EC</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#B07AFC" style="background-color: #b07afc;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">#B07AFC</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#FFE46B" style="background-color: #ffe46b;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">diff-changed</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">#FFE46B</div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#18C1C4" style="background-color: #18c1c4;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">diff-inserted</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">#18C1C4</div>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="es-contrast-grid__foreground-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--foreground es-contrast-grid--dark-label" data-hex="#FF6E9C" style="background-color: #ff6e9c;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">diff-deleted</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">#FF6E9C</div>
+                            </div>
+                        </div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="es-contrast-grid__content">
+                <tr class="es-contrast-grid__content-row">
+                    <th class="es-contrast-grid__background-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--background" data-hex="#181036" style="background-color: #181036;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">#181036</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">
+                                </div>
+                            </div>
+                        </div>
+                    </th>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #fefeff;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">17.8</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #8786ac;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">5.1</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #f26196;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">5.9</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #7998f2;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">6.5</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #f3907e;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">7.8</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #caf884;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">14.8</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #66e9ec;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">12.3</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #b07afc;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">6</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #ffe46b;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">14.2</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #18c1c4;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">8.1</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #181036; color: #ff6e9c;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">6.8</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="es-contrast-grid__content-row">
+                    <th class="es-contrast-grid__background-key-cell">
+                        <div class="es-contrast-grid__key-swatch es-contrast-grid__key-swatch--background" data-hex="#231458" style="background-color: #231458;">
+                            <div class="es-contrast-grid__key-swatch-label">
+                                <div class="es-contrast-grid__key-swatch-label-text">selection and highlight</div>
+                                <div class="es-contrast-grid__key-swatch-label-hex">#231458</div>
+                            </div>
+                        </div>
+                    </th>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #fefeff;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">15.8</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #8786ac;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">4.6</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #f26196;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">5.2</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #7998f2;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">5.7</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #f3907e;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">6.9</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #caf884;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">13.1</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #66e9ec;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">11</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #b07afc;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">5.3</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #ffe46b;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">12.6</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #18c1c4;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span>
+                                <span class="es-contrast-grid__contrast-ratio">7.2</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="es-contrast-grid__content-cell">
+                        <div class="es-contrast-grid__swatch" style="background-color: #231458; color: #ff6e9c;">
+                            <span class="es-contrast-grid__swatch-demo-text">Text</span>
+                            <div class="es-contrast-grid__swatch-stats">
+                                <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span>
+                                <span class="es-contrast-grid__contrast-ratio">6</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody class="es-contrast-grid__key">
+                <tr class="es-contrast-grid__key-row">
+                    <td class="es-contrast-grid__key-cell" colspan="12">
+                        <div class="es-contrast-grid-key">
+                            <div class="es-contrast-grid-key__column">
+                                <div class="es-contrast-grid-key__label">
+                                    <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aaa">AAA</span> Pass, AAA (7+)
+                                </div>
+                                <div class="es-contrast-grid-key__label">
+                                    <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa">AA</span> Pass, AA (4.5+)
+                                </div>
+                            </div>
+                            <div class="es-contrast-grid-key__column">
+                                <div class="es-contrast-grid-key__label">
+                                    <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--aa18">AA18</span> Pass, Large Text Only (3+)
+                                </div>
+                                <div class="es-contrast-grid-key__label">
+                                    <span class="es-contrast-grid__accessibility-label es-contrast-grid__accessibility-label--dnp">DNP</span> Does Not Pass
+                                </div>
+                            </div>
+                            <a class="es-contrast-grid-key__link" href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html">About WCAG 2.0 contrast</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <style class="es-contrast-grid-styles">
+        /* Override Contrast Grid Styles to make color and font changes */
+        .es-contrast-grid {
+            font-family: 'Lato', sans-serif;
+        }
+
+        .es-contrast-grid {
+            box-sizing: border-box;
+            overflow: auto;
+            width: 100%;
+        }
+
+        .es-contrast-grid *,
+        .es-contrast-grid *:before,
+        .es-contrast-grid *:after {
+            box-sizing: inherit;
+        }
+
+        .es-contrast-grid__table-wrap {
+            width: auto;
+        }
+
+        .es-contrast-grid__table {
+            border-collapse: collapse;
+            color: #fff;
+        }
+
+        .es-contrast-grid__table td,
+        .es-contrast-grid__table th {
+            border: solid 1px transparent;
+            font-size: 16px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .es-contrast-grid--dark-label {
+            color: black;
+        }
+
+        .es-contrast-grid__accessibility-label {
+            background: #ccc;
+            border-radius: 4px;
+            display: inline-block;
+            color: #000;
+            font-size: 12px;
+            padding: 2px 4px;
+            text-align: center;
+            width: 36px;
+        }
+
+        .es-contrast-grid__accessibility-label--dnp {
+            background: #EE0000;
+            color: #FFFFFF;
+        }
+
+        .es-contrast-grid__accessibility-label--aa18 {
+            background: #CFB317;
+        }
+
+        .es-contrast-grid__swatch {
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            justify-content: space-between;
+            padding: 8px;
+            min-width: 100px;
+        }
+
+        .es-contrast-grid--compact .es-contrast-grid__swatch {
+            height: 80px;
+            min-width: 80px;
+        }
+
+        .es-contrast-grid--large .es-contrast-grid__swatch {
+            height: 150px;
+            padding: 15px;
+            min-width: 150px;
+        }
+
+        .es-contrast-grid__swatch-demo-text {
+            font-size: 16px;
+        }
+
+        .es-contrast-grid__swatch-stats {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .es-contrast-grid__contrast-ratio {
+            color: #FFFFFF;
+            font-size: 14px;
+        }
+
+        .es-contrast-grid--dark-label .es-contrast-grid__contrast-ratio {
+            color: #000000;
+        }
+
+        .es-contrast-grid__key-swatch-spacer {
+            align-items: center;
+            background: linear-gradient(to top right, rgba(243, 241, 241, 0) 0%, rgba(243, 241, 241, 0) calc(50% - 1px), #f3f1f1 50%, rgba(243, 241, 241, 0) calc(50% + 1px), rgba(243, 241, 241, 0) 100%);
+            background-color: #FFFFFF;
+            border: solid 1px #F3F1F1;
+            color: #000000;
+            display: flex;
+            height: 100px;
+            justify-content: space-between;
+            padding: 8px;
+            min-width: 200px;
+        }
+
+        .es-contrast-grid--compact .es-contrast-grid__key-swatch-spacer {
+            height: 80px;
+        }
+
+        .es-contrast-grid--large .es-contrast-grid__key-swatch-spacer {
+            height: 150px;
+        }
+
+        .es-contrast-grid__key-swatch-label--background {
+            align-self: flex-end;
+        }
+
+        .es-contrast-grid__swatch-spacer {
+            background-color: #FFFFFF;
+            border: solid 1px #F3F1F1;
+            height: 100px;
+            width: 100%;
+        }
+
+        .es-contrast-grid--compact .es-contrast-grid__swatch-spacer {
+            height: 80px;
+            width: 100%;
+        }
+
+        .es-contrast-grid--large .es-contrast-grid__swatch-spacer {
+            height: 150px;
+            width: 100%;
+        }
+
+        .es-contrast-grid__key-swatch--foreground {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+            height: 100px;
+            justify-content: center;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .es-contrast-grid--compact .es-contrast-grid__key-swatch--foreground {
+            height: 80px;
+        }
+
+        .es-contrast-grid--large .es-contrast-grid__key-swatch--foreground {
+            height: 150px;
+            padding: 15px;
+        }
+
+        .es-contrast-grid__key-swatch--foreground .es-contrast-grid__key-swatch-label-text {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 220px;
+            white-space: nowrap;
+        }
+
+        .es-contrast-grid--bordered-swatch {
+            border: solid 1px #F3F1F1;
+        }
+
+        .es-contrast-grid__key-swatch--background {
+            align-items: center;
+            display: flex;
+            height: 100px;
+            padding: 8px;
+            text-align: left;
+            min-width: 200px;
+        }
+
+        .es-contrast-grid--compact .es-contrast-grid__key-swatch--background {
+            height: 80px;
+        }
+
+        .es-contrast-grid--large .es-contrast-grid__key-swatch--background {
+            height: 150px;
+            padding: 15px;
+        }
+
+        .es-contrast-grid__key-swatch-label-text {
+            font-weight: bold;
+        }
+
+        .es-contrast-grid__key-swatch-label-hex {
+            font-weight: normal;
+            font-size: 14px;
+        }
+
+        td.es-contrast-grid__key-cell {
+            padding-top: 26px;
+        }
+
+        .es-contrast-grid-key {
+            align-items: center;
+            border: solid 1px #F3F1F1;
+            color: #000000;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 15px;
+        }
+
+        .es-contrast-grid__key-cell[colspan="1"] .es-contrast-grid-key,
+        .es-contrast-grid__key-cell[colspan="2"] .es-contrast-grid-key,
+        .es-contrast-grid__key-cell[colspan="3"] .es-contrast-grid-key {
+            display: block;
+        }
+
+        .es-contrast-grid__key-cell[colspan="1"] .es-contrast-grid-key__column,
+        .es-contrast-grid__key-cell[colspan="2"] .es-contrast-grid-key__column,
+        .es-contrast-grid__key-cell[colspan="3"] .es-contrast-grid-key__column {
+            margin-bottom: 8px;
+            width: 100%;
+        }
+
+        .es-contrast-grid-key__label {
+            align-items: center;
+            display: flex;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .es-contrast-grid-key__label .es-contrast-grid__accessibility-label {
+            margin-right: 8px;
+        }
+
+        .es-contrast-grid-key__label:last-child {
+            margin-bottom: 0;
+        }
+
+        .es-contrast-grid-key__link {
+            font-size: 14px;
+        }
+    </style>
 </div>
 
 ## Contributing <img alt="hands" src="./images/icons/teamwork.png" width="50" />
@@ -180,4 +785,4 @@ If you want to port Pitaya Smoothie to other places let us know and we'll add a 
 
 - The logo font is Attractype Reborn from [Garisman Studio](https://befonts.com/designer/garisman-studio).
 
-- Deeply inspired and guided by Sarah Dresner's Night Owl and [this fantastic guide she wrote](https://css-tricks.com/creating-a-vs-code-theme/).
+- Deeply inspired and guided by Sarah Dresner's Night Owl and [this fantastic guide they wrote](https://css-tricks.com/creating-a-vs-code-theme/).

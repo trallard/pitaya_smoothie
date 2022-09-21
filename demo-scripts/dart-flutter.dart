@@ -350,7 +350,7 @@ class PitayaStyle {
   // https://github.com/trallard/pitaya_smoothie
   static const Color PitayaBackground = Color(0xFF181036);
   static const Color PitayaForeground = Color(0xFFFEFEFF);
-  static const Color PitayaComment = Color(0xFF5C588A);
+  static const Color PitayaComment = Color(0xFF8786ac);
   static const Color PitayaKeyword = Color(0xFFF26196);
   static const Color PitayaString = Color(0xFF7998F2);
   static const Color PitayaNumber = Color(0xFFF3907E);

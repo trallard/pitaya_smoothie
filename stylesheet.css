@@ -1,22 +1,23 @@
 /*  styles for basic website */
 
 body {
-  background: #181e44;
-  font-family: 'PT Mono', 'Courier New', Courier, monospace;
+  background: #181036;
+  font-family: "PT Mono", "Courier New", Courier, monospace;
   color: #fefeff;
   font-size: 22px;
   line-height: 1.4em;
 }
 
 a {
-  color: #7998F2;
+  color: #7998f2;
 }
 
-strong{
-    color: #F85E9F;
+strong {
+  color: #f85e9f;
 }
 
-.title, .screenshot {
+.title,
+.screenshot {
   width: 100%;
   margin-top: 50px;
 }
@@ -30,7 +31,8 @@ strong{
   margin-bottom: 50px;
 }
 
-.title img, .screenshot img{
+.title img,
+.screenshot img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -51,4 +53,3 @@ table {
   margin-top: 50px;
   border-spacing: 2rem;
 }
-
