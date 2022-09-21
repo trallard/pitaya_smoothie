@@ -8,6 +8,15 @@
 
 All notable changes to the "pitaya-smoothie" extension will be documented in this file.
 
+## Release 2.0.2
+
+![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
+
+> ♿️ Fix comment and selection colours not meeting WCAG AA standards [`444121d`](https://github.com/trallard/pitaya_smoothie/commit/444121d)
+
+![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)
+
+> 📝 Add colour contrast grid to README [`1351c6a`](https://github.com/trallard/pitaya_smoothie/commit/1351c6a)
 ## Release 2.0.1
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
