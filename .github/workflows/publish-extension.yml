@@ -1,4 +1,4 @@
-name: Publish release
+name: Publish Pitaya Smoothie release
 
 on:
   release:
@@ -10,17 +10,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-        name: Checkout repo
+      - uses: actions/checkout@v3
+        name: Checkout repo 🛎
+
+      - uses: actions/setup-node@v3
+        name: Install node 🧶
+        with:
+          node-version: 16
+          cache: "npm"
+
       - run: npm install
-        name: npm install
-      - name: Get project version
+        name: Install npm dependencies 📦
+
+      - name: Get project version 🏷
         id: get_version
         run: |
           echo "VERSION=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
           echo "$VERSION"
+
       - uses: lannonbr/vsce-action@master
-        name: Publish extension
+        name: Publish extension 📰
         env:
           VERSION: ${{ env.VERSION }}
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
@@ -31,18 +40,21 @@ jobs:
     runs-on: ubuntu-latest
     name: Publish to ovsx
     steps:
-      - uses: actions/checkout@v2
-        name: Checkout repo
-      - uses: actions/setup-node@v1
-        name: Setup node
+      - uses: actions/checkout@v3
+        name: Checkout repo 🛎
+
+      - uses: actions/setup-node@v3
+        name: Install node 🧶
         with:
-          node-version: '12'
-      - name: Install deps
+          node-version: 16
+          cache: "npm"
+
+      - name: Install dependencies 📦
         run: |
           npm install ovsx
-          npm install 
-      - name: Publish to ovsx
+          npm install
+
+      - name: Publish to ovsx 📰
         env:
           OSVX_PAT: ${{ secrets.OVSX_PAT }}
         run: npx ovsx publish -p ${{ secrets.OVSX_PAT }}
-        
