@@ -25,8 +25,9 @@ All notable changes to the "pitaya-smoothie" extension will be documented in thi
 > ✨ Ensure the UX palette is scalable and consistent [ab85fe](https://github.com/trallard/pitaya_smoothie/commit/ab85fe)
 > ✨ Improve highlight colours for better visibility [e717e8](https://github.com/trallard/pitaya_smoothie/commit/e717e8)
 > ✨ Rearrange the themes to have groups of tokens [3fb5c0f](https://github.com/trallard/pitaya_smoothie/commit/3fb5c0f8a2e5e53e48fc62f12efdb2f08e3b8f31)
-> ✨ Fix merge colours - now AAA compliance  [3e9716](https://github.com/trallard/pitaya_smoothie/commit/3e9716bc0b2ef0673763315b373ddb1b7fe93899)
+> ✨ Fix merge colours - now AAA compliance [3e9716](https://github.com/trallard/pitaya_smoothie/commit/3e9716bc0b2ef0673763315b373ddb1b7fe93899)
 > ✨ Reduce number of highlight colours [cf12b0](cf12b0c37b1eeb90cf032f0b1e822d121c3f8f24)
+
 ## RELEASE: 1.0.5
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
@@ -40,7 +41,7 @@ All notable changes to the "pitaya-smoothie" extension will be documented in thi
 
 ![FIX](https://img.shields.io/badge/-FIX-gray.svg?colorB=FC427B)
 
-> ✨ Multiple improvements to general accesibility: [highlighting](https://github.com/trallard/pitaya_smoothie/commit/512a3ef), [debugging](https://github.com/trallard/pitaya_smoothie/commit/0c755e9), [error and warning](https://github.com/trallard/pitaya_smoothie/commit/8b697eb)
+> ✨ Multiple improvements to general accessibility: [highlighting](https://github.com/trallard/pitaya_smoothie/commit/512a3ef), [debugging](https://github.com/trallard/pitaya_smoothie/commit/0c755e9), [error and warning](https://github.com/trallard/pitaya_smoothie/commit/8b697eb)
 > ✨ Remove deprecated theme tags [5c782e2](https://github.com/trallard/pitaya_smoothie/commit/5c782e2)
 
 ## RELEASE: 1.0.3

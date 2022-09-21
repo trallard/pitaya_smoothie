@@ -8,12 +8,12 @@
 </div>
 <br>
 
-![License](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+![License badge - BSD-3 clause](https://img.shields.io/badge/License-BSD%203--Clause-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 [![Version](https://vsmarketplacebadge.apphb.com/version/trallard.pitaya-smoothie.svg?subject=Pitaya%20Smoothie&colorA=2D2A56&colorB=7A76C2&style=flat.svg)](https://marketplace.visualstudio.com/items?itemName=trallard.pitaya-smoothie)
 
-![Publish release](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg?branch=main)
+![Publish release badge](https://github.com/trallard/pitaya_smoothie/workflows/Publish%20release/badge.svg?branch=main)
 
-![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4)  ✨ The whole UI has been made more consistent. There are also significant accessibiliy improvements to ensure all is AAA-WCAG compliant.
+![NEW](https://img.shields.io/badge/-NEW-gray.svg?colorB=12CBC4) ✨ Comments and editor selection colours have been updated to meet WCAG AA standards.
 
 <table width='100%' align="center">
  <tr>
@@ -58,7 +58,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 | -------------- | -------------------------------------------------------------------- |
 | Background     | #181036 |
 | Foreground     | #fefeff |
-| Comment        | #5C588A |
+| Comment        | #8786ac |
 | Keyword        | #f26196 |
 | String         | #7998F2 |
 | Number         | #f3907e |
@@ -73,16 +73,16 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 
 | UI ELEMENT                        | HEX CODES                                                                  |
 | --------------------------------- | -------------------------------------------------------------------------- |
-| Activity bar background           | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036`       |
-| Activity bar foreground           | ![#7A76C2](https://via.placeholder.com/10/7A76C2/000000?text=%20) `#7A76C2`       |
-| Activity bar foreground           | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036`       |
-| Sidebar background                | ![#130C29](https://via.placeholder.com/10/130C29/000000?text=%20) `#130C29`       |
-| Sidebar section header background | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036`       |
-| Sidebar section header foreground | ![#7d79d1](https://via.placeholder.com/10/7d79d1/000000?text=%20) `#7d79d1`       |
-| Sidebar section header foreground | ![#18c0c4](https://via.placeholder.com/10/18c0c4/000000?text=%20) `#18c0c4`       |
-| Deletion highlights               | ![#ff6e9c98](https://via.placeholder.com/10/ff6e9c98/000000?text=%20) `#ff6e9c98` |
-| Addition highlights               | ![#18c1c4a6](https://via.placeholder.com/10/18c1c4a6/000000?text=%20) `#18c1c4a6` |
-| Modified highlights               | ![#AD70FC46](https://via.placeholder.com/10/AD70FC46/000000?text=%20) `#AD70FC46` |
+| Activity bar background           | #181036       |
+| Activity bar foreground           | #7A76C2       |
+| Activity bar foreground           | #181036       |
+| Sidebar background                | #130C29       |
+| Sidebar section header background | #181036       |
+| Sidebar section header foreground | #7d79d1       |
+| Sidebar section header foreground | #18c0c4       |
+| Deletion highlights               | #ff6e9c98 |
+| Addition highlights               | #18c1c4a6 |
+| Modified highlights               | #AD70FC46 |
 
 ## Snapshots <img alt="code" src="./images/icons/code.png" width="50" />
 
@@ -90,38 +90,38 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 
 ![Python Syntax](https://img.shields.io/badge/SYNTAX-Python-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 </br>
-<img alt="python code" src="./images/demos/python.png"/>
+<img alt="Pitaya smoothie italics - Python code demo" src="./images/demos/python.png"/>
 
 ✨ Using bracket-style colorizer 👆🏼✨
 
-![R Syntax](https://img.shields.io/badge/SYNTAX-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+![Pitaya smoothie - R Syntax](https://img.shields.io/badge/SYNTAX-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 </br>
-<img alt="python code" src="./images/demos/R.png"/>
+<img alt="Pitaya smoothie italics - R code demo" src="./images/demos/R.png"/>
 
-![React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+![Pitaya Smoothie -React Syntax](https://img.shields.io/badge/SYNTAX-React-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 </br>
-<img alt="react code" src="./images/demos/react.png"/>
+<img alt="Pitaya smoothie italics - React code" src="./images/demos/react.png"/>
 
-![cpp Syntax](https://img.shields.io/badge/SYNTAX-c++-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+![Pitaya Smoothie - cpp Syntax](https://img.shields.io/badge/SYNTAX-c++-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
 </br>
-<img alt="react code" src="./images/demos/cpp.png"/>
+<img alt="Pitaya smoothie italics - c++ code demo" src="./images/demos/cpp.png"/>
 
-![html Syntax](https://img.shields.io/badge/SYNTAX-HTML-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
-<img alt="react code" src="./images/demos/html.png"/>
+![Pitaya Smoothie - HTML Syntax](https://img.shields.io/badge/SYNTAX-HTML-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="Pitaya smoothie italics - HTML code demo" src="./images/demos/html.png"/>
 
 </div>
 
 ## Accessibility <img alt="accessibility" src="./images/icons/access.png" width="50" />
 
-Accessibility was kept close in mind when designing this theme. The colours were chosen such that they would be acceessible to folks with colourblindness.
+Accessibility was kept close in mind when designing this theme. The colours were chosen such that they would be accessible to folks with colourblindness.
 <div align="center">
-<img alt="palette" src="./images/access/Coloring_for_Colorblindness.png" width="300" />
+<img alt="Pitaya Soothie colour palette - simulated for Protanopia, Deuteranopia, and Tritanopia" src="./images/access/Coloring_for_Colorblindness.png" width="300" />
 
-![python prot Syntax](https://img.shields.io/badge/PROTANOMALY-Python-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
-<img alt="react code" src="./images/demos/python-protanomaly.png"/>
+![Badge - python code with Protanopia filter](https://img.shields.io/badge/PROTANOMALY-Python-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="Pitaya Smoothie italics - python code with Protanopia filter" src="./images/demos/python-protanomaly.png"/>
 
-![python prot Syntax](https://img.shields.io/badge/TRITANOPIA-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
-<img alt="react code" src="./images/demos/R-tritanopia.png"/>
+![Badge - R code with Tritanopia filter](https://img.shields.io/badge/TRITANOPIA-R-gray.svg?colorA=2D2A56&colorB=7A76C2&style=flat.svg)
+<img alt="Pitaya Smoothie italics - R code with Tritanopia filter" src="./images/demos/R-tritanopia.png"/>
 
 </div>
 
@@ -181,4 +181,4 @@ If you want to port Pitaya Smoothie to other places let us know and we'll add a 
 
 - The logo font is Attractype Reborn from [Garisman Studio](https://befonts.com/designer/garisman-studio).
 
-- Deeply inspired and guided by Sarah Dresner's Night Owl and [this fantastic guide she wrote](https://css-tricks.com/creating-a-vs-code-theme/).
+- Deeply inspired and guided by Sarah Dresner's Night Owl and [this fantastic guide they wrote](https://css-tricks.com/creating-a-vs-code-theme/).
