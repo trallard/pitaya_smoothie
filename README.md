@@ -38,7 +38,7 @@
 
 ✨ If you wish to disable italics, there is now a no-italic theme available. You will have access to both; select **Pitaya Smoothie No Italics** as your colour theme.
 
-## Installation <img alt="cog" src="./images/icons/settings.png" width="50"/>
+## Installation <img alt="Cog icon" src="./images/icons/settings.png" width="50"/>
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-taallard)
 1. Open the extensions' sidebar on Visual Studio Code
@@ -47,7 +47,7 @@
 1. Click **Reload** to reload your editor.
 1. Code/File ＞ Preferences ＞ Color Theme ＞ **Pitaya Smoothie**
 
-## Pitaya Smoothie Syntax Colours <img alt="syntax" src="./images/icons/highlighter.png" width="50" />
+## Pitaya Smoothie Syntax Colours <img alt="Marker icon" src="./images/icons/highlighter.png" width="50" />
 
 Outrun aesthetics profoundly inspires this theme. The colour choices for the theme were made also taking into consideration accessibility for those users with colourblindness. By default, the theme is suitable for multiple types of colourblindness - no settings tweaking required.
 
@@ -69,7 +69,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 | Diff inserted  | #18c1c4 |
 | Diff changed   | #ffe46b |
 
-## UI elements colours <img alt="code" src="./images/icons/browser.png" width="50" />
+## UI elements colours <img alt="Code terminal icon" src="./images/icons/browser.png" width="50" />
 
 | UI ELEMENT                        | HEX CODES                                                                  |
 | --------------------------------- | -------------------------------------------------------------------------- |
@@ -84,7 +84,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 | Addition highlights               | #18c1c4a6 |
 | Modified highlights               | #AD70FC46 |
 
-## Snapshots <img alt="code" src="./images/icons/code.png" width="50" />
+## Snapshots <img alt="Code editor icon" src="./images/icons/code.png" width="50" />
 
 <div align="center">
 
@@ -111,7 +111,7 @@ I also made decisions to allow for meaningful contrast for reading comprehension
 
 </div>
 
-## Accessibility <img alt="accessibility" src="./images/icons/access.png" width="50" />
+## Accessibility <img alt="Web text icon" src="./images/icons/access.png" width="50" />
 
 ### Colourblindness
 
@@ -488,259 +488,17 @@ Additionally, all the colours used in the theme are compliant with [WCAG 2.1 sta
             </tbody>
         </table>
     </div>
-    <style class="es-contrast-grid-styles">
-        /* Override Contrast Grid Styles to make color and font changes */
-        .es-contrast-grid {
-            font-family: 'Lato', sans-serif;
-        }
-
-        .es-contrast-grid {
-            box-sizing: border-box;
-            overflow: auto;
-            width: 100%;
-        }
-
-        .es-contrast-grid *,
-        .es-contrast-grid *:before,
-        .es-contrast-grid *:after {
-            box-sizing: inherit;
-        }
-
-        .es-contrast-grid__table-wrap {
-            width: auto;
-        }
-
-        .es-contrast-grid__table {
-            border-collapse: collapse;
-            color: #fff;
-        }
-
-        .es-contrast-grid__table td,
-        .es-contrast-grid__table th {
-            border: solid 1px transparent;
-            font-size: 16px;
-            padding: 0;
-            margin: 0;
-        }
-
-        .es-contrast-grid--dark-label {
-            color: black;
-        }
-
-        .es-contrast-grid__accessibility-label {
-            background: #ccc;
-            border-radius: 4px;
-            display: inline-block;
-            color: #000;
-            font-size: 12px;
-            padding: 2px 4px;
-            text-align: center;
-            width: 36px;
-        }
-
-        .es-contrast-grid__accessibility-label--dnp {
-            background: #EE0000;
-            color: #FFFFFF;
-        }
-
-        .es-contrast-grid__accessibility-label--aa18 {
-            background: #CFB317;
-        }
-
-        .es-contrast-grid__swatch {
-            display: flex;
-            flex-direction: column;
-            height: 100px;
-            justify-content: space-between;
-            padding: 8px;
-            min-width: 100px;
-        }
-
-        .es-contrast-grid--compact .es-contrast-grid__swatch {
-            height: 80px;
-            min-width: 80px;
-        }
-
-        .es-contrast-grid--large .es-contrast-grid__swatch {
-            height: 150px;
-            padding: 15px;
-            min-width: 150px;
-        }
-
-        .es-contrast-grid__swatch-demo-text {
-            font-size: 16px;
-        }
-
-        .es-contrast-grid__swatch-stats {
-            align-items: center;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .es-contrast-grid__contrast-ratio {
-            color: #FFFFFF;
-            font-size: 14px;
-        }
-
-        .es-contrast-grid--dark-label .es-contrast-grid__contrast-ratio {
-            color: #000000;
-        }
-
-        .es-contrast-grid__key-swatch-spacer {
-            align-items: center;
-            background: linear-gradient(to top right, rgba(243, 241, 241, 0) 0%, rgba(243, 241, 241, 0) calc(50% - 1px), #f3f1f1 50%, rgba(243, 241, 241, 0) calc(50% + 1px), rgba(243, 241, 241, 0) 100%);
-            background-color: #FFFFFF;
-            border: solid 1px #F3F1F1;
-            color: #000000;
-            display: flex;
-            height: 100px;
-            justify-content: space-between;
-            padding: 8px;
-            min-width: 200px;
-        }
-
-        .es-contrast-grid--compact .es-contrast-grid__key-swatch-spacer {
-            height: 80px;
-        }
-
-        .es-contrast-grid--large .es-contrast-grid__key-swatch-spacer {
-            height: 150px;
-        }
-
-        .es-contrast-grid__key-swatch-label--background {
-            align-self: flex-end;
-        }
-
-        .es-contrast-grid__swatch-spacer {
-            background-color: #FFFFFF;
-            border: solid 1px #F3F1F1;
-            height: 100px;
-            width: 100%;
-        }
-
-        .es-contrast-grid--compact .es-contrast-grid__swatch-spacer {
-            height: 80px;
-            width: 100%;
-        }
-
-        .es-contrast-grid--large .es-contrast-grid__swatch-spacer {
-            height: 150px;
-            width: 100%;
-        }
-
-        .es-contrast-grid__key-swatch--foreground {
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            font-size: 14px;
-            height: 100px;
-            justify-content: center;
-            padding: 8px;
-            text-align: left;
-        }
-
-        .es-contrast-grid--compact .es-contrast-grid__key-swatch--foreground {
-            height: 80px;
-        }
-
-        .es-contrast-grid--large .es-contrast-grid__key-swatch--foreground {
-            height: 150px;
-            padding: 15px;
-        }
-
-        .es-contrast-grid__key-swatch--foreground .es-contrast-grid__key-swatch-label-text {
-            overflow: hidden;
-            text-overflow: ellipsis;
-            max-width: 220px;
-            white-space: nowrap;
-        }
-
-        .es-contrast-grid--bordered-swatch {
-            border: solid 1px #F3F1F1;
-        }
-
-        .es-contrast-grid__key-swatch--background {
-            align-items: center;
-            display: flex;
-            height: 100px;
-            padding: 8px;
-            text-align: left;
-            min-width: 200px;
-        }
-
-        .es-contrast-grid--compact .es-contrast-grid__key-swatch--background {
-            height: 80px;
-        }
-
-        .es-contrast-grid--large .es-contrast-grid__key-swatch--background {
-            height: 150px;
-            padding: 15px;
-        }
-
-        .es-contrast-grid__key-swatch-label-text {
-            font-weight: bold;
-        }
-
-        .es-contrast-grid__key-swatch-label-hex {
-            font-weight: normal;
-            font-size: 14px;
-        }
-
-        td.es-contrast-grid__key-cell {
-            padding-top: 26px;
-        }
-
-        .es-contrast-grid-key {
-            align-items: center;
-            border: solid 1px #F3F1F1;
-            color: #000000;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 15px;
-        }
-
-        .es-contrast-grid__key-cell[colspan="1"] .es-contrast-grid-key,
-        .es-contrast-grid__key-cell[colspan="2"] .es-contrast-grid-key,
-        .es-contrast-grid__key-cell[colspan="3"] .es-contrast-grid-key {
-            display: block;
-        }
-
-        .es-contrast-grid__key-cell[colspan="1"] .es-contrast-grid-key__column,
-        .es-contrast-grid__key-cell[colspan="2"] .es-contrast-grid-key__column,
-        .es-contrast-grid__key-cell[colspan="3"] .es-contrast-grid-key__column {
-            margin-bottom: 8px;
-            width: 100%;
-        }
-
-        .es-contrast-grid-key__label {
-            align-items: center;
-            display: flex;
-            font-size: 14px;
-            margin-bottom: 8px;
-        }
-
-        .es-contrast-grid-key__label .es-contrast-grid__accessibility-label {
-            margin-right: 8px;
-        }
-
-        .es-contrast-grid-key__label:last-child {
-            margin-bottom: 0;
-        }
-
-        .es-contrast-grid-key__link {
-            font-size: 14px;
-        }
-    </style>
 </div>
 
-## Contributing <img alt="hands" src="./images/icons/teamwork.png" width="50" />
+[See the persisent HTML contract grid online](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=%23181036%2C%20%0D%0A%23231458%2C%20selection%20and%20highlight%0D%0A&foreground-colors=%23FEFEFF%2C%20default%20foreground%0D%0A%238786ac%2C%20comments%0D%0A%23F26196%0D%0A%237998F2%0D%0A%23F3907E%0D%0A%23CAF884%0D%0A%2366E9EC%0D%0A%23B07AFC%0D%0A%23FFE46B%2C%20diff-changed%0D%0A%2318C1C4%2C%20diff-inserted%0D%0A%23FF6E9C%2C%20diff-deleted%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
+
+## Contributing <img alt="Hands meeting icon" src="./images/icons/teamwork.png" width="50" />
 
 🚧 This project is always a work in progress, and everyone is welcome and encouraged to collaborate in it. 🚧
 
 Everyone should follow our [code of conduct](./CODE_OF_CONDUCT.md) and to check out our [contributing guidelines](CONTRIBUTING.md) for more information on how to get started.
 
-## Preferences shown in the previews <img alt="design" src="./images/icons/design.png" width="50" />
+## Preferences shown in the previews <img alt="Cog with pencil icon" src="./images/icons/design.png" width="50" />
 
 The font in the previews is Fira Code. Editor settings to activate font ligatures:
 
@@ -762,7 +520,7 @@ I defined the following colours in my `settings.json`:
  ]
 ```
 
-## Pitaya Smoothie in other places <img alt="medal" src="./images/icons/title.png" width="50" />
+## Pitaya Smoothie in other places <img alt="Medal icon" src="./images/icons/title.png" width="50" />
 
 You can find `Pitaya Smoothie` in the following places:
 
@@ -775,8 +533,8 @@ You can find `Pitaya Smoothie` in the following places:
 
 - ✨ Matplotlib theme - now your plots can have a Pitaya Smoothie look (dark and light themes included). Developed by [@dhaitz](https://github.com/dhaitz) - check it out at [https://github.com/dhaitz/matplotlib-stylesheets](https://github.com/dhaitz/matplotlib-stylesheets).
 
-![mpl light demo](https://github.com/dhaitz/matplotlib-stylesheets/raw/master/img/pitayasmoothie_light.png)
-![mpl dark demo](https://github.com/dhaitz/matplotlib-stylesheets/raw/master/img/pitayasmoothie_dark.png)
+![Matplotlib Pitaya Smoothie light demo](https://github.com/dhaitz/matplotlib-stylesheets/raw/master/img/pitayasmoothie_light.png)
+![Matplotlib Pitaya Smoothie dark demo](https://github.com/dhaitz/matplotlib-stylesheets/raw/master/img/pitayasmoothie_dark.png)
 
 If you want to port Pitaya Smoothie to other places let us know and we'll add a link to your port and add you to our contributors list ✨💜
 
