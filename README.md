@@ -41,7 +41,7 @@
 ## Installation <img alt="cog" src="./images/icons/settings.png" width="50"/>
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-taallard)
-1. Open the extensions sidebar on Visual Studio Code
+1. Open the extensions' sidebar on Visual Studio Code
 1. Search for `Pitaya Smoothie`
 1. Click **Install** to install it.
 1. Click **Reload** to reload your editor.
@@ -49,24 +49,25 @@
 
 ## Pitaya Smoothie Syntax Colours <img alt="syntax" src="./images/icons/highlighter.png" width="50" />
 
-Outrun aesthetics profoundly inspires this theme. The colour choices for the theme were made also taking into consideration accessibility for those users with colourblindness.
+Outrun aesthetics profoundly inspires this theme. The colour choices for the theme were made also taking into consideration accessibility for those users with colourblindness. By default, the theme is suitable for multiple types of colourblindness - no settings tweaking required.
+
 The theme consists of a reasonably dark background and popping contrast colours.
 I also made decisions to allow for meaningful contrast for reading comprehension and optimal colour-popping ✨.
 
 | USAGE          | COLOUR HEX CODE                                                      |
 | -------------- | -------------------------------------------------------------------- |
-| Background     | ![#181036](https://via.placeholder.com/10/181036/000000?text=%20) `#181036` |
-| Foreground     | ![#fefeff](https://via.placeholder.com/10/fefeff/000000?text=%20) `#fefeff` |
-| Comment        | ![#7E7AAA](https://via.placeholder.com/10/7E7AAA/000000?text=%20) `#5C588A` |
-| Keyword        | ![#f26196](https://via.placeholder.com/10/f26196/000000?text=%20) `#f26196` |
-| String         | ![#7998F2](https://via.placeholder.com/10/7998F2/000000?text=%20) `#7998F2` |
-| Number         | ![#f3907e](https://via.placeholder.com/10/f3907e/000000?text=%20) `#f3907e` |
-| Built-in const | ![#CAF884](https://via.placeholder.com/10/CAF884/000000?text=%20) `#CAF884` |
-| Constant       | ![#A267F5](https://via.placeholder.com/10/A267F5/000000?text=%20) `#A267F5` |
-| Other          | ![#66E9EC](https://via.placeholder.com/10/66E9EC/000000?text=%20) `#66E9EC` |
-| Diff deleted   | ![#ff6e9c](https://via.placeholder.com/10/ff6e9c/000000?text=%20) `#FF6E9C` |
-| Diff inserted  | ![#18c1c4](https://via.placeholder.com/10/18c1c4/000000?text=%20) `#18c1c4` |
-| Diff changed   | ![#ffe46b](https://via.placeholder.com/10/ffe46b/000000?text=%20) `#ffe46b` |
+| Background     | #181036 |
+| Foreground     | #fefeff |
+| Comment        | #5C588A |
+| Keyword        | #f26196 |
+| String         | #7998F2 |
+| Number         | #f3907e |
+| Built-in constant | #CAF884 |
+| Constant       | #A267F5 |
+| Other          | #66E9EC |
+| Diff deleted   | #FF6E9C |
+| Diff inserted  | #18c1c4 |
+| Diff changed   | #ffe46b |
 
 ## UI elements colours <img alt="code" src="./images/icons/browser.png" width="50" />
 
