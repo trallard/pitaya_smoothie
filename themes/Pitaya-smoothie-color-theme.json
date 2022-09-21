@@ -72,7 +72,7 @@
 		"editorLineNumber.activeForeground": "#18C1C4",
 		"editorCursor.foreground": "#F85E9F", //  Color of the editor cursor.
 		// Editor - Highlight and selection 
-		"editor.selectionBackground": "#301C7ABD", // Color of the editor selection. -psbright-600
+		"editor.selectionBackground": "#231458d6", // Color of the editor selection. -psbright-600
 		"editor.inactiveSelectionBackground": "#221068DB", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
 		"editor.selectionHighlightBackground": "#301C7ABD", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
 		"editor.selectionHighlightBorder": "#863BFF8F",
@@ -1081,7 +1081,7 @@
 				"comment.block.html",
 			],
 			"settings": {
-				"foreground": "#7E7AAA",
+				"foreground": "#8786ac",
 				"fontStyle": "italic"
 			}
 		},
@@ -1185,7 +1185,7 @@
 				"meta.diff.header.from-file"
 			],
 			"settings": {
-				"foreground": "#7E7AAA"
+				"foreground": "#8786ac"
 			}
 		},
 		{
@@ -1380,7 +1380,7 @@
 			"name": "Double-Slashed Comment",
 			"scope": "comment.line.double-slash",
 			"settings": {
-				"foreground": "#7E7AAA"
+				"foreground": "#8786ac"
 			}
 		},
 		{
@@ -1443,7 +1443,7 @@
 				"punctuation.definition.comment",
 			],
 			"settings": {
-				"foreground": "#7E7AAA",
+				"foreground": "#8786ac",
 				"fontStyle": "italic"
 			}
 		},
